@@ -10,7 +10,7 @@
 |------|-------------|------|
 | `medication_administration_near_miss_full.csv` | Complete dataset | 30,000 |
 | `medication_administration_near_miss_sample.csv` | Stratified free sample (enriched for incidents) | ~850 |
-| `data_dictionary.csv` | Column names, types, ranges, and descriptions | 25 |
+| `data_dictionary.csv` | Column names, types, ranges, and descriptions | 31 |
 | `methodology_note.md` | Full generation methodology and born-synthetic confirmation | — |
 | `bias_representativeness_statement.md` | Known biases and representativeness limitations | — |
 | `summary_statistics.html` | Descriptive statistics with distribution charts | — |
@@ -19,7 +19,7 @@
 
 ## Key Features
 
-- **82 medications** across 14 therapeutic classes with APINCHS high-risk flagging
+- **85 medications** across 18 therapeutic classes with APINCHS high-risk flagging
 - **Multiplicative error modelling**: near-miss/error probability varies by night shift (×1.40), handover windows (×1.50), low experience (×1.60), weekend (×1.15), and administration density
 - **NCC MERP severity grading**: Categories A (near miss) through G (permanent harm) with realistic severity pyramid
 - **Error types**: wrong dose, wrong time, omission, wrong route, wrong patient, wrong medication, documentation error, deteriorated medication

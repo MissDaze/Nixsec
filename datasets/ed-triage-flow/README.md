@@ -10,7 +10,7 @@
 |------|-------------|------|
 | `ed_triage_patient_flow_full.csv` | Complete dataset | 40,000 |
 | `ed_triage_patient_flow_sample.csv` | Stratified free sample (enriched for high-acuity) | ~1,000 |
-| `data_dictionary.csv` | Column names, types, ranges, and descriptions | 22 |
+| `data_dictionary.csv` | Column names, types, ranges, and descriptions | 30 |
 | `methodology_note.md` | Full generation methodology and born-synthetic confirmation | — |
 | `bias_representativeness_statement.md` | Known biases and representativeness limitations | — |
 | `summary_statistics.html` | Descriptive statistics with distribution charts | — |
@@ -20,7 +20,7 @@
 ## Key Features
 
 - **Australasian Triage Scale (ATS)**: 5-category triage with realistic distributions (ATS 1 ~0.4%, ATS 2 ~12%, ATS 3 ~35%, ATS 4 ~37%, ATS 5 ~16%)
-- **62 presenting complaints** across 11 clinical categories with complaint-specific triage weights, ambulance rates, and admission probabilities
+- **62 presenting complaints** across 20 clinical categories with complaint-specific triage weights, ambulance rates, and admission probabilities
 - **Occupancy-driven flow degradation**: time-to-clinician inflates non-linearly when ED occupancy exceeds 90%, with steep escalation above 110%
 - **NEAT compliance**: ~69% of presentations meet the 4-hour target, consistent with published Australian ED benchmarks
 - **Arrival mode modelling**: ambulance, private vehicle, walk-in, police/correctional, helicopter — proportions driven by complaint acuity

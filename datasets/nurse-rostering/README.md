@@ -37,7 +37,7 @@
 | Marginal shifts | ~46.8% |
 | Critical shifts | ~1.3% |
 | Mean actual NHPPD | ~5.2 |
-| Mean occupancy | ~86% |
+| Mean occupancy | ~88% |
 
 ## Terminology
 
