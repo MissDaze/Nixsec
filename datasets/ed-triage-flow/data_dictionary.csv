@@ -1,0 +1,31 @@
+column_name,data_type,range_or_categories,description
+presentation_id,string,ED-000001 to ED-040000,Unique ED presentation identifier
+facility_code,string,HGH,Fictional facility code
+arrival_datetime,datetime,2024-07-01 to 2025-06-30,Timestamp of patient arrival/registration
+day_of_week,string,Mon to Sun,Day of week
+arrival_mode,string,Walk-in | Ambulance | Police/corrections | Inter-hospital transfer | Helicopter/retrieval,How the patient arrived
+patient_id,string,P-00001 to P-35000,Fictional patient identifier
+patient_age,integer,0 to 102,Patient age in years
+patient_age_group,string,6 age brackets,Age bracket
+patient_sex,string,M | F | X,Recorded sex
+triage_category,integer,1 to 5,Australasian Triage Scale category
+triage_datetime,datetime,arrival + 0-45 min,Timestamp of triage assessment
+time_to_triage_mins,float,0 to 45,Minutes from arrival to triage
+presenting_complaint_category,string,20 categories,Broad presenting complaint category
+presenting_complaint_detail,string,~62 specific complaints,Specific presenting complaint text
+seen_by_clinician_datetime,datetime,triage + 0-300 min,Timestamp first seen by treating clinician
+time_to_clinician_mins,float,0 to 300,Minutes from triage to first clinician assessment
+clinician_type,string,5 clinician types,Designation of the first treating clinician
+departure_datetime,datetime,arrival + treatment,Timestamp the patient left the ED
+length_of_stay_mins,integer,15 to 2880,Total ED length of stay in minutes
+met_4hr_target,boolean,true | false,Completed within 4 hours (NEAT target)
+disposition,string,7 disposition categories,Final disposition/departure status
+admitted_to_unit,string,9 unit types | N/A,Inpatient unit if admitted
+investigations_ordered,string,None | Pathology | Imaging | Both,Investigations ordered
+procedures_performed,string,None | Minor | Moderate | Major,Highest-acuity procedure performed
+re_presentation_within_48h,boolean,true | false,Re-presented within 48 hours of prior discharge
+ambulance_offload_delay_flag,boolean,true | false,Ambulance offload exceeded 30 minutes
+ed_occupancy_at_arrival_pct,float,30 to 150,ED occupancy as % of funded capacity
+access_block_flag,boolean,true | false,Admitted patient waited >8h for inpatient bed
+mental_health_presentation,boolean,true | false,Primarily a mental health presentation
+interpreter_required,boolean,true | false,Interpreter service required

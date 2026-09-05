@@ -218,6 +218,47 @@
   }
   .coming-soon a { color: var(--accent); }
 
+  /* CATALOG LISTINGS */
+  .dataset-row .price {
+    font-family: var(--mono);
+    font-size: 0.95rem;
+    color: var(--accent);
+    white-space: nowrap;
+  }
+  .dataset-row .price .unit { color: var(--text-dim); font-size: 0.72rem; }
+  .dataset-row .files {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+    margin-top: 12px;
+    font-family: var(--mono);
+    font-size: 0.78rem;
+  }
+  .dataset-row .files a { color: var(--text-dim); border-bottom: 1px solid var(--rule); }
+  .dataset-row .files a:hover { color: var(--accent); border-bottom-color: var(--accent-dim); text-decoration: none; }
+  .dataset-row .files .buy { color: var(--accent); border-bottom-color: var(--accent-dim); }
+  .bundle {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 28px;
+    padding: 18px 20px;
+    border: 1px solid var(--accent-dim);
+  }
+  .bundle .b-name { font-weight: 600; }
+  .bundle .b-note { color: var(--text-dim); font-size: 0.9rem; }
+  .bundle .b-price { font-family: var(--mono); color: var(--accent); white-space: nowrap; }
+  .bundle .unit { color: var(--text-dim); font-size: 0.72rem; }
+  .catalog-note {
+    max-width: 62ch;
+    color: var(--text-dim);
+    font-size: 0.92rem;
+    margin-top: 28px;
+  }
+
   /* METHODOLOGY */
   .method-flag {
     display: inline-flex;
@@ -362,16 +403,68 @@
       <div class="kicker">02 — CATALOG</div>
       <h2>Datasets</h2>
     </div>
-    <div class="coming-soon">
-      New dataset listings are added regularly. <a href="#contact">Get in touch</a> with your requirements and we'll scope a custom dataset for you.
-    </div>
-    <!-- Per-listing template, duplicate this block once real datasets exist:
     <div class="dataset-row">
-      <span class="name">Dataset Name</span>
-      <span class="meta">10,000 rows · CSV</span>
-      <span class="desc">Short description of contents and use case.</span>
+      <span class="name">ED Triage &amp; Patient Flow</span>
+      <span class="price">A$229 <span class="unit">AUD</span></span>
+      <span class="meta">40,000 rows &middot; 30 columns &middot; CSV</span>
+      <span class="desc">Emergency department presentations across twelve months, graded on the Australasian Triage Scale. 62 presenting complaints, arrival-mode and time-of-day patterns, and wait times that degrade non-linearly once occupancy passes 90%. Includes NEAT four-hour compliance and disposition outcomes through to did-not-wait.</span>
+      <span class="files">
+        <a class="buy" href="mailto:consultant@nixsec.co.site?subject=ED%20Triage%20and%20Patient%20Flow%20dataset">Enquire to purchase &rarr;</a>
+        <a href="datasets/ed-triage-flow/ed_triage_patient_flow_sample.csv" download>Free sample (CSV)</a>
+        <a href="datasets/ed-triage-flow/summary_statistics.html">Summary statistics</a>
+        <a href="datasets/ed-triage-flow/data_dictionary.csv" download>Data dictionary</a>
+        <a href="datasets/ed-triage-flow/README.md">README</a>
+        <a href="datasets/ed-triage-flow/methodology_note.md">Methodology</a>
+        <a href="datasets/ed-triage-flow/known_limitations.md">Known limitations</a>
+      </span>
     </div>
-    -->
+    <div class="dataset-row">
+      <span class="name">Nurse Rostering &amp; Acuity-to-Staffing</span>
+      <span class="price">A$199 <span class="unit">AUD</span></span>
+      <span class="meta">24,090 rows &middot; 36 columns &middot; CSV</span>
+      <span class="desc">Shift-level roster records for 22 wards across two campuses, linking staffing to patient acuity and outcomes. NHPPD actual against shift-adjusted target, skill mix across five nursing roles, agency and overtime as a response to shortfall, and six adverse-event categories modulated by how short the shift ran.</span>
+      <span class="files">
+        <a class="buy" href="mailto:consultant@nixsec.co.site?subject=Nurse%20Rostering%20and%20Acuity-to-Staffing%20dataset">Enquire to purchase &rarr;</a>
+        <a href="datasets/nurse-rostering/nurse_rostering_acuity_staffing_sample.csv" download>Free sample (CSV)</a>
+        <a href="datasets/nurse-rostering/summary_statistics.html">Summary statistics</a>
+        <a href="datasets/nurse-rostering/data_dictionary.csv" download>Data dictionary</a>
+        <a href="datasets/nurse-rostering/README.md">README</a>
+        <a href="datasets/nurse-rostering/methodology_note.md">Methodology</a>
+        <a href="datasets/nurse-rostering/known_limitations.md">Known limitations</a>
+      </span>
+    </div>
+    <div class="dataset-row">
+      <span class="name">Medication Administration &amp; Near-Miss Safety</span>
+      <span class="price">A$179 <span class="unit">AUD</span></span>
+      <span class="meta">30,000 rows &middot; 31 columns &middot; CSV</span>
+      <span class="desc">Medication administration events across ten wards, with near-miss and error rates that shift with night duty, handover windows, staff experience and administration density. 82 medications with APINCHS high-risk flagging, graded A through G on the NCC MERP severity index.</span>
+      <span class="files">
+        <a class="buy" href="mailto:consultant@nixsec.co.site?subject=Medication%20Administration%20and%20Near-Miss%20dataset">Enquire to purchase &rarr;</a>
+        <a href="datasets/medication-near-miss/medication_administration_near_miss_sample.csv" download>Free sample (CSV)</a>
+        <a href="datasets/medication-near-miss/summary_statistics.html">Summary statistics</a>
+        <a href="datasets/medication-near-miss/data_dictionary.csv" download>Data dictionary</a>
+        <a href="datasets/medication-near-miss/README.md">README</a>
+        <a href="datasets/medication-near-miss/methodology_note.md">Methodology</a>
+        <a href="datasets/medication-near-miss/known_limitations.md">Known limitations</a>
+      </span>
+    </div>
+
+    <div class="bundle">
+      <span>
+        <span class="b-name">All three datasets</span><br>
+        <span class="b-note">94,090 rows across the whole picture &mdash; flow, staffing, and safety.</span>
+      </span>
+      <span class="b-price">A$499 AUD <span class="unit">save A$108</span></span>
+    </div>
+
+    <p class="catalog-note">
+      Every dataset ships with a data dictionary, methodology note, bias and representativeness statement,
+      known limitations, and generated summary statistics. The samples above are free to download and use
+      with attribution. Purchase includes the complete CSV, licensed for research, education, model
+      training, testing and prototyping &mdash; not for clinical decisions, facility benchmarking, or
+      regulatory submission. <a href="#contact">Get in touch</a> if you need a custom dataset built to
+      your own schema.
+    </p>
   </section>
 
   <section id="methodology">

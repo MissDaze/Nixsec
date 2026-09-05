@@ -1,0 +1,37 @@
+column_name,data_type,range_or_categories,description
+roster_id,string,RS-000001 to RS-024090,Unique shift-roster record identifier
+facility_code,string,HGH-MAIN | HGH-EAST,Fictional campus code
+ward_unit,string,22 ward codes,Ward or unit identifier
+ward_type,string,13 clinical specialties,Clinical specialty of the ward
+shift_date,date,2024-07-01 to 2025-06-30,Calendar date of the shift
+shift_type,string,AM | PM | NIGHT,Shift period
+day_of_week,string,Mon to Sun,Day of the week
+bed_capacity,integer,6 to 36,Funded bed capacity
+patient_census,integer,0 to capacity+2,Actual patient count at shift start
+occupancy_rate_pct,float,0 to 110,Census as % of bed capacity
+mean_patient_acuity,float,1.0 to 5.0,"Average patient acuity (1=low, 5=critical)"
+acuity_band,string,Low | Moderate | High | Critical,Categorical acuity banding
+total_nursing_staff,integer,2 to 18,Total nursing staff on duty
+rn_count,integer,1 to 14,Registered nurses on shift
+en_count,integer,0 to 6,Enrolled nurses on shift
+ain_count,integer,0 to 4,Assistants in nursing on shift
+num_on_shift,boolean,true | false,Nurse unit manager present
+cns_on_shift,boolean,true | false,Clinical nurse specialist present
+skill_mix_rn_pct,float,40 to 100,RN proportion of total staff (%)
+actual_nhppd,float,3.0 to 25.0,Actual nursing hours per patient day delivered
+target_nhppd,float,Ward-type dependent,Benchmark NHPPD for ward type and acuity
+nhppd_variance,float,Negative = below target,actual_nhppd minus target_nhppd
+staffing_adequacy,string,Adequate | Marginal | Understaffed | Critical,Categorical staffing assessment
+agency_staff_count,integer,0 to 5,Agency/temporary nursing staff on shift
+overtime_hours,float,0 to 24,Total overtime hours this shift
+vacant_shifts_unfilled,integer,0 to 4,Rostered positions unfilled
+sick_leave_callouts,integer,0 to 4,Staff sick calls for this shift
+patient_falls,integer,0 to 3,Patient falls during shift
+medication_incidents,integer,0 to 3,Medication-related incidents during shift
+pressure_injuries_new,integer,0 to 2,New pressure injuries identified
+rapid_response_calls,integer,0 to 3,MET/rapid response calls from ward
+patient_complaints,integer,0 to 3,Patient/family complaints received
+staff_injuries,integer,0 to 2,Workplace injuries to nursing staff
+nurse_patient_ratio,string,1:1 to 1:8,Actual nurse-to-patient ratio
+target_nurse_patient_ratio,string,Ward-type dependent,Recommended ratio
+ratio_met,boolean,true | false,Whether actual ratio met target

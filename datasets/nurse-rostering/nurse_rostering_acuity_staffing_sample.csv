@@ -1,0 +1,1001 @@
+roster_id,facility_code,ward_unit,ward_type,shift_date,shift_type,day_of_week,bed_capacity,patient_census,occupancy_rate_pct,mean_patient_acuity,acuity_band,total_nursing_staff,rn_count,en_count,ain_count,num_on_shift,cns_on_shift,skill_mix_rn_pct,actual_nhppd,target_nhppd,nhppd_variance,staffing_adequacy,agency_staff_count,overtime_hours,vacant_shifts_unfilled,sick_leave_callouts,patient_falls,medication_incidents,pressure_injuries_new,rapid_response_calls,patient_complaints,staff_injuries,nurse_patient_ratio,target_nurse_patient_ratio,ratio_met
+RS-001099,HGH-MAIN,4C-MED,Medical,2024-07-02,AM,Tue,28,29,103.6,2.8,Moderate (2.1-3.0),6,4,1,1,True,True,66.7,5.0,5.8,-0.8,Marginal,0,2.3,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-008764,HGH-MAIN,6A-ONCO,Oncology,2024-07-02,AM,Tue,22,18,81.8,3.8,High (3.1-4.0),5,4,1,0,True,False,80.0,6.7,6.5,0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-003292,HGH-MAIN,5B-SURG,Surgical,2024-07-03,AM,Wed,26,26,100.0,2.3,Moderate (2.1-3.0),6,4,1,1,True,True,66.7,5.5,5.5,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-010959,HGH-MAIN,MAT,Maternity,2024-07-03,NIGHT,Wed,18,16,88.9,2.0,Low (1.0-2.0),2,2,0,0,False,False,100.0,3.0,3.9,-0.9,Marginal,0,2.4,0,1,0,0,0,0,0,0,1:8,1:4,False
+RS-020817,HGH-EAST,4A-RESP,Medical,2024-07-04,NIGHT,Thu,20,19,95.0,4.1,Critical (4.1-5.0),2,2,0,0,True,False,100.0,2.5,4.5,-2.0,Understaffed,0,0.0,0,0,0,0,0,0,1,0,1:10,1:5,False
+RS-023005,HGH-EAST,GEM,Aged care/subacute,2024-07-04,AM,Thu,16,13,81.2,2.3,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,5.5,5.0,0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:6,True
+RS-004390,HGH-MAIN,ICU,ICU,2024-07-04,AM,Thu,12,9,75.0,4.2,Critical (4.1-5.0),9,9,0,0,True,False,100.0,24.0,22.0,2.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-012057,HGH-MAIN,PAED,Paediatric,2024-07-04,NIGHT,Thu,16,14,87.5,3.4,High (3.1-4.0),2,2,0,0,False,False,100.0,3.4,4.9,-1.5,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:7,1:4,False
+RS-005490,HGH-MAIN,CCU,CCU,2024-07-05,NIGHT,Fri,8,7,87.5,4.0,High (3.1-4.0),2,2,0,0,False,False,100.0,6.9,9.1,-2.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:2,False
+RS-006585,HGH-MAIN,ED-OBS,ED,2024-07-05,NIGHT,Fri,20,16,80.0,3.0,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.0,4.5,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-014250,HGH-MAIN,SSU,Short stay,2024-07-05,NIGHT,Fri,12,12,100.0,2.3,Moderate (2.1-3.0),2,2,0,0,True,False,100.0,4.0,3.2,0.8,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-005491,HGH-MAIN,CCU,CCU,2024-07-06,AM,Sat,8,6,75.0,4.5,Critical (4.1-5.0),3,3,0,0,False,False,100.0,12.0,14.0,-2.0,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-010967,HGH-MAIN,MAT,Maternity,2024-07-06,PM,Sat,18,16,88.9,1.8,Low (1.0-2.0),3,2,1,0,False,False,66.7,4.5,5.1,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-002213,HGH-MAIN,5A-SURG,Surgical,2024-07-08,PM,Mon,30,25,83.3,3.0,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.8,4.7,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-008782,HGH-MAIN,6A-ONCO,Oncology,2024-07-08,AM,Mon,22,18,81.8,3.4,High (3.1-4.0),5,4,1,0,True,False,80.0,6.7,6.5,0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-018637,HGH-EAST,REHAB,Rehabilitation,2024-07-08,AM,Mon,22,20,90.9,1.9,Low (1.0-2.0),4,2,1,1,True,True,50.0,4.8,4.5,0.3,Adequate,1,0.0,1,0,0,1,0,0,0,0,1:5,1:6,True
+RS-000026,HGH-MAIN,4B-MED,Medical,2024-07-09,PM,Tue,32,33,103.1,3.6,High (3.1-4.0),4,3,1,0,False,False,75.0,2.9,4.9,-2.0,Understaffed,0,3.9,0,1,0,0,0,0,0,0,1:8,1:5,False
+RS-009885,HGH-MAIN,2B-NEURO,Neurology,2024-07-10,NIGHT,Wed,20,17,85.0,3.4,High (3.1-4.0),2,2,0,0,False,False,100.0,2.8,3.9,-1.1,Marginal,0,2.3,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-008788,HGH-MAIN,6A-ONCO,Oncology,2024-07-10,AM,Wed,22,17,77.3,3.4,High (3.1-4.0),5,4,1,0,True,True,80.0,7.1,6.5,0.6,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:3,1:4,True
+RS-019740,HGH-EAST,PALL,Palliative care,2024-07-10,NIGHT,Wed,10,10,100.0,3.8,High (3.1-4.0),2,2,0,0,False,False,100.0,4.8,6.0,-1.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-023027,HGH-EAST,GEM,Aged care/subacute,2024-07-11,PM,Thu,16,15,93.8,3.0,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.2,4.2,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:6,False
+RS-010981,HGH-MAIN,MAT,Maternity,2024-07-11,AM,Thu,18,16,88.9,2.0,Low (1.0-2.0),4,3,1,0,True,True,75.0,6.0,6.0,0.0,Adequate,0,0.0,0,0,0,0,0,1,0,0,1:4,1:4,True
+RS-017555,HGH-EAST,AC,Aged care/subacute,2024-07-12,PM,Fri,24,22,91.7,2.3,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.3,4.7,-1.4,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:6,False
+RS-014270,HGH-MAIN,SSU,Short stay,2024-07-12,PM,Fri,12,10,83.3,2.3,Moderate (2.1-3.0),2,1,1,0,True,False,50.0,4.8,4.2,0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-015368,HGH-EAST,2A-MED,Medical,2024-07-13,PM,Sat,30,27,90.0,3.3,High (3.1-4.0),5,4,1,0,False,False,80.0,4.4,4.9,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-016462,HGH-EAST,3A-SURG,Surgical,2024-07-13,AM,Sat,28,25,89.3,2.3,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,4.8,5.5,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-009897,HGH-MAIN,2B-NEURO,Neurology,2024-07-14,NIGHT,Sun,20,16,80.0,3.4,High (3.1-4.0),2,2,0,0,False,False,100.0,3.0,3.9,-0.9,Marginal,0,0.0,0,0,1,0,0,0,0,0,1:8,1:5,False
+RS-017561,HGH-EAST,AC,Aged care/subacute,2024-07-14,PM,Sun,24,25,104.2,2.7,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,2.9,4.7,-1.8,Understaffed,1,3.7,1,1,0,0,0,0,0,0,1:8,1:6,False
+RS-005516,HGH-MAIN,CCU,CCU,2024-07-14,PM,Sun,8,6,75.0,4.0,High (3.1-4.0),2,2,0,0,False,False,100.0,8.0,11.9,-3.9,Critical,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-013182,HGH-MAIN,MH,Mental health,2024-07-14,NIGHT,Sun,20,17,85.0,2.7,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.2,4.5,-0.3,Marginal,0,2.2,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-014277,HGH-MAIN,SSU,Short stay,2024-07-14,NIGHT,Sun,12,10,83.3,2.7,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.8,3.2,1.6,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-020850,HGH-EAST,4A-RESP,Medical,2024-07-15,NIGHT,Mon,20,20,100.0,3.2,High (3.1-4.0),2,2,0,0,False,False,100.0,2.4,3.9,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:10,1:5,False
+RS-006613,HGH-MAIN,ED-OBS,ED,2024-07-15,AM,Mon,20,16,80.0,3.2,High (3.1-4.0),4,3,1,0,True,True,75.0,6.0,7.0,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-006614,HGH-MAIN,ED-OBS,ED,2024-07-15,PM,Mon,20,15,75.0,2.9,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,4.8,6.0,-1.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-004423,HGH-MAIN,ICU,ICU,2024-07-15,AM,Mon,12,10,83.3,4.4,Critical (4.1-5.0),10,10,0,0,True,True,100.0,24.0,22.0,2.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-014281,HGH-MAIN,SSU,Short stay,2024-07-16,AM,Tue,12,10,83.3,2.0,Low (1.0-2.0),2,1,1,0,True,True,50.0,4.8,5.0,-0.2,Marginal,0,0.0,0,0,0,0,0,0,1,0,1:5,1:5,True
+RS-009906,HGH-MAIN,2B-NEURO,Neurology,2024-07-17,NIGHT,Wed,20,17,85.0,4.1,Critical (4.1-5.0),2,2,0,0,False,False,100.0,2.8,4.5,-1.7,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-019760,HGH-EAST,PALL,Palliative care,2024-07-17,PM,Wed,10,9,90.0,2.8,Moderate (2.1-3.0),2,2,0,0,False,True,100.0,5.3,6.8,-1.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-009907,HGH-MAIN,2B-NEURO,Neurology,2024-07-18,AM,Thu,20,17,85.0,3.0,Moderate (2.1-3.0),4,3,1,0,True,True,75.0,5.6,6.0,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-016478,HGH-EAST,3A-SURG,Surgical,2024-07-18,PM,Thu,28,25,89.3,2.7,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.8,4.7,-0.9,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-020859,HGH-EAST,4A-RESP,Medical,2024-07-18,NIGHT,Thu,20,19,95.0,2.9,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,2.5,3.9,-1.4,Understaffed,0,0.0,0,0,1,0,0,1,0,0,1:10,1:5,False
+RS-000053,HGH-MAIN,4B-MED,Medical,2024-07-18,PM,Thu,32,34,106.2,3.6,High (3.1-4.0),4,3,1,0,False,False,75.0,2.8,4.9,-2.1,Understaffed,0,2.7,1,0,0,0,1,0,0,0,1:8,1:5,False
+RS-017573,HGH-EAST,AC,Aged care/subacute,2024-07-18,PM,Thu,24,23,95.8,3.1,High (3.1-4.0),3,2,1,0,False,True,66.7,3.1,4.7,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:6,False
+RS-006622,HGH-MAIN,ED-OBS,ED,2024-07-18,AM,Thu,20,17,85.0,3.0,Moderate (2.1-3.0),5,4,1,0,True,True,80.0,7.1,7.0,0.1,Adequate,0,0.0,0,0,0,0,0,0,0,1,1:3,1:4,True
+RS-000056,HGH-MAIN,4B-MED,Medical,2024-07-19,PM,Fri,32,29,90.6,3.8,High (3.1-4.0),5,4,1,0,True,False,80.0,4.1,5.7,-1.6,Understaffed,1,0.0,0,1,0,1,0,0,0,0,1:6,1:5,False
+RS-005531,HGH-MAIN,CCU,CCU,2024-07-19,PM,Fri,8,7,87.5,4.4,Critical (4.1-5.0),3,3,0,0,True,False,100.0,10.3,11.9,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-018672,HGH-EAST,REHAB,Rehabilitation,2024-07-19,NIGHT,Fri,22,18,81.8,1.8,Low (1.0-2.0),2,1,1,0,False,False,50.0,2.7,2.9,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:9,1:6,False
+RS-016485,HGH-EAST,3A-SURG,Surgical,2024-07-20,NIGHT,Sat,28,23,82.1,2.8,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,3.1,3.6,-0.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-008818,HGH-MAIN,6A-ONCO,Oncology,2024-07-20,AM,Sat,22,21,95.5,3.2,High (3.1-4.0),6,5,1,0,False,False,83.3,6.9,6.5,0.4,Adequate,1,1.1,0,1,0,0,0,0,0,0,1:4,1:4,True
+RS-005533,HGH-MAIN,CCU,CCU,2024-07-20,AM,Sat,8,7,87.5,3.9,High (3.1-4.0),4,4,0,0,False,False,100.0,13.7,14.0,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-011010,HGH-MAIN,MAT,Maternity,2024-07-20,NIGHT,Sat,18,15,83.3,2.6,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.2,4.5,-1.3,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-013198,HGH-MAIN,MH,Mental health,2024-07-20,AM,Sat,20,19,95.0,3.5,High (3.1-4.0),4,3,1,0,False,False,75.0,5.1,8.0,-2.9,Understaffed,0,2.6,1,0,1,0,0,0,0,0,1:5,1:4,False
+RS-013203,HGH-MAIN,MH,Mental health,2024-07-21,NIGHT,Sun,20,19,95.0,2.9,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.8,4.5,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-003351,HGH-MAIN,5B-SURG,Surgical,2024-07-22,NIGHT,Mon,26,21,80.8,3.0,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.4,3.6,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-008828,HGH-MAIN,6A-ONCO,Oncology,2024-07-23,PM,Tue,22,20,90.9,3.6,High (3.1-4.0),4,3,1,0,True,False,75.0,4.8,5.5,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-014304,HGH-MAIN,SSU,Short stay,2024-07-23,NIGHT,Tue,12,11,91.7,2.0,Low (1.0-2.0),2,2,0,0,False,False,100.0,4.4,3.2,1.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-017595,HGH-EAST,AC,Aged care/subacute,2024-07-25,NIGHT,Thu,24,23,95.8,2.8,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.1,3.6,-1.5,Understaffed,0,0.0,0,1,0,1,0,0,1,0,1:12,1:6,False
+RS-019784,HGH-EAST,PALL,Palliative care,2024-07-25,PM,Thu,10,9,90.0,2.5,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,5.3,6.8,-1.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-018689,HGH-EAST,REHAB,Rehabilitation,2024-07-25,PM,Thu,22,18,81.8,1.9,Low (1.0-2.0),2,1,1,0,True,False,50.0,2.7,3.8,-1.1,Marginal,0,0.0,0,0,0,1,1,0,0,0,1:9,1:6,False
+RS-008841,HGH-MAIN,6A-ONCO,Oncology,2024-07-27,NIGHT,Sat,22,19,86.4,2.9,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.8,3.8,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-012124,HGH-MAIN,PAED,Paediatric,2024-07-27,AM,Sat,16,15,93.8,2.3,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.2,6.5,-3.3,Understaffed,0,5.6,2,0,0,0,0,0,0,0,1:8,1:4,False
+RS-016509,HGH-EAST,3A-SURG,Surgical,2024-07-28,NIGHT,Sun,28,20,71.4,2.7,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,2.4,3.6,-1.2,Understaffed,0,0.0,0,1,0,0,0,0,1,0,1:10,1:5,False
+RS-007747,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-07-28,AM,Sun,24,20,83.3,2.4,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,4.8,5.2,-0.4,Adequate,0,0.0,0,0,0,0,0,1,0,0,1:5,1:5,True
+RS-023077,HGH-EAST,GEM,Aged care/subacute,2024-07-28,AM,Sun,16,14,87.5,2.3,Moderate (2.1-3.0),2,1,1,0,True,False,50.0,3.4,5.0,-1.6,Understaffed,0,2.5,1,0,0,1,0,0,0,0,1:7,1:6,False
+RS-023079,HGH-EAST,GEM,Aged care/subacute,2024-07-28,NIGHT,Sun,16,15,93.8,2.4,Moderate (2.1-3.0),2,1,1,0,True,False,50.0,3.2,3.2,0.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:6,False
+RS-013222,HGH-MAIN,MH,Mental health,2024-07-28,AM,Sun,20,16,80.0,3.0,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,6.0,7.0,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-019792,HGH-EAST,PALL,Palliative care,2024-07-28,AM,Sun,10,9,90.0,2.8,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,8.0,8.0,0.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:4,True
+RS-001180,HGH-MAIN,4C-MED,Medical,2024-07-29,AM,Mon,28,29,103.6,3.5,High (3.1-4.0),5,4,1,0,True,False,80.0,4.1,5.8,-1.7,Understaffed,1,2.0,0,2,0,0,0,0,0,0,1:6,1:5,False
+RS-006655,HGH-MAIN,ED-OBS,ED,2024-07-29,AM,Mon,20,16,80.0,2.9,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,6.0,7.0,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-020894,HGH-EAST,4A-RESP,Medical,2024-07-30,PM,Tue,20,19,95.0,3.3,High (3.1-4.0),3,2,1,0,False,False,66.7,3.8,5.1,-1.3,Marginal,1,0.0,0,1,0,0,0,0,0,0,1:6,1:5,False
+RS-001185,HGH-MAIN,4C-MED,Medical,2024-07-30,NIGHT,Tue,28,28,100.0,3.6,High (3.1-4.0),4,3,1,0,False,False,75.0,3.4,4.3,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-019799,HGH-EAST,PALL,Palliative care,2024-07-30,PM,Tue,10,9,90.0,3.4,High (3.1-4.0),2,2,0,0,True,False,100.0,5.3,6.8,-1.5,Marginal,0,0.0,0,1,0,0,0,0,0,0,1:4,1:4,True
+RS-000093,HGH-MAIN,4B-MED,Medical,2024-07-31,NIGHT,Wed,32,31,96.9,3.3,High (3.1-4.0),4,3,1,0,False,False,75.0,3.1,3.8,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-005566,HGH-MAIN,CCU,CCU,2024-07-31,AM,Wed,8,7,87.5,3.8,High (3.1-4.0),4,4,0,0,True,True,100.0,13.7,14.0,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-023086,HGH-EAST,GEM,Aged care/subacute,2024-07-31,AM,Wed,16,13,81.2,2.3,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,5.5,5.0,0.5,Adequate,1,0.0,1,1,0,0,0,0,0,0,1:4,1:6,True
+RS-013232,HGH-MAIN,MH,Mental health,2024-07-31,PM,Wed,20,18,90.0,2.6,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-019803,HGH-EAST,PALL,Palliative care,2024-07-31,NIGHT,Wed,10,8,80.0,3.2,High (3.1-4.0),2,2,0,0,False,False,100.0,6.0,5.2,0.8,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-018707,HGH-EAST,REHAB,Rehabilitation,2024-07-31,PM,Wed,22,18,81.8,2.3,Moderate (2.1-3.0),2,1,1,0,True,False,50.0,2.7,3.8,-1.1,Marginal,0,0.0,0,1,0,0,0,0,0,0,1:9,1:6,False
+RS-000095,HGH-MAIN,4B-MED,Medical,2024-08-01,PM,Thu,32,31,96.9,3.4,High (3.1-4.0),4,3,1,0,False,False,75.0,3.1,4.9,-1.8,Understaffed,1,2.7,1,1,1,0,0,0,0,0,1:8,1:5,False
+RS-006665,HGH-MAIN,ED-OBS,ED,2024-08-01,PM,Thu,20,17,85.0,3.4,High (3.1-4.0),4,3,1,0,True,True,75.0,5.6,6.0,-0.4,Adequate,0,0.0,0,0,0,1,0,0,0,0,1:4,1:4,True
+RS-011044,HGH-MAIN,MAT,Maternity,2024-08-01,AM,Thu,18,15,83.3,2.1,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,4.8,6.0,-1.2,Marginal,0,3.6,1,0,0,0,0,0,0,0,1:5,1:4,False
+RS-001194,HGH-MAIN,4C-MED,Medical,2024-08-02,NIGHT,Fri,28,27,96.4,3.3,High (3.1-4.0),4,3,1,0,False,False,75.0,3.6,3.8,-0.2,Adequate,1,0.0,0,1,0,0,0,0,0,0,1:7,1:5,False
+RS-011048,HGH-MAIN,MAT,Maternity,2024-08-02,PM,Fri,18,15,83.3,2.3,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.8,5.1,-0.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-014335,HGH-MAIN,SSU,Short stay,2024-08-03,AM,Sat,12,11,91.7,2.4,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,6.5,5.0,1.5,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:4,1:5,True
+RS-009961,HGH-MAIN,2B-NEURO,Neurology,2024-08-05,AM,Mon,20,17,85.0,3.2,High (3.1-4.0),4,3,1,0,True,False,75.0,5.6,6.0,-0.4,Adequate,0,1.2,0,0,0,1,0,0,0,0,1:4,1:5,True
+RS-009963,HGH-MAIN,2B-NEURO,Neurology,2024-08-05,NIGHT,Mon,20,18,90.0,3.8,High (3.1-4.0),2,2,0,0,False,False,100.0,2.7,3.9,-1.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:9,1:5,False
+RS-016531,HGH-EAST,3A-SURG,Surgical,2024-08-05,AM,Mon,28,23,82.1,2.5,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,3.1,5.5,-2.4,Understaffed,0,4.9,1,1,0,0,0,0,0,0,1:8,1:5,False
+RS-020912,HGH-EAST,4A-RESP,Medical,2024-08-05,PM,Mon,20,20,100.0,3.2,High (3.1-4.0),3,2,1,0,False,False,66.7,3.6,5.1,-1.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-006677,HGH-MAIN,ED-OBS,ED,2024-08-05,PM,Mon,20,16,80.0,3.5,High (3.1-4.0),3,2,1,0,True,False,66.7,4.5,6.0,-1.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-022007,HGH-EAST,RENAL,Medical,2024-08-05,PM,Mon,14,15,107.1,2.9,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.2,4.7,-1.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-007775,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-08-06,PM,Tue,24,19,79.2,2.6,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.5,4.4,-1.9,Understaffed,0,2.4,1,0,0,0,0,0,0,0,1:10,1:5,False
+RS-004489,HGH-MAIN,ICU,ICU,2024-08-06,AM,Tue,12,11,91.7,4.4,Critical (4.1-5.0),11,11,0,0,True,True,100.0,24.0,22.0,2.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-007777,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-08-07,AM,Wed,24,22,91.7,2.8,Moderate (2.1-3.0),5,3,1,1,True,False,60.0,5.5,5.2,0.3,Adequate,0,0.0,0,0,0,1,0,1,0,0,1:4,1:5,True
+RS-004493,HGH-MAIN,ICU,ICU,2024-08-07,PM,Wed,12,10,83.3,4.4,Critical (4.1-5.0),8,8,0,0,False,False,100.0,19.2,18.7,0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-022013,HGH-EAST,RENAL,Medical,2024-08-07,PM,Wed,14,12,85.7,2.5,Moderate (2.1-3.0),2,1,1,0,False,True,50.0,4.0,4.7,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-002305,HGH-MAIN,5A-SURG,Surgical,2024-08-08,AM,Thu,30,28,93.3,2.6,Moderate (2.1-3.0),6,4,1,1,True,True,66.7,5.1,5.5,-0.4,Adequate,1,0.0,0,1,0,0,0,0,0,0,1:5,1:5,True
+RS-005591,HGH-MAIN,CCU,CCU,2024-08-08,PM,Thu,8,7,87.5,3.9,High (3.1-4.0),3,3,0,0,True,False,100.0,10.3,11.9,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-022015,HGH-EAST,RENAL,Medical,2024-08-08,AM,Thu,14,15,107.1,2.9,Moderate (2.1-3.0),2,1,1,0,True,True,50.0,3.2,5.5,-2.3,Understaffed,0,3.9,1,0,0,0,0,0,0,0,1:8,1:5,False
+RS-020925,HGH-EAST,4A-RESP,Medical,2024-08-09,NIGHT,Fri,20,20,100.0,3.4,High (3.1-4.0),2,2,0,0,False,False,100.0,2.4,3.9,-1.5,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:10,1:5,False
+RS-002309,HGH-MAIN,5A-SURG,Surgical,2024-08-09,PM,Fri,30,23,76.7,3.2,High (3.1-4.0),4,3,1,0,True,False,75.0,4.2,4.7,-0.5,Adequate,0,1.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-005594,HGH-MAIN,CCU,CCU,2024-08-09,PM,Fri,8,6,75.0,4.3,Critical (4.1-5.0),2,2,0,0,False,False,100.0,8.0,11.9,-3.9,Critical,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-012164,HGH-MAIN,PAED,Paediatric,2024-08-09,PM,Fri,16,14,87.5,2.5,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,5.1,5.5,-0.4,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-014355,HGH-MAIN,SSU,Short stay,2024-08-09,NIGHT,Fri,12,10,83.3,2.5,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.8,3.2,1.6,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-016547,HGH-EAST,3A-SURG,Surgical,2024-08-10,PM,Sat,28,21,75.0,2.7,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,4.6,4.7,-0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-005597,HGH-MAIN,CCU,CCU,2024-08-10,PM,Sat,8,6,75.0,4.2,Critical (4.1-5.0),2,2,0,0,False,False,100.0,8.0,11.9,-3.9,Critical,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-015454,HGH-EAST,2A-MED,Medical,2024-08-11,AM,Sun,30,32,106.7,3.3,High (3.1-4.0),7,5,1,1,False,False,71.4,5.2,5.8,-0.6,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:5,1:5,True
+RS-011076,HGH-MAIN,MAT,Maternity,2024-08-11,NIGHT,Sun,18,15,83.3,2.2,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.2,3.9,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-019834,HGH-EAST,PALL,Palliative care,2024-08-11,AM,Sun,10,9,90.0,2.5,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,8.0,8.0,0.0,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:3,1:4,True
+RS-022024,HGH-EAST,RENAL,Medical,2024-08-11,AM,Sun,14,13,92.9,2.9,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,5.5,5.5,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-006698,HGH-MAIN,ED-OBS,ED,2024-08-12,PM,Mon,20,19,95.0,3.0,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,3.8,6.0,-2.2,Understaffed,0,4.0,0,1,0,0,0,0,1,0,1:6,1:4,False
+RS-023123,HGH-EAST,GEM,Aged care/subacute,2024-08-12,PM,Mon,16,13,81.2,1.9,Low (1.0-2.0),2,1,1,0,True,False,50.0,3.7,3.8,-0.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:6,True
+RS-013268,HGH-MAIN,MH,Mental health,2024-08-12,PM,Mon,20,18,90.0,2.3,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-020938,HGH-EAST,4A-RESP,Medical,2024-08-14,AM,Wed,20,19,95.0,3.7,High (3.1-4.0),4,3,1,0,True,True,75.0,5.1,6.0,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-000134,HGH-MAIN,4B-MED,Medical,2024-08-14,PM,Wed,32,29,90.6,4.1,Critical (4.1-5.0),4,3,1,0,True,False,75.0,3.3,5.7,-2.4,Understaffed,0,3.5,1,0,0,0,0,0,2,0,1:7,1:5,False
+RS-001229,HGH-MAIN,4C-MED,Medical,2024-08-14,PM,Wed,28,29,103.6,2.8,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,4.1,4.9,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-015467,HGH-EAST,2A-MED,Medical,2024-08-15,PM,Thu,30,27,90.0,3.4,High (3.1-4.0),5,4,1,0,True,False,80.0,4.4,4.9,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-009993,HGH-MAIN,2B-NEURO,Neurology,2024-08-15,NIGHT,Thu,20,18,90.0,3.6,High (3.1-4.0),2,2,0,0,False,False,100.0,2.7,3.9,-1.2,Understaffed,0,0.0,0,0,0,0,1,0,0,0,1:9,1:5,False
+RS-016563,HGH-EAST,3A-SURG,Surgical,2024-08-15,NIGHT,Thu,28,26,92.9,2.8,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.7,3.6,0.1,Adequate,0,1.4,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-020941,HGH-EAST,4A-RESP,Medical,2024-08-15,AM,Thu,20,22,110.0,3.6,High (3.1-4.0),4,3,1,0,True,True,75.0,4.4,6.0,-1.6,Understaffed,0,3.2,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-020943,HGH-EAST,4A-RESP,Medical,2024-08-15,NIGHT,Thu,20,20,100.0,3.7,High (3.1-4.0),2,2,0,0,False,False,100.0,2.4,3.9,-1.5,Understaffed,0,2.0,0,0,0,0,0,0,0,0,1:10,1:5,False
+RS-017656,HGH-EAST,AC,Aged care/subacute,2024-08-15,AM,Thu,24,21,87.5,2.3,Moderate (2.1-3.0),4,2,1,1,True,True,50.0,4.6,5.5,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:6,True
+RS-005612,HGH-MAIN,CCU,CCU,2024-08-15,PM,Thu,8,7,87.5,4.2,Critical (4.1-5.0),3,3,0,0,False,False,100.0,10.3,11.9,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-023131,HGH-EAST,GEM,Aged care/subacute,2024-08-15,AM,Thu,16,14,87.5,2.1,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.4,5.0,-1.6,Understaffed,0,3.0,1,0,0,0,0,0,0,0,1:7,1:6,False
+RS-009996,HGH-MAIN,2B-NEURO,Neurology,2024-08-16,NIGHT,Fri,20,18,90.0,3.0,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,2.7,3.9,-1.2,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:9,1:5,False
+RS-016566,HGH-EAST,3A-SURG,Surgical,2024-08-16,NIGHT,Fri,28,27,96.4,3.2,High (3.1-4.0),4,3,1,0,False,False,75.0,3.6,4.1,-0.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-020945,HGH-EAST,4A-RESP,Medical,2024-08-16,PM,Fri,20,20,100.0,3.3,High (3.1-4.0),3,2,1,0,False,False,66.7,3.6,5.1,-1.5,Marginal,0,3.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-003425,HGH-MAIN,5B-SURG,Surgical,2024-08-16,PM,Fri,26,26,100.0,2.9,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,4.6,4.7,-0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-012185,HGH-MAIN,PAED,Paediatric,2024-08-16,PM,Fri,16,15,93.8,2.4,Moderate (2.1-3.0),3,2,1,0,False,True,66.7,4.8,5.5,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-009999,HGH-MAIN,2B-NEURO,Neurology,2024-08-17,NIGHT,Sat,20,20,100.0,3.4,High (3.1-4.0),2,2,0,0,False,False,100.0,2.4,3.9,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:10,1:5,False
+RS-020948,HGH-EAST,4A-RESP,Medical,2024-08-17,PM,Sat,20,21,105.0,2.9,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,4.6,5.1,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-003427,HGH-MAIN,5B-SURG,Surgical,2024-08-17,AM,Sat,26,22,84.6,3.1,High (3.1-4.0),3,2,1,0,False,False,66.7,3.3,5.5,-2.2,Understaffed,0,7.6,2,0,0,0,0,0,0,0,1:7,1:5,False
+RS-015476,HGH-EAST,2A-MED,Medical,2024-08-18,PM,Sun,30,32,106.7,3.5,High (3.1-4.0),5,4,1,0,False,False,80.0,3.8,4.9,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-001240,HGH-MAIN,4C-MED,Medical,2024-08-18,AM,Sun,28,31,110.7,3.6,High (3.1-4.0),7,5,1,1,False,False,71.4,5.4,6.7,-1.3,Marginal,0,0.0,0,0,1,0,0,0,0,0,1:4,1:5,True
+RS-022045,HGH-EAST,RENAL,Medical,2024-08-18,AM,Sun,14,13,92.9,3.6,High (3.1-4.0),3,2,1,0,False,False,66.7,5.5,6.3,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-022047,HGH-EAST,RENAL,Medical,2024-08-18,NIGHT,Sun,14,15,107.1,3.2,High (3.1-4.0),2,2,0,0,False,False,100.0,3.2,3.6,-0.4,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-014381,HGH-MAIN,SSU,Short stay,2024-08-18,PM,Sun,12,10,83.3,1.8,Low (1.0-2.0),2,1,1,0,True,False,50.0,4.8,4.2,0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-003433,HGH-MAIN,5B-SURG,Surgical,2024-08-19,AM,Mon,26,21,80.8,2.6,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,5.7,5.5,0.2,Adequate,0,0.0,0,0,0,0,0,1,0,0,1:4,1:5,True
+RS-003435,HGH-MAIN,5B-SURG,Surgical,2024-08-19,NIGHT,Mon,26,20,76.9,3.3,High (3.1-4.0),2,2,0,0,False,False,100.0,2.4,4.1,-1.7,Understaffed,0,0.0,0,0,0,0,0,1,0,0,1:10,1:5,False
+RS-023144,HGH-EAST,GEM,Aged care/subacute,2024-08-19,PM,Mon,16,14,87.5,3.1,High (3.1-4.0),2,1,1,0,True,False,50.0,3.4,4.9,-1.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:6,False
+RS-008912,HGH-MAIN,6A-ONCO,Oncology,2024-08-20,PM,Tue,22,18,81.8,3.5,High (3.1-4.0),4,3,1,0,True,False,75.0,5.3,5.5,-0.2,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:4,1:4,True
+RS-023147,HGH-EAST,GEM,Aged care/subacute,2024-08-20,PM,Tue,16,14,87.5,2.5,Moderate (2.1-3.0),2,1,1,0,True,False,50.0,3.4,4.2,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:6,False
+RS-014387,HGH-MAIN,SSU,Short stay,2024-08-20,PM,Tue,12,11,91.7,2.6,Moderate (2.1-3.0),2,1,1,0,True,False,50.0,4.4,4.2,0.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-020960,HGH-EAST,4A-RESP,Medical,2024-08-21,PM,Wed,20,20,100.0,4.0,High (3.1-4.0),3,2,1,0,False,True,66.7,3.6,5.9,-2.3,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-001249,HGH-MAIN,4C-MED,Medical,2024-08-21,AM,Wed,28,26,92.9,3.3,High (3.1-4.0),6,4,1,1,True,True,66.7,5.5,5.8,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-005631,HGH-MAIN,CCU,CCU,2024-08-21,NIGHT,Wed,8,7,87.5,3.5,High (3.1-4.0),2,2,0,0,False,False,100.0,6.9,9.1,-2.2,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:4,1:2,False
+RS-023150,HGH-EAST,GEM,Aged care/subacute,2024-08-21,PM,Wed,16,12,75.0,2.3,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,4.0,4.2,-0.2,Marginal,0,0.0,0,0,0,0,0,1,0,0,1:6,1:6,True
+RS-019864,HGH-EAST,PALL,Palliative care,2024-08-21,AM,Wed,10,9,90.0,3.1,High (3.1-4.0),3,2,1,0,True,True,66.7,8.0,8.0,0.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:4,True
+RS-000159,HGH-MAIN,4B-MED,Medical,2024-08-22,NIGHT,Thu,32,35,109.4,4.2,Critical (4.1-5.0),4,3,1,0,False,False,75.0,2.7,4.3,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:9,1:5,False
+RS-004537,HGH-MAIN,ICU,ICU,2024-08-22,AM,Thu,12,10,83.3,4.4,Critical (4.1-5.0),10,10,0,0,True,False,100.0,24.0,22.0,2.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-020966,HGH-EAST,4A-RESP,Medical,2024-08-23,PM,Fri,20,20,100.0,3.9,High (3.1-4.0),3,2,1,0,True,False,66.7,3.6,5.9,-2.3,Understaffed,0,0.0,0,0,1,0,0,0,1,0,1:7,1:5,False
+RS-023157,HGH-EAST,GEM,Aged care/subacute,2024-08-23,NIGHT,Fri,16,14,87.5,2.7,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.4,3.2,0.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:6,False
+RS-004544,HGH-MAIN,ICU,ICU,2024-08-24,PM,Sat,12,9,75.0,4.5,Critical (4.1-5.0),6,6,0,0,False,False,100.0,16.0,18.7,-2.7,Understaffed,0,2.8,1,0,0,0,0,0,0,0,1:2,1:1,False
+RS-016591,HGH-EAST,3A-SURG,Surgical,2024-08-25,AM,Sun,28,23,82.1,3.1,High (3.1-4.0),5,4,1,0,False,False,80.0,5.2,5.5,-0.3,Adequate,1,2.9,0,1,1,0,0,0,1,0,1:5,1:5,True
+RS-001263,HGH-MAIN,4C-MED,Medical,2024-08-25,NIGHT,Sun,28,27,96.4,3.6,High (3.1-4.0),3,2,1,0,False,False,66.7,2.7,4.3,-1.6,Understaffed,0,3.0,0,1,0,0,0,1,0,0,1:9,1:5,False
+RS-003453,HGH-MAIN,5B-SURG,Surgical,2024-08-25,NIGHT,Sun,26,22,84.6,2.3,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.3,3.6,-0.3,Marginal,1,0.0,1,0,0,0,0,1,0,0,1:7,1:5,False
+RS-020978,HGH-EAST,4A-RESP,Medical,2024-08-27,PM,Tue,20,22,110.0,3.8,High (3.1-4.0),4,3,1,0,False,False,75.0,4.4,5.9,-1.5,Marginal,0,0.0,0,0,1,0,0,0,0,0,1:6,1:5,False
+RS-022074,HGH-EAST,RENAL,Medical,2024-08-27,NIGHT,Tue,14,12,85.7,3.3,High (3.1-4.0),2,2,0,0,False,False,100.0,4.0,3.6,0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-022073,HGH-EAST,RENAL,Medical,2024-08-27,PM,Tue,14,15,107.1,3.2,High (3.1-4.0),2,1,1,0,False,False,50.0,3.2,4.7,-1.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-014409,HGH-MAIN,SSU,Short stay,2024-08-27,NIGHT,Tue,12,10,83.3,2.4,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.8,3.2,1.6,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-001270,HGH-MAIN,4C-MED,Medical,2024-08-28,AM,Wed,28,26,92.9,3.8,High (3.1-4.0),5,4,1,0,True,False,80.0,4.6,6.7,-2.1,Understaffed,0,3.0,1,0,0,0,0,0,0,0,1:5,1:5,True
+RS-020984,HGH-EAST,4A-RESP,Medical,2024-08-29,PM,Thu,20,21,105.0,3.6,High (3.1-4.0),4,3,1,0,False,False,75.0,4.6,5.1,-0.5,Adequate,0,0.0,0,0,0,0,1,1,0,0,1:5,1:5,True
+RS-003464,HGH-MAIN,5B-SURG,Surgical,2024-08-29,PM,Thu,26,23,88.5,3.2,High (3.1-4.0),4,3,1,0,False,False,75.0,4.2,4.7,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-008938,HGH-MAIN,6A-ONCO,Oncology,2024-08-29,AM,Thu,22,20,90.9,3.3,High (3.1-4.0),5,4,1,0,True,False,80.0,6.0,6.5,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-017703,HGH-EAST,AC,Aged care/subacute,2024-08-30,NIGHT,Fri,24,20,83.3,2.9,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.4,3.6,-1.2,Understaffed,0,1.1,0,0,1,0,0,0,0,0,1:10,1:6,False
+RS-012227,HGH-MAIN,PAED,Paediatric,2024-08-30,PM,Fri,16,14,87.5,2.4,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,5.1,5.5,-0.4,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-000184,HGH-MAIN,4B-MED,Medical,2024-08-31,AM,Sat,32,31,96.9,3.3,High (3.1-4.0),6,4,1,1,False,False,66.7,4.6,5.8,-1.2,Marginal,0,3.9,1,0,0,0,0,0,0,0,1:5,1:5,True
+RS-000186,HGH-MAIN,4B-MED,Medical,2024-08-31,NIGHT,Sat,32,35,109.4,4.3,Critical (4.1-5.0),4,3,1,0,False,False,75.0,2.7,4.3,-1.6,Understaffed,1,0.0,0,1,0,0,0,0,0,0,1:9,1:5,False
+RS-011134,HGH-MAIN,MAT,Maternity,2024-08-31,AM,Sat,18,16,88.9,2.3,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.5,6.0,-1.5,Understaffed,1,2.5,2,0,2,1,1,0,0,0,1:5,1:4,False
+RS-000187,HGH-MAIN,4B-MED,Medical,2024-09-01,AM,Sun,32,28,87.5,3.0,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,4.3,5.8,-1.5,Understaffed,0,2.9,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-002377,HGH-MAIN,5A-SURG,Surgical,2024-09-01,AM,Sun,30,26,86.7,3.2,High (3.1-4.0),6,4,1,1,False,False,66.7,5.5,5.5,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-016617,HGH-EAST,3A-SURG,Surgical,2024-09-02,NIGHT,Mon,28,24,85.7,3.5,High (3.1-4.0),3,2,1,0,False,False,66.7,3.0,4.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-003480,HGH-MAIN,5B-SURG,Surgical,2024-09-03,NIGHT,Tue,26,23,88.5,3.1,High (3.1-4.0),3,2,1,0,False,False,66.7,3.1,3.6,-0.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-006764,HGH-MAIN,ED-OBS,ED,2024-09-03,PM,Tue,20,17,85.0,3.0,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,5.6,6.0,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-010051,HGH-MAIN,2B-NEURO,Neurology,2024-09-04,AM,Wed,20,18,90.0,3.2,High (3.1-4.0),3,2,1,0,True,False,66.7,4.0,6.0,-2.0,Understaffed,0,2.6,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-017718,HGH-EAST,AC,Aged care/subacute,2024-09-04,NIGHT,Wed,24,22,91.7,3.1,High (3.1-4.0),2,1,1,0,False,False,50.0,2.2,3.6,-1.4,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:11,1:6,False
+RS-006771,HGH-MAIN,ED-OBS,ED,2024-09-05,NIGHT,Thu,20,16,80.0,3.4,High (3.1-4.0),2,2,0,0,False,False,100.0,3.0,4.5,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-011151,HGH-MAIN,MAT,Maternity,2024-09-05,NIGHT,Thu,18,15,83.3,2.5,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.2,3.9,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-012246,HGH-MAIN,PAED,Paediatric,2024-09-05,NIGHT,Thu,16,13,81.2,2.5,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.7,4.2,-0.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-003489,HGH-MAIN,5B-SURG,Surgical,2024-09-06,NIGHT,Fri,26,21,80.8,2.7,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,2.3,3.6,-1.3,Understaffed,0,3.2,1,0,0,0,0,0,0,0,1:10,1:5,False
+RS-008964,HGH-MAIN,6A-ONCO,Oncology,2024-09-06,NIGHT,Fri,22,20,90.9,3.2,High (3.1-4.0),3,2,1,0,False,False,66.7,3.6,4.2,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:4,False
+RS-015537,HGH-EAST,2A-MED,Medical,2024-09-07,NIGHT,Sat,30,26,86.7,3.0,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.7,3.8,-0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-002396,HGH-MAIN,5A-SURG,Surgical,2024-09-07,PM,Sat,30,24,80.0,3.1,High (3.1-4.0),3,2,1,0,False,False,66.7,3.0,4.7,-1.7,Understaffed,1,3.0,2,0,1,0,0,0,0,0,1:8,1:5,False
+RS-017725,HGH-EAST,AC,Aged care/subacute,2024-09-07,AM,Sat,24,22,91.7,2.8,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,3.3,5.5,-2.2,Understaffed,0,2.1,1,0,0,0,1,0,0,0,1:7,1:6,False
+RS-018822,HGH-EAST,REHAB,Rehabilitation,2024-09-07,NIGHT,Sat,22,19,86.4,2.1,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.5,2.9,-0.4,Marginal,0,0.0,0,0,0,0,0,0,1,0,1:10,1:6,False
+RS-022105,HGH-EAST,RENAL,Medical,2024-09-07,AM,Sat,14,15,107.1,2.7,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.2,5.5,-2.3,Understaffed,0,2.6,1,0,1,0,0,1,0,0,1:8,1:5,False
+RS-022107,HGH-EAST,RENAL,Medical,2024-09-07,NIGHT,Sat,14,12,85.7,2.6,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.0,3.6,0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-012254,HGH-MAIN,PAED,Paediatric,2024-09-08,PM,Sun,16,14,87.5,2.6,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,5.1,5.5,-0.4,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:5,1:4,False
+RS-015543,HGH-EAST,2A-MED,Medical,2024-09-09,NIGHT,Mon,30,30,100.0,3.5,High (3.1-4.0),4,3,1,0,False,False,75.0,3.2,3.8,-0.6,Marginal,0,0.0,0,0,0,1,0,0,0,0,1:8,1:5,False
+RS-005687,HGH-MAIN,CCU,CCU,2024-09-09,PM,Mon,8,7,87.5,4.0,High (3.1-4.0),3,3,0,0,False,False,100.0,10.3,11.9,-1.6,Understaffed,1,0.0,1,0,0,0,0,0,0,0,1:2,1:2,True
+RS-012256,HGH-MAIN,PAED,Paediatric,2024-09-09,AM,Mon,16,15,93.8,2.1,Moderate (2.1-3.0),4,3,1,0,True,True,75.0,6.4,6.5,-0.1,Adequate,0,0.0,0,0,0,0,0,0,1,0,1:4,1:4,True
+RS-012258,HGH-MAIN,PAED,Paediatric,2024-09-09,NIGHT,Mon,16,13,81.2,2.6,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.7,4.2,-0.5,Marginal,0,0.0,0,1,0,0,0,0,0,0,1:6,1:4,False
+RS-018827,HGH-EAST,REHAB,Rehabilitation,2024-09-09,PM,Mon,22,19,86.4,1.4,Low (1.0-2.0),3,2,1,0,False,False,66.7,3.8,3.4,0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:6,True
+RS-002406,HGH-MAIN,5A-SURG,Surgical,2024-09-10,NIGHT,Tue,30,28,93.3,2.5,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.4,3.6,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-015547,HGH-EAST,2A-MED,Medical,2024-09-11,AM,Wed,30,31,103.3,2.9,Moderate (2.1-3.0),7,5,1,1,True,False,71.4,5.4,5.8,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-016644,HGH-EAST,3A-SURG,Surgical,2024-09-11,NIGHT,Wed,28,26,92.9,3.0,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,2.8,3.6,-0.8,Marginal,0,3.4,0,1,0,0,0,0,0,0,1:9,1:5,False
+RS-006787,HGH-MAIN,ED-OBS,ED,2024-09-11,AM,Wed,20,17,85.0,3.2,High (3.1-4.0),5,4,1,0,True,False,80.0,7.1,7.0,0.1,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:3,1:4,True
+RS-004599,HGH-MAIN,ICU,ICU,2024-09-11,NIGHT,Wed,12,9,75.0,4.7,Critical (4.1-5.0),6,6,0,0,False,False,100.0,16.0,14.3,1.7,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:2,1:1,False
+RS-011168,HGH-MAIN,MAT,Maternity,2024-09-11,PM,Wed,18,15,83.3,2.1,Moderate (2.1-3.0),3,2,1,0,False,True,66.7,4.8,5.1,-0.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-022118,HGH-EAST,RENAL,Medical,2024-09-11,PM,Wed,14,13,92.9,2.8,Moderate (2.1-3.0),2,1,1,0,True,False,50.0,3.7,4.7,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-001316,HGH-MAIN,4C-MED,Medical,2024-09-12,PM,Thu,28,27,96.4,2.8,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,4.4,4.9,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-006792,HGH-MAIN,ED-OBS,ED,2024-09-12,NIGHT,Thu,20,16,80.0,3.2,High (3.1-4.0),2,2,0,0,False,False,100.0,3.0,4.5,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-007889,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-09-13,PM,Fri,24,20,83.3,2.9,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,3.6,4.4,-0.8,Marginal,0,0.0,0,0,0,1,0,0,0,0,1:7,1:5,False
+RS-003508,HGH-MAIN,5B-SURG,Surgical,2024-09-13,AM,Fri,26,23,88.5,2.7,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,5.2,5.5,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-017744,HGH-EAST,AC,Aged care/subacute,2024-09-13,PM,Fri,24,18,75.0,2.5,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.7,4.7,-2.0,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:9,1:6,False
+RS-007893,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-09-14,NIGHT,Sat,24,17,70.8,2.3,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.8,3.4,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-021032,HGH-EAST,4A-RESP,Medical,2024-09-14,PM,Sat,20,20,100.0,3.2,High (3.1-4.0),3,2,1,0,True,False,66.7,3.6,5.1,-1.5,Marginal,1,0.0,1,0,0,0,0,1,0,0,1:7,1:5,False
+RS-017748,HGH-EAST,AC,Aged care/subacute,2024-09-14,NIGHT,Sat,24,20,83.3,3.3,High (3.1-4.0),2,1,1,0,False,False,50.0,2.4,3.6,-1.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:10,1:6,False
+RS-014461,HGH-MAIN,SSU,Short stay,2024-09-14,AM,Sat,12,10,83.3,2.4,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,4.8,5.0,-0.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-021034,HGH-EAST,4A-RESP,Medical,2024-09-15,AM,Sun,20,18,90.0,3.7,High (3.1-4.0),4,3,1,0,True,False,75.0,5.3,6.0,-0.7,Marginal,0,1.9,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-021036,HGH-EAST,4A-RESP,Medical,2024-09-15,NIGHT,Sun,20,20,100.0,3.2,High (3.1-4.0),2,2,0,0,False,False,100.0,2.4,3.9,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:10,1:5,False
+RS-013370,HGH-MAIN,MH,Mental health,2024-09-15,PM,Sun,20,18,90.0,2.7,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,1,0,0,0,0,0,1:4,1:4,True
+RS-003518,HGH-MAIN,5B-SURG,Surgical,2024-09-16,PM,Mon,26,24,92.3,2.3,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,3.0,4.7,-1.7,Understaffed,0,2.5,0,1,0,0,0,0,0,0,1:8,1:5,False
+RS-016660,HGH-EAST,3A-SURG,Surgical,2024-09-17,AM,Tue,28,26,92.9,2.5,Moderate (2.1-3.0),5,4,1,0,True,True,80.0,4.6,5.5,-0.9,Marginal,0,2.0,1,0,0,1,0,0,0,0,1:5,1:5,True
+RS-016661,HGH-EAST,3A-SURG,Surgical,2024-09-17,PM,Tue,28,24,85.7,2.8,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.0,4.7,-1.7,Understaffed,0,2.0,0,1,0,0,0,0,0,0,1:8,1:5,False
+RS-005710,HGH-MAIN,CCU,CCU,2024-09-17,AM,Tue,8,6,75.0,3.8,High (3.1-4.0),3,3,0,0,True,True,100.0,12.0,14.0,-2.0,Understaffed,0,0.0,0,0,0,0,0,0,1,0,1:2,1:2,True
+RS-009000,HGH-MAIN,6A-ONCO,Oncology,2024-09-18,NIGHT,Wed,22,20,90.9,4.5,Critical (4.1-5.0),3,2,1,0,False,False,66.7,3.6,4.9,-1.3,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:7,1:4,False
+RS-005713,HGH-MAIN,CCU,CCU,2024-09-18,AM,Wed,8,7,87.5,3.9,High (3.1-4.0),4,4,0,0,True,True,100.0,13.7,14.0,-0.3,Adequate,0,1.6,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-015571,HGH-EAST,2A-MED,Medical,2024-09-19,AM,Thu,30,24,80.0,3.2,High (3.1-4.0),4,3,1,0,True,False,75.0,4.0,5.8,-1.8,Understaffed,0,2.3,0,1,0,0,0,0,0,0,1:6,1:5,False
+RS-001337,HGH-MAIN,4C-MED,Medical,2024-09-19,PM,Thu,28,26,92.9,2.9,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,4.6,4.9,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-016669,HGH-EAST,3A-SURG,Surgical,2024-09-20,AM,Fri,28,25,89.3,2.7,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,4.8,5.5,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-016671,HGH-EAST,3A-SURG,Surgical,2024-09-20,NIGHT,Fri,28,26,92.9,2.5,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.7,3.6,0.1,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-006814,HGH-MAIN,ED-OBS,ED,2024-09-20,AM,Fri,20,15,75.0,2.9,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,6.4,7.0,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-016672,HGH-EAST,3A-SURG,Surgical,2024-09-21,AM,Sat,28,21,75.0,2.1,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,5.7,5.5,0.2,Adequate,1,0.0,0,1,0,0,0,0,0,0,1:4,1:5,True
+RS-023243,HGH-EAST,GEM,Aged care/subacute,2024-09-21,PM,Sat,16,15,93.8,2.5,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.2,4.2,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:6,False
+RS-004628,HGH-MAIN,ICU,ICU,2024-09-21,PM,Sat,12,10,83.3,4.8,Critical (4.1-5.0),8,8,0,0,False,False,100.0,19.2,18.7,0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-006825,HGH-MAIN,ED-OBS,ED,2024-09-23,NIGHT,Mon,20,16,80.0,3.3,High (3.1-4.0),2,2,0,0,False,False,100.0,3.0,4.5,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-011203,HGH-MAIN,MAT,Maternity,2024-09-23,AM,Mon,18,16,88.9,1.8,Low (1.0-2.0),4,3,1,0,True,False,75.0,6.0,6.0,0.0,Adequate,1,0.0,1,0,0,0,0,1,0,0,1:4,1:4,True
+RS-017776,HGH-EAST,AC,Aged care/subacute,2024-09-24,AM,Tue,24,23,95.8,2.3,Moderate (2.1-3.0),4,2,1,1,True,True,50.0,4.2,5.5,-1.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:6,True
+RS-019969,HGH-EAST,PALL,Palliative care,2024-09-25,AM,Wed,10,8,80.0,3.0,Moderate (2.1-3.0),2,2,0,0,True,False,100.0,6.0,8.0,-2.0,Understaffed,0,0.0,0,1,0,0,0,0,0,0,1:4,1:4,True
+RS-018875,HGH-EAST,REHAB,Rehabilitation,2024-09-25,PM,Wed,22,19,86.4,1.9,Low (1.0-2.0),2,1,1,0,False,False,50.0,2.5,3.8,-1.3,Marginal,0,3.3,1,0,0,0,0,0,0,0,1:10,1:6,False
+RS-010119,HGH-MAIN,2B-NEURO,Neurology,2024-09-26,NIGHT,Thu,20,18,90.0,3.1,High (3.1-4.0),2,2,0,0,False,False,100.0,2.7,3.9,-1.2,Understaffed,0,0.0,0,1,0,0,0,0,0,0,1:9,1:5,False
+RS-000264,HGH-MAIN,4B-MED,Medical,2024-09-26,NIGHT,Thu,32,28,87.5,3.0,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,2.6,3.8,-1.2,Understaffed,0,2.3,0,1,0,0,0,0,0,0,1:9,1:5,False
+RS-011214,HGH-MAIN,MAT,Maternity,2024-09-26,NIGHT,Thu,18,17,94.4,2.2,Moderate (2.1-3.0),3,3,0,0,False,False,100.0,4.2,3.9,0.3,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:6,1:4,False
+RS-007931,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-09-27,PM,Fri,24,21,87.5,2.6,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,3.4,4.4,-1.0,Marginal,1,3.0,0,2,0,0,0,0,0,0,1:7,1:5,False
+RS-000266,HGH-MAIN,4B-MED,Medical,2024-09-27,PM,Fri,32,29,90.6,2.9,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,4.1,4.9,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-011215,HGH-MAIN,MAT,Maternity,2024-09-27,AM,Fri,18,14,77.8,1.7,Low (1.0-2.0),4,3,1,0,True,True,75.0,6.9,6.0,0.9,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-012311,HGH-MAIN,PAED,Paediatric,2024-09-27,PM,Fri,16,13,81.2,2.8,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,5.5,5.5,0.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-022165,HGH-EAST,RENAL,Medical,2024-09-27,AM,Fri,14,13,92.9,2.9,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,5.5,5.5,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-015600,HGH-EAST,2A-MED,Medical,2024-09-28,NIGHT,Sat,30,29,96.7,3.1,High (3.1-4.0),4,3,1,0,False,False,75.0,3.3,3.8,-0.5,Marginal,1,0.0,0,1,0,0,0,0,0,0,1:7,1:5,False
+RS-021075,HGH-EAST,4A-RESP,Medical,2024-09-28,NIGHT,Sat,20,18,90.0,3.2,High (3.1-4.0),2,2,0,0,False,False,100.0,2.7,3.9,-1.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:9,1:5,False
+RS-009033,HGH-MAIN,6A-ONCO,Oncology,2024-09-29,NIGHT,Sun,22,18,81.8,3.2,High (3.1-4.0),3,2,1,0,False,False,66.7,4.0,4.2,-0.2,Adequate,0,0.0,0,0,0,0,0,1,0,0,1:6,1:4,False
+RS-016701,HGH-EAST,3A-SURG,Surgical,2024-09-30,NIGHT,Mon,28,24,85.7,2.5,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.0,3.6,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-015607,HGH-EAST,2A-MED,Medical,2024-10-01,AM,Tue,30,29,96.7,2.7,Moderate (2.1-3.0),5,4,1,0,True,True,80.0,4.1,5.8,-1.7,Understaffed,0,2.3,0,1,0,0,0,0,0,0,1:6,1:5,False
+RS-001372,HGH-MAIN,4C-MED,Medical,2024-10-01,AM,Tue,28,26,92.9,2.8,Moderate (2.1-3.0),6,4,1,1,True,False,66.7,5.5,5.8,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-012324,HGH-MAIN,PAED,Paediatric,2024-10-01,NIGHT,Tue,16,14,87.5,2.6,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.4,4.2,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:4,False
+RS-019987,HGH-EAST,PALL,Palliative care,2024-10-01,AM,Tue,10,9,90.0,2.7,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,8.0,8.0,0.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:4,True
+RS-016706,HGH-EAST,3A-SURG,Surgical,2024-10-02,PM,Wed,28,25,89.3,2.3,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,3.8,4.7,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-003565,HGH-MAIN,5B-SURG,Surgical,2024-10-02,AM,Wed,26,23,88.5,2.7,Moderate (2.1-3.0),5,4,1,0,True,True,80.0,5.2,5.5,-0.3,Adequate,0,0.0,0,0,1,0,0,0,0,0,1:5,1:5,True
+RS-023276,HGH-EAST,GEM,Aged care/subacute,2024-10-02,PM,Wed,16,14,87.5,2.9,Moderate (2.1-3.0),2,1,1,0,True,False,50.0,3.4,4.2,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:6,False
+RS-004662,HGH-MAIN,ICU,ICU,2024-10-02,NIGHT,Wed,12,10,83.3,4.2,Critical (4.1-5.0),5,5,0,0,False,False,100.0,12.0,14.3,-2.3,Critical,0,6.1,2,0,0,0,0,0,0,0,1:2,1:1,False
+RS-011231,HGH-MAIN,MAT,Maternity,2024-10-02,PM,Wed,18,15,83.3,1.9,Low (1.0-2.0),3,2,1,0,True,False,66.7,4.8,5.1,-0.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-013421,HGH-MAIN,MH,Mental health,2024-10-02,PM,Wed,20,19,95.0,3.4,High (3.1-4.0),4,3,1,0,False,True,75.0,5.1,6.8,-1.7,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-015615,HGH-EAST,2A-MED,Medical,2024-10-03,NIGHT,Thu,30,25,83.3,3.8,High (3.1-4.0),3,2,1,0,False,False,66.7,2.9,4.3,-1.4,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:8,1:5,False
+RS-009045,HGH-MAIN,6A-ONCO,Oncology,2024-10-03,NIGHT,Thu,22,20,90.9,3.2,High (3.1-4.0),3,2,1,0,False,False,66.7,3.6,4.2,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:4,False
+RS-006855,HGH-MAIN,ED-OBS,ED,2024-10-03,NIGHT,Thu,20,19,95.0,3.6,High (3.1-4.0),3,3,0,0,True,False,100.0,3.8,5.2,-1.4,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-019993,HGH-EAST,PALL,Palliative care,2024-10-03,AM,Thu,10,9,90.0,3.0,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,8.0,8.0,0.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:4,True
+RS-016711,HGH-EAST,3A-SURG,Surgical,2024-10-04,AM,Fri,28,27,96.4,2.5,Moderate (2.1-3.0),6,4,1,1,True,True,66.7,5.3,5.5,-0.2,Adequate,0,0.0,0,0,0,0,0,1,0,0,1:4,1:5,True
+RS-007953,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-10-04,NIGHT,Fri,24,23,95.8,2.6,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.1,3.4,-1.3,Understaffed,0,3.5,0,1,0,0,0,0,0,0,1:12,1:5,False
+RS-000288,HGH-MAIN,4B-MED,Medical,2024-10-04,NIGHT,Fri,32,28,87.5,3.7,High (3.1-4.0),4,3,1,0,False,False,75.0,3.4,3.8,-0.4,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-001381,HGH-MAIN,4C-MED,Medical,2024-10-04,AM,Fri,28,26,92.9,3.4,High (3.1-4.0),6,4,1,1,True,True,66.7,5.5,5.8,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-005763,HGH-MAIN,CCU,CCU,2024-10-04,NIGHT,Fri,8,6,75.0,4.5,Critical (4.1-5.0),2,2,0,0,False,False,100.0,8.0,9.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-002480,HGH-MAIN,5A-SURG,Surgical,2024-10-05,PM,Sat,30,28,93.3,2.6,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,4.3,4.7,-0.4,Adequate,0,0.0,0,0,0,0,0,0,1,0,1:6,1:5,False
+RS-002484,HGH-MAIN,5A-SURG,Surgical,2024-10-06,NIGHT,Sun,30,22,73.3,3.4,High (3.1-4.0),2,2,0,0,False,False,100.0,2.2,4.1,-1.9,Understaffed,0,2.8,1,1,0,0,0,0,0,0,1:11,1:5,False
+RS-017814,HGH-EAST,AC,Aged care/subacute,2024-10-06,NIGHT,Sun,24,22,91.7,2.6,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.2,3.6,-1.4,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:11,1:6,False
+RS-018909,HGH-EAST,REHAB,Rehabilitation,2024-10-06,NIGHT,Sun,22,18,81.8,2.2,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.7,2.9,-0.2,Adequate,0,0.0,0,0,1,0,0,0,0,0,1:9,1:6,False
+RS-010152,HGH-MAIN,2B-NEURO,Neurology,2024-10-07,NIGHT,Mon,20,18,90.0,3.3,High (3.1-4.0),2,2,0,0,True,False,100.0,2.7,3.9,-1.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:9,1:5,False
+RS-005772,HGH-MAIN,CCU,CCU,2024-10-07,NIGHT,Mon,8,6,75.0,3.7,High (3.1-4.0),2,2,0,0,False,False,100.0,8.0,9.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-023291,HGH-EAST,GEM,Aged care/subacute,2024-10-07,PM,Mon,16,13,81.2,3.1,High (3.1-4.0),2,1,1,0,False,True,50.0,3.7,4.9,-1.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:6,True
+RS-011245,HGH-MAIN,MAT,Maternity,2024-10-07,AM,Mon,18,14,77.8,2.1,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,6.9,6.0,0.9,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-020006,HGH-EAST,PALL,Palliative care,2024-10-07,PM,Mon,10,10,100.0,2.8,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.8,6.8,-2.0,Understaffed,0,2.4,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-010154,HGH-MAIN,2B-NEURO,Neurology,2024-10-08,PM,Tue,20,17,85.0,3.2,High (3.1-4.0),3,2,1,0,False,True,66.7,4.2,5.1,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-007963,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-10-08,AM,Tue,24,20,83.3,2.4,Moderate (2.1-3.0),4,3,1,0,True,True,75.0,4.8,5.2,-0.4,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:5,1:5,True
+RS-000299,HGH-MAIN,4B-MED,Medical,2024-10-08,PM,Tue,32,29,90.6,3.3,High (3.1-4.0),5,4,1,0,True,False,80.0,4.1,4.9,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-005775,HGH-MAIN,CCU,CCU,2024-10-08,NIGHT,Tue,8,7,87.5,4.1,Critical (4.1-5.0),2,2,0,0,False,False,100.0,6.9,9.1,-2.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:2,False
+RS-004679,HGH-MAIN,ICU,ICU,2024-10-08,PM,Tue,12,9,75.0,4.0,High (3.1-4.0),7,7,0,0,True,False,100.0,18.7,18.7,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-009061,HGH-MAIN,6A-ONCO,Oncology,2024-10-09,AM,Wed,22,20,90.9,4.0,High (3.1-4.0),5,4,1,0,True,True,80.0,6.0,6.5,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-020011,HGH-EAST,PALL,Palliative care,2024-10-09,AM,Wed,10,9,90.0,3.0,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,8.0,8.0,0.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:4,True
+RS-010160,HGH-MAIN,2B-NEURO,Neurology,2024-10-10,PM,Thu,20,17,85.0,3.1,High (3.1-4.0),3,2,1,0,False,True,66.7,4.2,5.1,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-009066,HGH-MAIN,6A-ONCO,Oncology,2024-10-10,NIGHT,Thu,22,20,90.9,3.7,High (3.1-4.0),3,2,1,0,False,False,66.7,3.6,4.2,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:4,False
+RS-000307,HGH-MAIN,4B-MED,Medical,2024-10-11,AM,Fri,32,32,100.0,3.5,High (3.1-4.0),7,5,1,1,True,False,71.4,5.2,5.8,-0.6,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:5,1:5,True
+RS-001404,HGH-MAIN,4C-MED,Medical,2024-10-11,NIGHT,Fri,28,28,100.0,3.0,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.4,3.8,-0.4,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-017827,HGH-EAST,AC,Aged care/subacute,2024-10-11,AM,Fri,24,22,91.7,3.0,Moderate (2.1-3.0),3,2,1,0,False,True,66.7,3.3,5.5,-2.2,Understaffed,0,2.0,1,0,0,0,0,0,0,0,1:7,1:6,False
+RS-015640,HGH-EAST,2A-MED,Medical,2024-10-12,AM,Sat,30,28,93.3,3.7,High (3.1-4.0),6,4,1,1,False,False,66.7,5.1,6.7,-1.6,Understaffed,1,0.0,1,0,0,0,0,0,0,0,1:5,1:5,True
+RS-010167,HGH-MAIN,2B-NEURO,Neurology,2024-10-12,NIGHT,Sat,20,16,80.0,3.7,High (3.1-4.0),2,2,0,0,False,False,100.0,3.0,3.9,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-007976,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-10-12,PM,Sat,24,20,83.3,2.7,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.6,4.4,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-000310,HGH-MAIN,4B-MED,Medical,2024-10-12,AM,Sat,32,31,96.9,2.7,Moderate (2.1-3.0),7,5,1,1,True,False,71.4,5.4,5.8,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-002502,HGH-MAIN,5A-SURG,Surgical,2024-10-12,NIGHT,Sat,30,27,90.0,3.2,High (3.1-4.0),4,3,1,0,False,False,75.0,3.6,3.6,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-003597,HGH-MAIN,5B-SURG,Surgical,2024-10-12,NIGHT,Sat,26,24,92.3,3.2,High (3.1-4.0),3,2,1,0,False,False,66.7,3.0,3.6,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-017832,HGH-EAST,AC,Aged care/subacute,2024-10-12,NIGHT,Sat,24,22,91.7,3.2,High (3.1-4.0),2,1,1,0,False,False,50.0,2.2,3.6,-1.4,Understaffed,0,2.4,0,0,0,0,0,0,0,0,1:11,1:6,False
+RS-004690,HGH-MAIN,ICU,ICU,2024-10-12,AM,Sat,12,11,91.7,4.4,Critical (4.1-5.0),11,11,0,0,False,False,100.0,24.0,22.0,2.0,Adequate,0,2.3,0,0,0,0,1,0,0,0,1:1,1:1,True
+RS-021119,HGH-EAST,4A-RESP,Medical,2024-10-13,PM,Sun,20,19,95.0,2.9,Moderate (2.1-3.0),2,1,1,0,True,False,50.0,2.5,5.1,-2.6,Understaffed,0,2.3,1,0,0,0,0,1,0,0,1:10,1:5,False
+RS-014551,HGH-MAIN,SSU,Short stay,2024-10-14,AM,Mon,12,10,83.3,2.1,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,4.8,5.0,-0.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-017841,HGH-EAST,AC,Aged care/subacute,2024-10-15,NIGHT,Tue,24,20,83.3,3.1,High (3.1-4.0),2,1,1,0,False,False,50.0,2.4,3.6,-1.2,Understaffed,0,1.2,0,0,0,0,1,0,1,0,1:10,1:6,False
+RS-011269,HGH-MAIN,MAT,Maternity,2024-10-15,AM,Tue,18,15,83.3,1.7,Low (1.0-2.0),4,3,1,0,True,True,75.0,6.4,6.0,0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-009083,HGH-MAIN,6A-ONCO,Oncology,2024-10-16,PM,Wed,22,19,86.4,3.4,High (3.1-4.0),4,3,1,0,True,False,75.0,5.1,5.5,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-010180,HGH-MAIN,2B-NEURO,Neurology,2024-10-17,AM,Thu,20,18,90.0,3.5,High (3.1-4.0),4,3,1,0,True,False,75.0,5.3,6.0,-0.7,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:4,1:5,True
+RS-014562,HGH-MAIN,SSU,Short stay,2024-10-17,NIGHT,Thu,12,11,91.7,2.7,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.4,3.2,1.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-016754,HGH-EAST,3A-SURG,Surgical,2024-10-18,PM,Fri,28,24,85.7,2.7,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,4.0,4.7,-0.7,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-015661,HGH-EAST,2A-MED,Medical,2024-10-19,AM,Sat,30,25,83.3,3.4,High (3.1-4.0),5,4,1,0,False,False,80.0,4.8,5.8,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-005808,HGH-MAIN,CCU,CCU,2024-10-19,NIGHT,Sat,8,7,87.5,4.0,High (3.1-4.0),2,2,0,0,False,False,100.0,6.9,9.1,-2.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:2,False
+RS-023327,HGH-EAST,GEM,Aged care/subacute,2024-10-19,PM,Sat,16,14,87.5,2.4,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.4,4.2,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:6,False
+RS-017856,HGH-EAST,AC,Aged care/subacute,2024-10-20,NIGHT,Sun,24,21,87.5,3.3,High (3.1-4.0),2,1,1,0,False,False,50.0,2.3,3.6,-1.3,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:10,1:6,False
+RS-022235,HGH-EAST,RENAL,Medical,2024-10-20,PM,Sun,14,12,85.7,2.5,Moderate (2.1-3.0),2,1,1,0,True,False,50.0,4.0,4.7,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-018954,HGH-EAST,REHAB,Rehabilitation,2024-10-21,NIGHT,Mon,22,21,95.5,2.5,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.3,2.9,-0.6,Marginal,0,0.0,0,0,0,0,0,1,0,0,1:10,1:6,False
+RS-002530,HGH-MAIN,5A-SURG,Surgical,2024-10-22,AM,Tue,30,26,86.7,2.7,Moderate (2.1-3.0),6,4,1,1,True,True,66.7,5.5,5.5,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-002531,HGH-MAIN,5A-SURG,Surgical,2024-10-22,PM,Tue,30,28,93.3,3.4,High (3.1-4.0),5,4,1,0,True,False,80.0,4.3,5.4,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-009102,HGH-MAIN,6A-ONCO,Oncology,2024-10-22,NIGHT,Tue,22,22,100.0,4.0,High (3.1-4.0),3,2,1,0,False,False,66.7,3.3,4.2,-0.9,Marginal,0,2.9,1,0,0,0,0,0,0,0,1:7,1:4,False
+RS-011291,HGH-MAIN,MAT,Maternity,2024-10-22,PM,Tue,18,17,94.4,1.9,Low (1.0-2.0),4,3,1,0,False,False,75.0,5.6,5.1,0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-013482,HGH-MAIN,MH,Mental health,2024-10-22,NIGHT,Tue,20,19,95.0,3.4,High (3.1-4.0),3,2,1,0,False,False,66.7,3.8,5.2,-1.4,Understaffed,0,0.0,0,0,0,1,0,0,0,0,1:6,1:4,False
+RS-001440,HGH-MAIN,4C-MED,Medical,2024-10-23,NIGHT,Wed,28,27,96.4,3.4,High (3.1-4.0),4,3,1,0,False,False,75.0,3.6,3.8,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-021151,HGH-EAST,4A-RESP,Medical,2024-10-24,AM,Thu,20,19,95.0,3.1,High (3.1-4.0),4,3,1,0,True,True,75.0,5.1,6.0,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-000347,HGH-MAIN,4B-MED,Medical,2024-10-24,PM,Thu,32,28,87.5,2.9,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,4.3,4.9,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-020056,HGH-EAST,PALL,Palliative care,2024-10-24,AM,Thu,10,8,80.0,2.8,Moderate (2.1-3.0),2,2,0,0,True,True,100.0,6.0,8.0,-2.0,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-002539,HGH-MAIN,5A-SURG,Surgical,2024-10-25,AM,Fri,30,26,86.7,2.6,Moderate (2.1-3.0),6,4,1,1,True,True,66.7,5.5,5.5,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-004730,HGH-MAIN,ICU,ICU,2024-10-25,PM,Fri,12,11,91.7,5.0,Critical (4.1-5.0),9,9,0,0,False,False,100.0,19.6,18.7,0.9,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-020059,HGH-EAST,PALL,Palliative care,2024-10-25,AM,Fri,10,8,80.0,2.8,Moderate (2.1-3.0),2,2,0,0,True,True,100.0,6.0,8.0,-2.0,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-022249,HGH-EAST,RENAL,Medical,2024-10-25,AM,Fri,14,14,100.0,2.7,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,5.1,5.5,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-010209,HGH-MAIN,2B-NEURO,Neurology,2024-10-26,NIGHT,Sat,20,17,85.0,3.4,High (3.1-4.0),2,2,0,0,False,False,100.0,2.8,3.9,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-018969,HGH-EAST,REHAB,Rehabilitation,2024-10-26,NIGHT,Sat,22,20,90.9,2.5,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.4,2.9,-0.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:10,1:6,False
+RS-022252,HGH-EAST,RENAL,Medical,2024-10-26,AM,Sat,14,11,78.6,3.6,High (3.1-4.0),3,2,1,0,True,False,66.7,6.5,6.3,0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-008021,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-10-27,PM,Sun,24,20,83.3,3.3,High (3.1-4.0),3,2,1,0,False,False,66.7,3.6,5.1,-1.5,Marginal,0,0.0,0,0,1,0,0,0,1,0,1:7,1:5,False
+RS-000357,HGH-MAIN,4B-MED,Medical,2024-10-27,NIGHT,Sun,32,25,78.1,4.2,Critical (4.1-5.0),3,2,1,0,False,False,66.7,2.9,4.3,-1.4,Understaffed,0,0.0,0,0,1,0,0,2,0,0,1:8,1:5,False
+RS-020070,HGH-EAST,PALL,Palliative care,2024-10-28,NIGHT,Mon,10,9,90.0,2.7,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,5.3,5.2,0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-015694,HGH-EAST,2A-MED,Medical,2024-10-30,AM,Wed,30,27,90.0,3.2,High (3.1-4.0),6,4,1,1,True,False,66.7,5.3,5.8,-0.5,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:4,1:5,True
+RS-023360,HGH-EAST,GEM,Aged care/subacute,2024-10-30,PM,Wed,16,12,75.0,1.6,Low (1.0-2.0),2,1,1,0,True,False,50.0,4.0,3.8,0.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:6,True
+RS-015697,HGH-EAST,2A-MED,Medical,2024-10-31,AM,Thu,30,29,96.7,2.4,Moderate (2.1-3.0),6,4,1,1,True,True,66.7,5.0,5.2,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-001464,HGH-MAIN,4C-MED,Medical,2024-10-31,NIGHT,Thu,28,28,100.0,2.8,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,2.6,3.8,-1.2,Understaffed,0,3.6,1,0,0,0,0,0,0,0,1:9,1:5,False
+RS-009127,HGH-MAIN,6A-ONCO,Oncology,2024-10-31,AM,Thu,22,20,90.9,3.1,High (3.1-4.0),5,4,1,0,True,True,80.0,6.0,6.5,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-012413,HGH-MAIN,PAED,Paediatric,2024-10-31,PM,Thu,16,15,93.8,2.7,Moderate (2.1-3.0),3,2,1,0,False,True,66.7,4.8,5.5,-0.7,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:5,1:4,False
+RS-018982,HGH-EAST,REHAB,Rehabilitation,2024-10-31,AM,Thu,22,19,86.4,2.4,Moderate (2.1-3.0),4,2,1,1,True,False,50.0,5.1,4.5,0.6,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:6,True
+RS-016797,HGH-EAST,3A-SURG,Surgical,2024-11-01,NIGHT,Fri,28,24,85.7,2.8,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,2.0,3.6,-1.6,Understaffed,0,2.3,1,0,0,0,0,0,0,0,1:12,1:5,False
+RS-006942,HGH-MAIN,ED-OBS,ED,2024-11-01,NIGHT,Fri,20,16,80.0,3.3,High (3.1-4.0),2,2,0,0,False,False,100.0,3.0,4.5,-1.5,Understaffed,0,0.0,0,0,0,1,0,0,0,0,1:8,1:4,False
+RS-020080,HGH-EAST,PALL,Palliative care,2024-11-01,AM,Fri,10,9,90.0,3.9,High (3.1-4.0),3,2,1,0,True,True,66.7,8.0,9.2,-1.2,Marginal,0,1.1,0,0,0,0,0,0,0,0,1:3,1:4,True
+RS-020081,HGH-EAST,PALL,Palliative care,2024-11-01,PM,Fri,10,8,80.0,3.0,Moderate (2.1-3.0),2,2,0,0,True,False,100.0,6.0,6.8,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-015704,HGH-EAST,2A-MED,Medical,2024-11-02,PM,Sat,30,28,93.3,2.6,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,4.3,4.9,-0.6,Marginal,2,0.0,1,1,0,0,0,0,0,0,1:6,1:5,False
+RS-016798,HGH-EAST,3A-SURG,Surgical,2024-11-02,AM,Sat,28,22,78.6,2.4,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,5.5,5.5,0.0,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:4,1:5,True
+RS-018988,HGH-EAST,REHAB,Rehabilitation,2024-11-02,AM,Sat,22,19,86.4,2.4,Moderate (2.1-3.0),4,2,1,1,False,False,50.0,5.1,4.5,0.6,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:6,True
+RS-018990,HGH-EAST,REHAB,Rehabilitation,2024-11-02,NIGHT,Sat,22,18,81.8,2.6,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.7,3.4,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:9,1:6,False
+RS-022273,HGH-EAST,RENAL,Medical,2024-11-02,AM,Sat,14,12,85.7,2.8,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,6.0,5.5,0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-002566,HGH-MAIN,5A-SURG,Surgical,2024-11-03,AM,Sun,30,21,70.0,2.8,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,5.7,5.5,0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-011328,HGH-MAIN,MAT,Maternity,2024-11-03,NIGHT,Sun,18,14,77.8,2.4,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.4,3.9,-0.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:4,False
+RS-013517,HGH-MAIN,MH,Mental health,2024-11-03,PM,Sun,20,18,90.0,2.4,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-010235,HGH-MAIN,2B-NEURO,Neurology,2024-11-04,PM,Mon,20,18,90.0,3.1,High (3.1-4.0),2,2,0,0,True,True,100.0,2.7,5.1,-2.4,Understaffed,0,2.2,1,0,0,0,0,0,0,0,1:9,1:5,False
+RS-021188,HGH-EAST,4A-RESP,Medical,2024-11-05,PM,Tue,20,18,90.0,2.9,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.0,5.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-017902,HGH-EAST,AC,Aged care/subacute,2024-11-05,AM,Tue,24,20,83.3,3.3,High (3.1-4.0),4,2,1,1,True,True,50.0,4.8,5.5,-0.7,Marginal,1,0.0,0,1,0,0,0,0,0,0,1:5,1:6,True
+RS-006956,HGH-MAIN,ED-OBS,ED,2024-11-06,PM,Wed,20,18,90.0,2.7,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-010245,HGH-MAIN,2B-NEURO,Neurology,2024-11-07,NIGHT,Thu,20,20,100.0,3.7,High (3.1-4.0),2,2,0,0,False,False,100.0,2.4,3.9,-1.5,Understaffed,0,0.0,0,1,0,0,0,1,0,0,1:10,1:5,False
+RS-005865,HGH-MAIN,CCU,CCU,2024-11-07,NIGHT,Thu,8,6,75.0,3.8,High (3.1-4.0),2,2,0,0,False,False,100.0,8.0,9.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-011338,HGH-MAIN,MAT,Maternity,2024-11-07,AM,Thu,18,16,88.9,1.8,Low (1.0-2.0),4,3,1,0,True,True,75.0,6.0,6.0,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-013529,HGH-MAIN,MH,Mental health,2024-11-07,PM,Thu,20,16,80.0,2.9,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.5,6.0,-1.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-012434,HGH-MAIN,PAED,Paediatric,2024-11-07,PM,Thu,16,13,81.2,1.8,Low (1.0-2.0),3,2,1,0,True,False,66.7,5.5,5.0,0.5,Marginal,1,0.0,0,1,0,0,0,0,0,0,1:4,1:4,True
+RS-022289,HGH-EAST,RENAL,Medical,2024-11-07,PM,Thu,14,13,92.9,3.2,High (3.1-4.0),2,1,1,0,False,False,50.0,3.7,4.7,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-016816,HGH-EAST,3A-SURG,Surgical,2024-11-08,AM,Fri,28,23,82.1,2.4,Moderate (2.1-3.0),5,4,1,0,True,True,80.0,5.2,5.5,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-017913,HGH-EAST,AC,Aged care/subacute,2024-11-08,NIGHT,Fri,24,21,87.5,3.2,High (3.1-4.0),2,1,1,0,False,False,50.0,2.3,3.6,-1.3,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:10,1:6,False
+RS-003679,HGH-MAIN,5B-SURG,Surgical,2024-11-09,AM,Sat,26,20,76.9,2.6,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,4.8,5.5,-0.7,Marginal,0,0.0,0,0,0,0,0,1,0,0,1:5,1:5,True
+RS-021203,HGH-EAST,4A-RESP,Medical,2024-11-10,PM,Sun,20,18,90.0,2.9,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,4.0,5.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-014632,HGH-MAIN,SSU,Short stay,2024-11-10,AM,Sun,12,10,83.3,2.3,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,4.8,5.0,-0.2,Marginal,0,1.3,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-022302,HGH-EAST,RENAL,Medical,2024-11-11,NIGHT,Mon,14,14,100.0,2.9,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.4,3.6,-0.2,Adequate,0,2.4,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-019018,HGH-EAST,REHAB,Rehabilitation,2024-11-12,AM,Tue,22,19,86.4,1.7,Low (1.0-2.0),3,2,1,0,True,False,66.7,3.8,4.5,-0.7,Marginal,0,2.3,1,0,0,0,0,0,0,0,1:6,1:6,True
+RS-015736,HGH-EAST,2A-MED,Medical,2024-11-13,AM,Wed,30,24,80.0,3.1,High (3.1-4.0),5,4,1,0,True,False,80.0,5.0,5.8,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-008071,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-11-13,AM,Wed,24,21,87.5,2.6,Moderate (2.1-3.0),5,3,1,1,True,True,60.0,5.7,5.2,0.5,Adequate,0,0.0,0,0,0,0,1,0,0,0,1:4,1:5,True
+RS-017928,HGH-EAST,AC,Aged care/subacute,2024-11-13,NIGHT,Wed,24,17,70.8,3.1,High (3.1-4.0),2,1,1,0,False,False,50.0,2.8,3.6,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:6,False
+RS-005882,HGH-MAIN,CCU,CCU,2024-11-13,PM,Wed,8,7,87.5,4.3,Critical (4.1-5.0),3,3,0,0,False,False,100.0,10.3,11.9,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-008076,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-11-14,NIGHT,Thu,24,21,87.5,3.1,High (3.1-4.0),3,2,1,0,False,False,66.7,3.4,3.9,-0.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-006981,HGH-MAIN,ED-OBS,ED,2024-11-14,NIGHT,Thu,20,16,80.0,3.6,High (3.1-4.0),2,2,0,0,False,False,100.0,3.0,5.2,-2.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-023404,HGH-EAST,GEM,Aged care/subacute,2024-11-14,AM,Thu,16,14,87.5,2.2,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,5.1,5.0,0.1,Adequate,0,0.0,0,0,0,0,0,1,0,0,1:5,1:6,True
+RS-001507,HGH-MAIN,4C-MED,Medical,2024-11-15,AM,Fri,28,23,82.1,3.6,High (3.1-4.0),4,3,1,0,True,False,75.0,4.2,6.7,-2.5,Understaffed,0,3.5,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-023409,HGH-EAST,GEM,Aged care/subacute,2024-11-15,NIGHT,Fri,16,15,93.8,2.5,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.2,3.2,0.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:6,False
+RS-010270,HGH-MAIN,2B-NEURO,Neurology,2024-11-16,AM,Sat,20,17,85.0,3.0,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.2,6.0,-1.8,Understaffed,1,2.5,1,1,0,0,0,0,0,0,1:6,1:5,False
+RS-008082,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-11-16,NIGHT,Sat,24,20,83.3,2.5,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.4,3.4,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:10,1:5,False
+RS-021220,HGH-EAST,4A-RESP,Medical,2024-11-16,AM,Sat,20,19,95.0,3.3,High (3.1-4.0),4,3,1,0,True,False,75.0,5.1,6.0,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-017935,HGH-EAST,AC,Aged care/subacute,2024-11-16,AM,Sat,24,21,87.5,2.5,Moderate (2.1-3.0),4,2,1,1,False,False,50.0,4.6,5.5,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:6,True
+RS-006987,HGH-MAIN,ED-OBS,ED,2024-11-16,NIGHT,Sat,20,17,85.0,3.6,High (3.1-4.0),2,2,0,0,False,False,100.0,2.8,5.2,-2.4,Critical,0,2.5,1,0,0,0,1,0,1,0,1:8,1:4,False
+RS-003705,HGH-MAIN,5B-SURG,Surgical,2024-11-17,NIGHT,Sun,26,21,80.8,3.1,High (3.1-4.0),2,2,0,0,False,False,100.0,2.3,3.6,-1.3,Understaffed,0,3.2,1,0,0,0,1,0,0,0,1:10,1:5,False
+RS-003704,HGH-MAIN,5B-SURG,Surgical,2024-11-17,PM,Sun,26,21,80.8,3.0,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,4.6,4.7,-0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-017938,HGH-EAST,AC,Aged care/subacute,2024-11-17,AM,Sun,24,21,87.5,3.2,High (3.1-4.0),4,2,1,1,False,False,50.0,4.6,5.5,-0.9,Marginal,1,0.0,0,1,0,1,0,0,0,0,1:5,1:6,True
+RS-000423,HGH-MAIN,4B-MED,Medical,2024-11-18,NIGHT,Mon,32,31,96.9,3.3,High (3.1-4.0),3,2,1,0,False,False,66.7,2.3,3.8,-1.5,Understaffed,0,3.3,0,1,0,0,0,0,0,0,1:10,1:5,False
+RS-009183,HGH-MAIN,6A-ONCO,Oncology,2024-11-18,NIGHT,Mon,22,19,86.4,3.7,High (3.1-4.0),3,2,1,0,False,False,66.7,3.8,4.2,-0.4,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-009182,HGH-MAIN,6A-ONCO,Oncology,2024-11-18,PM,Mon,22,19,86.4,3.3,High (3.1-4.0),4,3,1,0,False,False,75.0,5.1,5.5,-0.4,Adequate,0,0.0,0,0,1,0,0,0,0,0,1:5,1:4,False
+RS-017942,HGH-EAST,AC,Aged care/subacute,2024-11-18,PM,Mon,24,20,83.3,2.8,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.6,4.7,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:6,False
+RS-006991,HGH-MAIN,ED-OBS,ED,2024-11-18,AM,Mon,20,15,75.0,3.0,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,6.4,7.0,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-014658,HGH-MAIN,SSU,Short stay,2024-11-18,NIGHT,Mon,12,10,83.3,2.2,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.8,3.2,1.6,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-000424,HGH-MAIN,4B-MED,Medical,2024-11-19,AM,Tue,32,31,96.9,3.2,High (3.1-4.0),7,5,1,1,True,False,71.4,5.4,5.8,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-003709,HGH-MAIN,5B-SURG,Surgical,2024-11-19,AM,Tue,26,21,80.8,2.7,Moderate (2.1-3.0),5,4,1,0,True,True,80.0,5.7,5.5,0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-002618,HGH-MAIN,5A-SURG,Surgical,2024-11-20,PM,Wed,30,24,80.0,2.8,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,4.0,4.7,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-003713,HGH-MAIN,5B-SURG,Surgical,2024-11-20,PM,Wed,26,25,96.2,2.7,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,3.8,4.7,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-013567,HGH-MAIN,MH,Mental health,2024-11-20,AM,Wed,20,16,80.0,2.9,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.5,7.0,-2.5,Understaffed,1,3.1,2,0,1,0,0,0,0,0,1:5,1:4,False
+RS-020137,HGH-EAST,PALL,Palliative care,2024-11-20,AM,Wed,10,8,80.0,2.9,Moderate (2.1-3.0),2,2,0,0,True,True,100.0,6.0,8.0,-2.0,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-008097,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-11-21,NIGHT,Thu,24,20,83.3,2.7,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.4,3.4,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:10,1:5,False
+RS-005907,HGH-MAIN,CCU,CCU,2024-11-21,NIGHT,Thu,8,6,75.0,4.0,High (3.1-4.0),2,2,0,0,False,False,100.0,8.0,9.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-007000,HGH-MAIN,ED-OBS,ED,2024-11-21,AM,Thu,20,16,80.0,2.8,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,6.0,7.0,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-012477,HGH-MAIN,PAED,Paediatric,2024-11-21,NIGHT,Thu,16,13,81.2,2.7,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.7,4.2,-0.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-008099,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-11-22,PM,Fri,24,21,87.5,2.3,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,4.6,4.4,0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-000433,HGH-MAIN,4B-MED,Medical,2024-11-22,AM,Fri,32,28,87.5,2.9,Moderate (2.1-3.0),6,4,1,1,True,True,66.7,5.1,5.8,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-017954,HGH-EAST,AC,Aged care/subacute,2024-11-22,PM,Fri,24,22,91.7,3.0,Moderate (2.1-3.0),3,2,1,0,False,True,66.7,3.3,4.7,-1.4,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:6,False
+RS-005908,HGH-MAIN,CCU,CCU,2024-11-22,AM,Fri,8,8,100.0,3.7,High (3.1-4.0),4,4,0,0,True,False,100.0,12.0,14.0,-2.0,Understaffed,1,0.0,1,0,0,0,0,0,0,0,1:2,1:2,True
+RS-010291,HGH-MAIN,2B-NEURO,Neurology,2024-11-23,AM,Sat,20,18,90.0,3.1,High (3.1-4.0),3,2,1,0,False,False,66.7,4.0,6.0,-2.0,Understaffed,0,2.3,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-008101,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-11-23,AM,Sat,24,19,79.2,2.6,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,5.1,5.2,-0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-000438,HGH-MAIN,4B-MED,Medical,2024-11-23,NIGHT,Sat,32,26,81.2,3.7,High (3.1-4.0),4,3,1,0,False,False,75.0,3.7,3.8,-0.1,Adequate,0,0.0,0,0,1,0,0,0,0,0,1:6,1:5,False
+RS-005913,HGH-MAIN,CCU,CCU,2024-11-23,NIGHT,Sat,8,7,87.5,4.3,Critical (4.1-5.0),2,2,0,0,False,False,100.0,6.9,9.1,-2.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:2,False
+RS-004818,HGH-MAIN,ICU,ICU,2024-11-23,NIGHT,Sat,12,10,83.3,5.0,Critical (4.1-5.0),7,7,0,0,False,False,100.0,16.8,14.3,2.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-009200,HGH-MAIN,6A-ONCO,Oncology,2024-11-24,PM,Sun,22,19,86.4,3.0,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.8,5.5,-1.7,Understaffed,0,2.9,0,1,0,0,0,0,0,0,1:6,1:4,False
+RS-007011,HGH-MAIN,ED-OBS,ED,2024-11-24,NIGHT,Sun,20,17,85.0,3.2,High (3.1-4.0),2,2,0,0,False,False,100.0,2.8,4.5,-1.7,Understaffed,0,2.2,1,0,0,0,0,0,0,0,1:8,1:4,False
+RS-019054,HGH-EAST,REHAB,Rehabilitation,2024-11-24,AM,Sun,22,19,86.4,2.3,Moderate (2.1-3.0),4,2,1,1,False,False,50.0,5.1,4.5,0.6,Adequate,1,0.0,1,0,1,0,0,0,0,0,1:5,1:6,True
+RS-023439,HGH-EAST,GEM,Aged care/subacute,2024-11-25,NIGHT,Mon,16,15,93.8,2.5,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.2,3.2,0.0,Marginal,0,0.0,0,0,0,0,0,0,1,0,1:8,1:6,False
+RS-011394,HGH-MAIN,MAT,Maternity,2024-11-25,NIGHT,Mon,18,15,83.3,2.2,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.2,3.9,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-010302,HGH-MAIN,2B-NEURO,Neurology,2024-11-26,NIGHT,Tue,20,19,95.0,3.1,High (3.1-4.0),2,2,0,0,False,False,100.0,2.5,3.9,-1.4,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:10,1:5,False
+RS-012492,HGH-MAIN,PAED,Paediatric,2024-11-26,NIGHT,Tue,16,16,100.0,2.7,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.0,4.2,-1.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-008113,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-11-27,AM,Wed,24,20,83.3,2.7,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,4.8,5.2,-0.4,Adequate,0,0.0,0,0,1,0,0,0,0,0,1:5,1:5,True
+RS-020158,HGH-EAST,PALL,Palliative care,2024-11-27,AM,Wed,10,9,90.0,3.3,High (3.1-4.0),3,2,1,0,False,True,66.7,8.0,8.0,0.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:4,True
+RS-013593,HGH-MAIN,MH,Mental health,2024-11-28,NIGHT,Thu,20,15,75.0,3.2,High (3.1-4.0),2,2,0,0,False,False,100.0,3.2,4.5,-1.3,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-000455,HGH-MAIN,4B-MED,Medical,2024-11-29,PM,Fri,32,32,100.0,3.2,High (3.1-4.0),5,4,1,0,False,False,80.0,3.8,4.9,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-004835,HGH-MAIN,ICU,ICU,2024-11-29,PM,Fri,12,10,83.3,4.2,Critical (4.1-5.0),8,8,0,0,False,False,100.0,19.2,18.7,0.5,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:1,1:1,True
+RS-008123,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-11-30,PM,Sat,24,20,83.3,2.1,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.6,4.4,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-017978,HGH-EAST,AC,Aged care/subacute,2024-11-30,PM,Sat,24,21,87.5,3.0,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.4,4.7,-1.3,Marginal,0,0.0,0,0,0,0,0,1,0,0,1:7,1:6,False
+RS-005934,HGH-MAIN,CCU,CCU,2024-11-30,NIGHT,Sat,8,7,87.5,4.1,Critical (4.1-5.0),2,2,0,0,True,False,100.0,6.9,9.1,-2.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:2,False
+RS-004837,HGH-MAIN,ICU,ICU,2024-11-30,AM,Sat,12,10,83.3,5.0,Critical (4.1-5.0),10,10,0,0,False,False,100.0,24.0,22.0,2.0,Adequate,1,0.0,0,1,0,0,0,0,0,0,1:1,1:1,True
+RS-021266,HGH-EAST,4A-RESP,Medical,2024-12-01,PM,Sun,20,17,85.0,3.7,High (3.1-4.0),3,2,1,0,True,False,66.7,4.2,5.1,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-007032,HGH-MAIN,ED-OBS,ED,2024-12-01,NIGHT,Sun,20,17,85.0,3.2,High (3.1-4.0),3,3,0,0,False,False,100.0,4.2,4.5,-0.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-009224,HGH-MAIN,6A-ONCO,Oncology,2024-12-02,PM,Mon,22,18,81.8,3.7,High (3.1-4.0),4,3,1,0,False,False,75.0,5.3,5.5,-0.2,Adequate,1,0.0,0,1,0,0,0,0,0,0,1:4,1:4,True
+RS-016891,HGH-EAST,3A-SURG,Surgical,2024-12-03,AM,Tue,28,22,78.6,2.9,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,5.5,5.5,0.0,Adequate,0,0.0,0,0,0,1,0,0,0,0,1:4,1:5,True
+RS-000466,HGH-MAIN,4B-MED,Medical,2024-12-03,AM,Tue,32,29,90.6,3.5,High (3.1-4.0),6,4,1,1,True,True,66.7,5.0,5.8,-0.8,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:5,1:5,True
+RS-002657,HGH-MAIN,5A-SURG,Surgical,2024-12-03,PM,Tue,30,26,86.7,3.0,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,4.6,4.7,-0.1,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:5,1:5,True
+RS-017988,HGH-EAST,AC,Aged care/subacute,2024-12-03,NIGHT,Tue,24,23,95.8,3.2,High (3.1-4.0),2,1,1,0,True,False,50.0,2.1,3.6,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:12,1:6,False
+RS-002660,HGH-MAIN,5A-SURG,Surgical,2024-12-04,PM,Wed,30,24,80.0,3.1,High (3.1-4.0),4,3,1,0,False,False,75.0,4.0,4.7,-0.7,Marginal,0,0.0,0,0,0,0,1,0,0,0,1:6,1:5,False
+RS-003754,HGH-MAIN,5B-SURG,Surgical,2024-12-04,AM,Wed,26,24,92.3,2.8,Moderate (2.1-3.0),5,4,1,0,True,True,80.0,5.0,5.5,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-005946,HGH-MAIN,CCU,CCU,2024-12-04,NIGHT,Wed,8,7,87.5,3.6,High (3.1-4.0),2,2,0,0,True,False,100.0,6.9,9.1,-2.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:2,False
+RS-007041,HGH-MAIN,ED-OBS,ED,2024-12-04,NIGHT,Wed,20,16,80.0,2.9,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.0,4.5,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-007040,HGH-MAIN,ED-OBS,ED,2024-12-04,PM,Wed,20,16,80.0,3.3,High (3.1-4.0),3,2,1,0,False,False,66.7,4.5,6.0,-1.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-004850,HGH-MAIN,ICU,ICU,2024-12-04,PM,Wed,12,9,75.0,4.6,Critical (4.1-5.0),6,6,0,0,True,False,100.0,16.0,18.7,-2.7,Understaffed,0,3.2,1,0,0,1,0,0,0,0,1:2,1:1,False
+RS-002663,HGH-MAIN,5A-SURG,Surgical,2024-12-05,PM,Thu,30,25,83.3,3.0,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.8,4.7,-0.9,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-017994,HGH-EAST,AC,Aged care/subacute,2024-12-05,NIGHT,Thu,24,24,100.0,2.5,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.0,3.6,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:12,1:6,False
+RS-013614,HGH-MAIN,MH,Mental health,2024-12-05,NIGHT,Thu,20,18,90.0,2.8,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.0,4.5,-0.5,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:6,1:4,False
+RS-014708,HGH-MAIN,SSU,Short stay,2024-12-05,PM,Thu,12,10,83.3,2.3,Moderate (2.1-3.0),2,1,1,0,True,True,50.0,4.8,4.2,0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-005951,HGH-MAIN,CCU,CCU,2024-12-06,PM,Fri,8,6,75.0,3.4,High (3.1-4.0),2,2,0,0,True,False,100.0,8.0,10.7,-2.7,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-011427,HGH-MAIN,MAT,Maternity,2024-12-06,NIGHT,Fri,18,16,88.9,2.6,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.0,4.5,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-023475,HGH-EAST,GEM,Aged care/subacute,2024-12-07,NIGHT,Sat,16,14,87.5,2.6,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.4,3.2,0.2,Marginal,0,2.9,0,0,0,0,0,0,0,0,1:7,1:6,False
+RS-002672,HGH-MAIN,5A-SURG,Surgical,2024-12-08,PM,Sun,30,20,66.7,3.0,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,3.6,4.7,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-022381,HGH-EAST,RENAL,Medical,2024-12-08,AM,Sun,14,14,100.0,2.7,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.4,5.5,-2.1,Understaffed,0,3.6,1,0,1,0,0,0,0,0,1:7,1:5,False
+RS-001581,HGH-MAIN,4C-MED,Medical,2024-12-09,NIGHT,Mon,28,28,100.0,2.9,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.4,3.8,-0.4,Marginal,0,0.0,0,0,2,0,0,0,0,0,1:7,1:5,False
+RS-005961,HGH-MAIN,CCU,CCU,2024-12-09,NIGHT,Mon,8,7,87.5,4.6,Critical (4.1-5.0),2,2,0,0,False,False,100.0,6.9,10.5,-3.6,Critical,0,0.0,0,0,1,0,0,0,0,0,1:4,1:2,False
+RS-014724,HGH-MAIN,SSU,Short stay,2024-12-10,NIGHT,Tue,12,10,83.3,2.7,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.8,3.2,1.6,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-007062,HGH-MAIN,ED-OBS,ED,2024-12-11,NIGHT,Wed,20,16,80.0,3.5,High (3.1-4.0),2,2,0,0,False,False,100.0,3.0,4.5,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,1,0,1:8,1:4,False
+RS-020201,HGH-EAST,PALL,Palliative care,2024-12-11,PM,Wed,10,9,90.0,3.2,High (3.1-4.0),2,2,0,0,False,True,100.0,5.3,6.8,-1.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-019107,HGH-EAST,REHAB,Rehabilitation,2024-12-11,NIGHT,Wed,22,19,86.4,2.8,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.5,3.4,-0.9,Marginal,0,0.0,0,0,0,1,0,0,0,0,1:10,1:6,False
+RS-023490,HGH-EAST,GEM,Aged care/subacute,2024-12-12,NIGHT,Thu,16,15,93.8,2.7,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.2,3.2,0.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:6,False
+RS-004874,HGH-MAIN,ICU,ICU,2024-12-12,PM,Thu,12,10,83.3,4.6,Critical (4.1-5.0),8,8,0,0,True,True,100.0,19.2,18.7,0.5,Adequate,0,1.6,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-001591,HGH-MAIN,4C-MED,Medical,2024-12-13,AM,Fri,28,28,100.0,3.7,High (3.1-4.0),6,4,1,1,True,False,66.7,5.1,6.7,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-007067,HGH-MAIN,ED-OBS,ED,2024-12-13,PM,Fri,20,19,95.0,3.2,High (3.1-4.0),4,3,1,0,False,False,75.0,5.1,6.0,-0.9,Marginal,1,0.0,0,1,0,0,0,0,0,0,1:5,1:4,False
+RS-013638,HGH-MAIN,MH,Mental health,2024-12-13,NIGHT,Fri,20,19,95.0,3.4,High (3.1-4.0),2,2,0,0,False,False,100.0,2.5,5.2,-2.7,Critical,0,2.5,1,0,0,0,0,0,0,0,1:10,1:4,False
+RS-008164,HGH-MAIN,3C-ORTHO,Orthopaedic,2024-12-14,AM,Sat,24,18,75.0,2.0,Low (1.0-2.0),4,3,1,0,True,False,75.0,5.3,5.2,0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-005975,HGH-MAIN,CCU,CCU,2024-12-14,PM,Sat,8,6,75.0,4.6,Critical (4.1-5.0),2,2,0,0,False,False,100.0,8.0,13.7,-5.7,Critical,0,0.0,0,0,0,0,0,0,1,0,1:3,1:2,False
+RS-011449,HGH-MAIN,MAT,Maternity,2024-12-14,AM,Sat,18,14,77.8,1.7,Low (1.0-2.0),4,3,1,0,False,False,75.0,6.9,6.0,0.9,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-013641,HGH-MAIN,MH,Mental health,2024-12-14,NIGHT,Sat,20,17,85.0,2.9,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.2,4.5,-0.3,Marginal,1,0.0,1,0,1,0,0,0,0,0,1:6,1:4,False
+RS-000504,HGH-MAIN,4B-MED,Medical,2024-12-15,NIGHT,Sun,32,29,90.6,3.6,High (3.1-4.0),4,3,1,0,False,False,75.0,3.3,3.8,-0.5,Marginal,1,0.0,1,0,1,0,0,0,0,0,1:7,1:5,False
+RS-005977,HGH-MAIN,CCU,CCU,2024-12-15,AM,Sun,8,6,75.0,3.9,High (3.1-4.0),3,3,0,0,False,False,100.0,12.0,14.0,-2.0,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-019117,HGH-EAST,REHAB,Rehabilitation,2024-12-15,AM,Sun,22,20,90.9,1.9,Low (1.0-2.0),4,2,1,1,False,False,50.0,4.8,4.5,0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:6,True
+RS-001601,HGH-MAIN,4C-MED,Medical,2024-12-16,PM,Mon,28,25,89.3,3.0,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.8,4.9,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-002696,HGH-MAIN,5A-SURG,Surgical,2024-12-16,PM,Mon,30,25,83.3,3.2,High (3.1-4.0),4,3,1,0,False,True,75.0,3.8,4.7,-0.9,Marginal,0,2.9,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-022406,HGH-EAST,RENAL,Medical,2024-12-16,PM,Mon,14,13,92.9,2.9,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.7,4.7,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-015840,HGH-EAST,2A-MED,Medical,2024-12-17,NIGHT,Tue,30,30,100.0,2.7,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.2,3.8,-0.6,Marginal,0,1.6,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-015841,HGH-EAST,2A-MED,Medical,2024-12-18,AM,Wed,30,24,80.0,3.1,High (3.1-4.0),5,4,1,0,True,True,80.0,5.0,5.8,-0.8,Marginal,0,0.0,0,0,0,1,0,0,0,0,1:5,1:5,True
+RS-002703,HGH-MAIN,5A-SURG,Surgical,2024-12-18,NIGHT,Wed,30,23,76.7,3.4,High (3.1-4.0),2,2,0,0,False,False,100.0,2.1,4.1,-2.0,Understaffed,0,2.8,1,0,0,0,0,0,0,0,1:12,1:5,False
+RS-005987,HGH-MAIN,CCU,CCU,2024-12-18,PM,Wed,8,5,62.5,3.7,High (3.1-4.0),2,2,0,0,False,False,100.0,9.6,11.9,-2.3,Understaffed,0,0.0,0,0,1,0,0,0,1,0,1:2,1:2,True
+RS-011462,HGH-MAIN,MAT,Maternity,2024-12-18,PM,Wed,18,15,83.3,2.0,Low (1.0-2.0),2,2,0,0,False,False,100.0,3.2,5.1,-1.9,Understaffed,0,3.5,1,0,0,0,0,0,0,0,1:8,1:4,False
+RS-015845,HGH-EAST,2A-MED,Medical,2024-12-19,PM,Thu,30,22,73.3,2.9,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,4.4,4.9,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-019134,HGH-EAST,REHAB,Rehabilitation,2024-12-20,NIGHT,Fri,22,19,86.4,2.0,Low (1.0-2.0),2,1,1,0,False,False,50.0,2.5,2.9,-0.4,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:10,1:6,False
+RS-021326,HGH-EAST,4A-RESP,Medical,2024-12-21,PM,Sat,20,19,95.0,3.4,High (3.1-4.0),3,2,1,0,False,False,66.7,3.8,5.1,-1.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-003808,HGH-MAIN,5B-SURG,Surgical,2024-12-22,AM,Sun,26,21,80.8,3.3,High (3.1-4.0),4,3,1,0,False,False,75.0,4.6,6.3,-1.7,Understaffed,0,2.7,0,1,0,0,0,0,0,0,1:5,1:5,True
+RS-019138,HGH-EAST,REHAB,Rehabilitation,2024-12-22,AM,Sun,22,18,81.8,1.7,Low (1.0-2.0),3,2,1,0,True,False,66.7,4.0,4.5,-0.5,Adequate,1,0.0,0,1,0,0,0,0,0,0,1:6,1:6,True
+RS-006001,HGH-MAIN,CCU,CCU,2024-12-23,AM,Mon,8,6,75.0,4.4,Critical (4.1-5.0),3,3,0,0,True,True,100.0,12.0,14.0,-2.0,Understaffed,0,0.0,0,0,0,0,1,0,0,0,1:2,1:2,True
+RS-004906,HGH-MAIN,ICU,ICU,2024-12-23,AM,Mon,12,11,91.7,4.6,Critical (4.1-5.0),11,11,0,0,True,True,100.0,24.0,22.0,2.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-004907,HGH-MAIN,ICU,ICU,2024-12-23,PM,Mon,12,11,91.7,4.7,Critical (4.1-5.0),8,8,0,0,False,False,100.0,17.5,18.7,-1.2,Marginal,1,2.6,2,0,0,0,0,0,1,0,1:1,1:1,True
+RS-011477,HGH-MAIN,MAT,Maternity,2024-12-23,PM,Mon,18,15,83.3,1.9,Low (1.0-2.0),3,2,1,0,False,False,66.7,4.8,5.1,-0.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-007099,HGH-MAIN,ED-OBS,ED,2024-12-24,AM,Tue,20,16,80.0,3.2,High (3.1-4.0),4,3,1,0,True,True,75.0,6.0,7.0,-1.0,Marginal,2,1.6,2,0,1,0,0,0,0,0,1:4,1:4,True
+RS-022430,HGH-EAST,RENAL,Medical,2024-12-24,PM,Tue,14,13,92.9,2.8,Moderate (2.1-3.0),2,1,1,0,True,False,50.0,3.7,4.7,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-010389,HGH-MAIN,2B-NEURO,Neurology,2024-12-25,NIGHT,Wed,20,18,90.0,3.9,High (3.1-4.0),2,2,0,0,False,False,100.0,2.7,4.5,-1.8,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:9,1:5,False
+RS-021337,HGH-EAST,4A-RESP,Medical,2024-12-25,AM,Wed,20,18,90.0,3.8,High (3.1-4.0),3,2,1,0,True,True,66.7,4.0,6.9,-2.9,Understaffed,0,2.7,1,0,1,0,0,0,0,0,1:6,1:5,False
+RS-000534,HGH-MAIN,4B-MED,Medical,2024-12-25,NIGHT,Wed,32,28,87.5,3.7,High (3.1-4.0),4,3,1,0,False,False,75.0,3.4,3.8,-0.4,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:7,1:5,False
+RS-020244,HGH-EAST,PALL,Palliative care,2024-12-25,NIGHT,Wed,10,10,100.0,3.1,High (3.1-4.0),2,2,0,0,False,False,100.0,4.8,5.2,-0.4,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-006011,HGH-MAIN,CCU,CCU,2024-12-26,PM,Thu,8,7,87.5,3.9,High (3.1-4.0),2,2,0,0,False,False,100.0,6.9,11.9,-5.0,Critical,0,2.7,1,0,0,0,0,0,0,0,1:4,1:2,False
+RS-011486,HGH-MAIN,MAT,Maternity,2024-12-26,PM,Thu,18,17,94.4,2.1,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,4.2,5.1,-0.9,Marginal,1,3.3,0,2,0,0,0,0,0,0,1:6,1:4,False
+RS-010393,HGH-MAIN,2B-NEURO,Neurology,2024-12-27,AM,Fri,20,16,80.0,2.4,Moderate (2.1-3.0),4,3,1,0,True,True,75.0,6.0,5.4,0.6,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-003824,HGH-MAIN,5B-SURG,Surgical,2024-12-27,PM,Fri,26,20,76.9,2.2,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,3.6,4.7,-1.1,Marginal,1,0.0,0,1,1,0,0,1,0,0,1:7,1:5,False
+RS-014775,HGH-MAIN,SSU,Short stay,2024-12-27,NIGHT,Fri,12,10,83.3,2.4,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.8,3.2,1.6,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-019156,HGH-EAST,REHAB,Rehabilitation,2024-12-28,AM,Sat,22,18,81.8,1.9,Low (1.0-2.0),3,2,1,0,True,False,66.7,4.0,4.5,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:6,True
+RS-003829,HGH-MAIN,5B-SURG,Surgical,2024-12-29,AM,Sun,26,21,80.8,3.0,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,5.7,5.5,0.2,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:4,1:5,True
+RS-006021,HGH-MAIN,CCU,CCU,2024-12-29,NIGHT,Sun,8,7,87.5,4.3,Critical (4.1-5.0),2,2,0,0,False,False,100.0,6.9,9.1,-2.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:2,False
+RS-007114,HGH-MAIN,ED-OBS,ED,2024-12-29,AM,Sun,20,15,75.0,2.6,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.8,7.0,-2.2,Understaffed,0,2.5,0,1,0,0,0,0,0,0,1:5,1:4,False
+RS-019159,HGH-EAST,REHAB,Rehabilitation,2024-12-29,AM,Sun,22,18,81.8,1.8,Low (1.0-2.0),3,2,1,0,False,False,66.7,4.0,4.5,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:6,True
+RS-014781,HGH-MAIN,SSU,Short stay,2024-12-29,NIGHT,Sun,12,11,91.7,2.3,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.4,3.2,1.2,Adequate,0,0.0,0,0,0,1,0,0,1,0,1:6,1:5,False
+RS-015878,HGH-EAST,2A-MED,Medical,2024-12-30,PM,Mon,30,27,90.0,3.2,High (3.1-4.0),5,4,1,0,True,False,80.0,4.4,4.9,-0.5,Adequate,0,0.0,0,0,0,0,1,0,0,0,1:5,1:5,True
+RS-018067,HGH-EAST,AC,Aged care/subacute,2024-12-30,AM,Mon,24,22,91.7,3.2,High (3.1-4.0),4,2,1,1,True,True,50.0,4.4,5.5,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:6,True
+RS-013689,HGH-MAIN,MH,Mental health,2024-12-30,NIGHT,Mon,20,18,90.0,2.9,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.0,4.5,-0.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-013688,HGH-MAIN,MH,Mental health,2024-12-30,PM,Mon,20,17,85.0,3.0,Moderate (2.1-3.0),4,3,1,0,False,True,75.0,5.6,6.0,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-010406,HGH-MAIN,2B-NEURO,Neurology,2024-12-31,PM,Tue,20,18,90.0,3.5,High (3.1-4.0),3,2,1,0,False,False,66.7,4.0,5.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-000550,HGH-MAIN,4B-MED,Medical,2024-12-31,AM,Tue,32,31,96.9,2.9,Moderate (2.1-3.0),7,5,1,1,True,True,71.4,5.4,5.8,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-001647,HGH-MAIN,4C-MED,Medical,2024-12-31,NIGHT,Tue,28,25,89.3,3.6,High (3.1-4.0),3,2,1,0,False,False,66.7,2.9,4.3,-1.4,Understaffed,1,0.0,0,1,0,0,0,0,0,0,1:8,1:5,False
+RS-003835,HGH-MAIN,5B-SURG,Surgical,2024-12-31,AM,Tue,26,19,73.1,2.6,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,5.1,5.5,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-012595,HGH-MAIN,PAED,Paediatric,2024-12-31,AM,Tue,16,15,93.8,2.6,Moderate (2.1-3.0),4,3,1,0,True,True,75.0,6.4,6.5,-0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-010408,HGH-MAIN,2B-NEURO,Neurology,2025-01-01,AM,Wed,20,18,90.0,3.4,High (3.1-4.0),4,3,1,0,True,False,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-021360,HGH-EAST,4A-RESP,Medical,2025-01-01,NIGHT,Wed,20,18,90.0,3.7,High (3.1-4.0),2,2,0,0,False,False,100.0,2.7,3.9,-1.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:9,1:5,False
+RS-003838,HGH-MAIN,5B-SURG,Surgical,2025-01-01,AM,Wed,26,22,84.6,2.8,Moderate (2.1-3.0),3,2,1,0,False,True,66.7,3.3,5.5,-2.2,Understaffed,0,4.2,2,0,0,0,0,0,0,0,1:7,1:5,False
+RS-001653,HGH-MAIN,4C-MED,Medical,2025-01-02,NIGHT,Thu,28,26,92.9,3.3,High (3.1-4.0),4,3,1,0,False,False,75.0,3.7,3.8,-0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-011506,HGH-MAIN,MAT,Maternity,2025-01-02,AM,Thu,18,16,88.9,1.5,Low (1.0-2.0),4,3,1,0,True,True,75.0,6.0,6.0,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-015891,HGH-EAST,2A-MED,Medical,2025-01-03,NIGHT,Fri,30,26,86.7,3.6,High (3.1-4.0),2,2,0,0,False,False,100.0,1.8,3.8,-2.0,Understaffed,0,6.3,2,0,0,0,0,0,0,0,1:13,1:5,False
+RS-009319,HGH-MAIN,6A-ONCO,Oncology,2025-01-03,AM,Fri,22,18,81.8,3.3,High (3.1-4.0),5,4,1,0,True,False,80.0,6.7,6.5,0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-004939,HGH-MAIN,ICU,ICU,2025-01-03,AM,Fri,12,11,91.7,4.2,Critical (4.1-5.0),11,11,0,0,True,True,100.0,24.0,22.0,2.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-011510,HGH-MAIN,MAT,Maternity,2025-01-03,PM,Fri,18,15,83.3,1.9,Low (1.0-2.0),3,2,1,0,False,False,66.7,4.8,5.1,-0.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-021367,HGH-EAST,4A-RESP,Medical,2025-01-04,AM,Sat,20,18,90.0,3.4,High (3.1-4.0),4,3,1,0,False,False,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,0,1,0,1:4,1:5,True
+RS-002753,HGH-MAIN,5A-SURG,Surgical,2025-01-04,PM,Sat,30,22,73.3,3.1,High (3.1-4.0),4,3,1,0,False,False,75.0,4.4,4.7,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-015897,HGH-EAST,2A-MED,Medical,2025-01-05,NIGHT,Sun,30,27,90.0,3.3,High (3.1-4.0),4,3,1,0,False,False,75.0,3.6,3.8,-0.2,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:7,1:5,False
+RS-000566,HGH-MAIN,4B-MED,Medical,2025-01-05,PM,Sun,32,29,90.6,3.6,High (3.1-4.0),5,4,1,0,False,False,80.0,4.1,4.9,-0.8,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-014801,HGH-MAIN,SSU,Short stay,2025-01-05,PM,Sun,12,11,91.7,2.0,Low (1.0-2.0),2,1,1,0,False,False,50.0,4.4,4.2,0.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-001664,HGH-MAIN,4C-MED,Medical,2025-01-06,PM,Mon,28,26,92.9,3.0,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,4.6,4.9,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-022468,HGH-EAST,RENAL,Medical,2025-01-06,AM,Mon,14,13,92.9,2.4,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,5.5,5.5,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-022470,HGH-EAST,RENAL,Medical,2025-01-06,NIGHT,Mon,14,13,92.9,3.1,High (3.1-4.0),2,2,0,0,False,False,100.0,3.7,3.6,0.1,Adequate,0,0.0,0,1,0,0,0,0,0,0,1:6,1:5,False
+RS-010426,HGH-MAIN,2B-NEURO,Neurology,2025-01-07,AM,Tue,20,17,85.0,2.9,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,5.6,6.0,-0.4,Adequate,0,0.0,0,0,0,0,1,0,0,0,1:4,1:5,True
+RS-001668,HGH-MAIN,4C-MED,Medical,2025-01-07,NIGHT,Tue,28,23,82.1,3.3,High (3.1-4.0),3,2,1,0,False,False,66.7,3.1,3.8,-0.7,Marginal,0,1.2,0,0,0,0,0,1,0,0,1:8,1:5,False
+RS-002763,HGH-MAIN,5A-SURG,Surgical,2025-01-07,NIGHT,Tue,30,26,86.7,3.4,High (3.1-4.0),4,3,1,0,False,False,75.0,3.7,4.1,-0.4,Marginal,2,0.0,2,0,0,0,0,0,0,0,1:6,1:5,False
+RS-020286,HGH-EAST,PALL,Palliative care,2025-01-08,NIGHT,Wed,10,8,80.0,2.8,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,6.0,5.2,0.8,Adequate,0,2.5,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-019189,HGH-EAST,REHAB,Rehabilitation,2025-01-08,AM,Wed,22,19,86.4,1.9,Low (1.0-2.0),4,2,1,1,True,True,50.0,5.1,4.5,0.6,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:6,True
+RS-022474,HGH-EAST,RENAL,Medical,2025-01-08,AM,Wed,14,12,85.7,2.8,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,6.0,5.5,0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-017003,HGH-EAST,3A-SURG,Surgical,2025-01-09,PM,Thu,28,24,85.7,3.0,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,4.0,4.7,-0.7,Marginal,0,1.8,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-009337,HGH-MAIN,6A-ONCO,Oncology,2025-01-09,AM,Thu,22,19,86.4,3.3,High (3.1-4.0),5,4,1,0,True,False,80.0,6.3,6.5,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-011529,HGH-MAIN,MAT,Maternity,2025-01-09,NIGHT,Thu,18,16,88.9,1.9,Low (1.0-2.0),2,2,0,0,False,False,100.0,3.0,3.9,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-008245,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-01-10,AM,Fri,24,22,91.7,2.3,Moderate (2.1-3.0),5,3,1,1,False,True,60.0,5.5,5.2,0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-018101,HGH-EAST,AC,Aged care/subacute,2025-01-10,PM,Fri,24,21,87.5,2.3,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.4,4.7,-1.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:6,False
+RS-022480,HGH-EAST,RENAL,Medical,2025-01-10,AM,Fri,14,13,92.9,3.1,High (3.1-4.0),3,2,1,0,True,True,66.7,5.5,5.5,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-022481,HGH-EAST,RENAL,Medical,2025-01-10,PM,Fri,14,13,92.9,2.6,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.7,4.7,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-015914,HGH-EAST,2A-MED,Medical,2025-01-11,PM,Sat,30,29,96.7,3.4,High (3.1-4.0),4,3,1,0,False,False,75.0,3.3,4.9,-1.6,Understaffed,1,3.5,1,1,1,0,0,0,0,0,1:7,1:5,False
+RS-000584,HGH-MAIN,4B-MED,Medical,2025-01-11,PM,Sat,32,33,103.1,3.5,High (3.1-4.0),5,4,1,0,False,False,80.0,3.6,4.9,-1.3,Marginal,1,1.1,0,1,0,0,0,0,1,1,1:7,1:5,False
+RS-023581,HGH-EAST,GEM,Aged care/subacute,2025-01-12,AM,Sun,16,15,93.8,2.7,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.2,5.0,-1.8,Understaffed,0,3.6,1,0,0,0,0,0,0,0,1:8,1:6,False
+RS-004967,HGH-MAIN,ICU,ICU,2025-01-12,PM,Sun,12,9,75.0,4.2,Critical (4.1-5.0),7,7,0,0,False,False,100.0,18.7,18.7,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-019202,HGH-EAST,REHAB,Rehabilitation,2025-01-12,PM,Sun,22,21,95.5,2.3,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.3,3.8,-1.5,Marginal,0,2.7,1,0,0,0,0,0,0,0,1:10,1:6,False
+RS-023585,HGH-EAST,GEM,Aged care/subacute,2025-01-13,PM,Mon,16,12,75.0,2.7,Moderate (2.1-3.0),2,1,1,0,True,True,50.0,4.0,4.2,-0.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:6,True
+RS-004971,HGH-MAIN,ICU,ICU,2025-01-13,NIGHT,Mon,12,11,91.7,5.0,Critical (4.1-5.0),7,7,0,0,False,False,100.0,15.3,14.3,1.0,Adequate,0,0.0,0,0,0,0,0,1,0,0,1:2,1:1,False
+RS-007164,HGH-MAIN,ED-OBS,ED,2025-01-14,NIGHT,Tue,20,17,85.0,2.8,Moderate (2.1-3.0),3,3,0,0,False,False,100.0,4.2,4.5,-0.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-020303,HGH-EAST,PALL,Palliative care,2025-01-14,PM,Tue,10,9,90.0,2.8,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,5.3,6.8,-1.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-014827,HGH-MAIN,SSU,Short stay,2025-01-14,AM,Tue,12,10,83.3,2.3,Moderate (2.1-3.0),2,1,1,0,True,True,50.0,4.8,5.0,-0.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-002786,HGH-MAIN,5A-SURG,Surgical,2025-01-15,PM,Wed,30,22,73.3,3.2,High (3.1-4.0),4,3,1,0,False,False,75.0,4.4,4.7,-0.3,Adequate,1,0.0,1,0,0,0,0,1,0,0,1:6,1:5,False
+RS-010455,HGH-MAIN,2B-NEURO,Neurology,2025-01-16,NIGHT,Thu,20,17,85.0,3.5,High (3.1-4.0),2,2,0,0,False,False,100.0,2.8,3.9,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-018120,HGH-EAST,AC,Aged care/subacute,2025-01-16,NIGHT,Thu,24,22,91.7,2.6,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.2,3.6,-1.4,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:11,1:6,False
+RS-006075,HGH-MAIN,CCU,CCU,2025-01-16,NIGHT,Thu,8,7,87.5,3.9,High (3.1-4.0),2,2,0,0,False,False,100.0,6.9,9.1,-2.2,Understaffed,0,0.0,0,0,0,0,1,0,0,0,1:4,1:2,False
+RS-004979,HGH-MAIN,ICU,ICU,2025-01-16,PM,Thu,12,9,75.0,4.8,Critical (4.1-5.0),7,7,0,0,True,False,100.0,18.7,18.7,0.0,Adequate,2,0.0,2,0,0,0,0,0,0,0,1:1,1:1,True
+RS-015933,HGH-EAST,2A-MED,Medical,2025-01-17,NIGHT,Fri,30,28,93.3,2.8,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,2.6,3.8,-1.2,Understaffed,1,2.3,2,1,0,1,0,0,0,0,1:9,1:5,False
+RS-003887,HGH-MAIN,5B-SURG,Surgical,2025-01-17,PM,Fri,26,22,84.6,2.6,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,4.4,4.7,-0.3,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-007172,HGH-MAIN,ED-OBS,ED,2025-01-17,PM,Fri,20,14,70.0,3.2,High (3.1-4.0),2,2,0,0,True,False,100.0,3.4,6.0,-2.6,Understaffed,0,3.0,1,0,0,0,0,0,0,0,1:7,1:4,False
+RS-019217,HGH-EAST,REHAB,Rehabilitation,2025-01-17,PM,Fri,22,20,90.9,2.1,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,3.6,3.8,-0.2,Adequate,0,0.0,0,0,0,0,0,0,1,1,1:7,1:6,False
+RS-006080,HGH-MAIN,CCU,CCU,2025-01-18,PM,Sat,8,6,75.0,4.6,Critical (4.1-5.0),2,2,0,0,False,False,100.0,8.0,13.7,-5.7,Critical,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-019219,HGH-EAST,REHAB,Rehabilitation,2025-01-18,AM,Sat,22,22,100.0,1.9,Low (1.0-2.0),3,2,1,0,False,False,66.7,3.3,4.5,-1.2,Marginal,0,2.9,1,0,0,0,0,0,0,0,1:7,1:6,False
+RS-014840,HGH-MAIN,SSU,Short stay,2025-01-18,PM,Sat,12,11,91.7,2.0,Low (1.0-2.0),2,1,1,0,False,False,50.0,4.4,4.2,0.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-000607,HGH-MAIN,4B-MED,Medical,2025-01-19,AM,Sun,32,27,84.4,3.6,High (3.1-4.0),6,4,1,1,False,False,66.7,5.3,5.8,-0.5,Adequate,0,0.0,0,0,1,0,0,0,0,0,1:4,1:5,True
+RS-023603,HGH-EAST,GEM,Aged care/subacute,2025-01-19,PM,Sun,16,14,87.5,2.9,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.4,4.2,-0.8,Marginal,0,0.0,0,0,0,0,0,0,1,0,1:7,1:6,False
+RS-013749,HGH-MAIN,MH,Mental health,2025-01-19,NIGHT,Sun,20,16,80.0,3.2,High (3.1-4.0),2,2,0,0,True,False,100.0,3.0,4.5,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-013748,HGH-MAIN,MH,Mental health,2025-01-19,PM,Sun,20,17,85.0,2.7,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,5.6,6.0,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-014842,HGH-MAIN,SSU,Short stay,2025-01-19,AM,Sun,12,11,91.7,1.8,Low (1.0-2.0),3,2,1,0,True,False,66.7,6.5,5.0,1.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-021415,HGH-EAST,4A-RESP,Medical,2025-01-20,AM,Mon,20,18,90.0,3.4,High (3.1-4.0),4,3,1,0,True,True,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-002802,HGH-MAIN,5A-SURG,Surgical,2025-01-20,NIGHT,Mon,30,24,80.0,2.5,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.0,3.6,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-003897,HGH-MAIN,5B-SURG,Surgical,2025-01-20,NIGHT,Mon,26,19,73.1,3.0,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,2.5,3.6,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:10,1:5,False
+RS-009371,HGH-MAIN,6A-ONCO,Oncology,2025-01-20,PM,Mon,22,17,77.3,4.1,Critical (4.1-5.0),4,3,1,0,True,True,75.0,5.6,6.4,-0.8,Marginal,0,0.0,0,0,1,0,0,0,0,0,1:4,1:4,True
+RS-011562,HGH-MAIN,MAT,Maternity,2025-01-20,NIGHT,Mon,18,15,83.3,2.6,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.2,4.5,-1.3,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-020320,HGH-EAST,PALL,Palliative care,2025-01-20,AM,Mon,10,8,80.0,3.3,High (3.1-4.0),2,2,0,0,False,True,100.0,6.0,8.0,-2.0,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-022510,HGH-EAST,RENAL,Medical,2025-01-20,AM,Mon,14,14,100.0,2.9,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,5.1,5.5,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-010468,HGH-MAIN,2B-NEURO,Neurology,2025-01-21,AM,Tue,20,19,95.0,3.6,High (3.1-4.0),3,2,1,0,True,True,66.7,3.8,6.0,-2.2,Understaffed,0,2.5,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-017043,HGH-EAST,3A-SURG,Surgical,2025-01-22,NIGHT,Wed,28,20,71.4,2.9,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,2.4,3.6,-1.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:10,1:5,False
+RS-004997,HGH-MAIN,ICU,ICU,2025-01-22,PM,Wed,12,9,75.0,4.5,Critical (4.1-5.0),7,7,0,0,False,False,100.0,18.7,18.7,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-013756,HGH-MAIN,MH,Mental health,2025-01-22,AM,Wed,20,18,90.0,2.6,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,5.3,7.0,-1.7,Understaffed,0,3.1,1,0,0,0,0,0,0,0,1:4,1:4,True
+RS-012661,HGH-MAIN,PAED,Paediatric,2025-01-22,AM,Wed,16,11,68.8,2.4,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,6.5,6.5,0.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-008288,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-01-24,PM,Fri,24,20,83.3,2.4,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,3.6,4.4,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-000623,HGH-MAIN,4B-MED,Medical,2025-01-24,PM,Fri,32,31,96.9,3.9,High (3.1-4.0),5,4,1,0,False,False,80.0,3.9,5.7,-1.8,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-018144,HGH-EAST,AC,Aged care/subacute,2025-01-24,NIGHT,Fri,24,22,91.7,2.9,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.2,3.6,-1.4,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:11,1:6,False
+RS-006098,HGH-MAIN,CCU,CCU,2025-01-24,PM,Fri,8,6,75.0,4.6,Critical (4.1-5.0),2,2,0,0,True,False,100.0,8.0,13.7,-5.7,Critical,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-015955,HGH-EAST,2A-MED,Medical,2025-01-25,AM,Sat,30,27,90.0,3.0,Moderate (2.1-3.0),6,4,1,1,False,False,66.7,5.3,5.8,-0.5,Adequate,0,0.0,0,0,1,1,0,0,0,0,1:4,1:5,True
+RS-008290,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-01-25,AM,Sat,24,18,75.0,2.1,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.7,5.2,-2.5,Understaffed,0,5.9,2,0,0,0,0,0,0,0,1:9,1:5,False
+RS-006101,HGH-MAIN,CCU,CCU,2025-01-25,PM,Sat,8,7,87.5,4.2,Critical (4.1-5.0),3,3,0,0,False,False,100.0,10.3,11.9,-1.6,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:2,1:2,True
+RS-012671,HGH-MAIN,PAED,Paediatric,2025-01-25,PM,Sat,16,13,81.2,2.2,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,5.5,5.5,0.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-005010,HGH-MAIN,ICU,ICU,2025-01-26,NIGHT,Sun,12,11,91.7,4.7,Critical (4.1-5.0),6,6,0,0,False,False,100.0,13.1,14.3,-1.2,Understaffed,0,2.6,0,1,0,0,0,0,0,0,1:2,1:1,False
+RS-005009,HGH-MAIN,ICU,ICU,2025-01-26,PM,Sun,12,9,75.0,4.4,Critical (4.1-5.0),6,6,0,0,False,False,100.0,16.0,18.7,-2.7,Understaffed,0,2.8,1,0,0,0,0,0,0,0,1:2,1:1,False
+RS-010486,HGH-MAIN,2B-NEURO,Neurology,2025-01-27,AM,Mon,20,17,85.0,3.5,High (3.1-4.0),3,2,1,0,False,False,66.7,4.2,6.0,-1.8,Understaffed,1,2.0,1,1,0,0,0,0,0,0,1:6,1:5,False
+RS-017058,HGH-EAST,3A-SURG,Surgical,2025-01-27,NIGHT,Mon,28,22,78.6,2.8,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,2.2,3.6,-1.4,Understaffed,0,2.6,1,0,0,0,0,0,0,0,1:11,1:5,False
+RS-000633,HGH-MAIN,4B-MED,Medical,2025-01-27,NIGHT,Mon,32,29,90.6,3.4,High (3.1-4.0),4,3,1,0,False,False,75.0,3.3,3.8,-0.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-003918,HGH-MAIN,5B-SURG,Surgical,2025-01-27,NIGHT,Mon,26,18,69.2,3.3,High (3.1-4.0),2,2,0,0,False,False,100.0,2.7,4.1,-1.4,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:9,1:5,False
+RS-012678,HGH-MAIN,PAED,Paediatric,2025-01-27,NIGHT,Mon,16,15,93.8,2.5,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.2,4.2,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-014868,HGH-MAIN,SSU,Short stay,2025-01-27,NIGHT,Mon,12,11,91.7,2.6,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.4,3.2,1.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-011588,HGH-MAIN,MAT,Maternity,2025-01-29,PM,Wed,18,18,100.0,2.3,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,5.3,5.1,0.2,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:4,1:4,True
+RS-002831,HGH-MAIN,5A-SURG,Surgical,2025-01-30,PM,Thu,30,23,76.7,2.9,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,4.2,4.7,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-023635,HGH-EAST,GEM,Aged care/subacute,2025-01-30,AM,Thu,16,15,93.8,2.2,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,4.8,5.0,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:6,True
+RS-005022,HGH-MAIN,ICU,ICU,2025-01-30,NIGHT,Thu,12,10,83.3,4.6,Critical (4.1-5.0),7,7,0,0,False,False,100.0,16.8,14.3,2.5,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:1,1:1,True
+RS-019257,HGH-EAST,REHAB,Rehabilitation,2025-01-30,NIGHT,Thu,22,18,81.8,2.3,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.7,2.9,-0.2,Adequate,0,0.0,0,0,1,0,0,1,0,0,1:9,1:6,False
+RS-015975,HGH-EAST,2A-MED,Medical,2025-01-31,NIGHT,Fri,30,27,90.0,3.2,High (3.1-4.0),4,3,1,0,False,False,75.0,3.6,3.8,-0.2,Adequate,1,0.0,0,1,0,0,0,0,0,0,1:7,1:5,False
+RS-006122,HGH-MAIN,CCU,CCU,2025-02-01,PM,Sat,8,6,75.0,3.9,High (3.1-4.0),2,2,0,0,False,False,100.0,8.0,11.9,-3.9,Critical,0,3.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-014883,HGH-MAIN,SSU,Short stay,2025-02-01,NIGHT,Sat,12,10,83.3,2.2,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.8,3.2,1.6,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-000649,HGH-MAIN,4B-MED,Medical,2025-02-02,AM,Sun,32,35,109.4,3.0,Moderate (2.1-3.0),7,5,1,1,False,False,71.4,4.8,5.8,-1.0,Marginal,0,0.0,0,0,0,1,0,0,0,0,1:5,1:5,True
+RS-000650,HGH-MAIN,4B-MED,Medical,2025-02-02,PM,Sun,32,27,84.4,3.0,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,2.7,4.9,-2.2,Understaffed,0,4.5,2,0,0,0,0,0,0,0,1:9,1:5,False
+RS-006125,HGH-MAIN,CCU,CCU,2025-02-02,PM,Sun,8,7,87.5,3.9,High (3.1-4.0),2,2,0,0,True,False,100.0,6.9,11.9,-5.0,Critical,0,2.4,1,0,0,0,0,0,0,0,1:4,1:2,False
+RS-008319,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-02-03,NIGHT,Mon,24,21,87.5,2.5,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.3,3.4,-1.1,Marginal,0,4.0,1,0,0,1,0,0,0,0,1:10,1:5,False
+RS-000654,HGH-MAIN,4B-MED,Medical,2025-02-03,NIGHT,Mon,32,30,93.8,3.6,High (3.1-4.0),4,3,1,0,False,False,75.0,3.2,3.8,-0.6,Marginal,1,0.0,1,0,1,0,0,0,0,0,1:8,1:5,False
+RS-006129,HGH-MAIN,CCU,CCU,2025-02-03,NIGHT,Mon,8,7,87.5,4.2,Critical (4.1-5.0),2,2,0,0,False,False,100.0,6.9,9.1,-2.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:2,False
+RS-020362,HGH-EAST,PALL,Palliative care,2025-02-03,AM,Mon,10,8,80.0,2.8,Moderate (2.1-3.0),2,2,0,0,True,True,100.0,6.0,8.0,-2.0,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-006132,HGH-MAIN,CCU,CCU,2025-02-04,NIGHT,Tue,8,6,75.0,4.5,Critical (4.1-5.0),2,2,0,0,False,False,100.0,8.0,9.1,-1.1,Marginal,0,0.0,0,0,1,0,0,0,0,0,1:3,1:2,False
+RS-008325,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-02-05,NIGHT,Wed,24,23,95.8,2.2,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.1,3.4,-0.3,Marginal,0,0.0,0,0,1,0,0,0,0,0,1:8,1:5,False
+RS-000659,HGH-MAIN,4B-MED,Medical,2025-02-05,PM,Wed,32,29,90.6,3.0,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,3.3,4.9,-1.6,Understaffed,0,3.3,1,0,0,0,0,0,0,0,1:7,1:5,False
+RS-017087,HGH-EAST,3A-SURG,Surgical,2025-02-06,PM,Thu,28,22,78.6,2.7,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,4.4,4.7,-0.3,Adequate,0,0.0,0,0,0,0,0,1,0,0,1:6,1:5,False
+RS-002851,HGH-MAIN,5A-SURG,Surgical,2025-02-06,AM,Thu,30,27,90.0,3.3,High (3.1-4.0),6,4,1,1,True,False,66.7,5.3,5.5,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-003947,HGH-MAIN,5B-SURG,Surgical,2025-02-06,PM,Thu,26,21,80.8,2.6,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,4.6,4.7,-0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-006139,HGH-MAIN,CCU,CCU,2025-02-07,AM,Fri,8,6,75.0,4.4,Critical (4.1-5.0),3,3,0,0,True,True,100.0,12.0,14.0,-2.0,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-005045,HGH-MAIN,ICU,ICU,2025-02-07,PM,Fri,12,10,83.3,4.3,Critical (4.1-5.0),8,8,0,0,False,False,100.0,19.2,18.7,0.5,Adequate,0,0.0,0,0,0,1,0,0,0,0,1:1,1:1,True
+RS-015997,HGH-EAST,2A-MED,Medical,2025-02-08,AM,Sat,30,30,100.0,3.1,High (3.1-4.0),6,4,1,1,False,False,66.7,4.8,5.8,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-008334,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-02-08,NIGHT,Sat,24,18,75.0,3.0,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.7,3.4,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:9,1:5,False
+RS-001763,HGH-MAIN,4C-MED,Medical,2025-02-08,PM,Sat,28,25,89.3,3.2,High (3.1-4.0),2,1,1,0,False,False,50.0,1.9,4.9,-3.0,Understaffed,0,5.0,0,2,0,0,0,0,0,0,1:12,1:5,False
+RS-023662,HGH-EAST,GEM,Aged care/subacute,2025-02-08,AM,Sat,16,15,93.8,2.2,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.8,5.0,-0.2,Adequate,0,0.0,0,0,1,0,0,0,0,0,1:5,1:6,True
+RS-011617,HGH-MAIN,MAT,Maternity,2025-02-08,AM,Sat,18,16,88.9,2.2,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,6.0,6.0,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-021475,HGH-EAST,4A-RESP,Medical,2025-02-09,AM,Sun,20,15,75.0,3.4,High (3.1-4.0),3,2,1,0,False,False,66.7,4.8,6.0,-1.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-022571,HGH-EAST,RENAL,Medical,2025-02-09,PM,Sun,14,13,92.9,3.4,High (3.1-4.0),2,1,1,0,True,False,50.0,3.7,5.4,-1.7,Understaffed,0,0.0,0,0,0,1,0,0,0,0,1:6,1:5,False
+RS-011623,HGH-MAIN,MAT,Maternity,2025-02-10,AM,Mon,18,16,88.9,2.1,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,6.0,6.0,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-013813,HGH-MAIN,MH,Mental health,2025-02-10,AM,Mon,20,15,75.0,3.1,High (3.1-4.0),4,3,1,0,True,True,75.0,6.4,7.0,-0.6,Marginal,0,2.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-019290,HGH-EAST,REHAB,Rehabilitation,2025-02-10,NIGHT,Mon,22,18,81.8,2.0,Low (1.0-2.0),2,1,1,0,False,False,50.0,2.7,2.9,-0.2,Adequate,0,1.2,0,0,0,0,0,0,0,0,1:9,1:6,False
+RS-002867,HGH-MAIN,5A-SURG,Surgical,2025-02-11,PM,Tue,30,26,86.7,2.8,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,4.6,4.7,-0.1,Adequate,0,0.0,0,0,0,0,0,1,0,0,1:5,1:5,True
+RS-003961,HGH-MAIN,5B-SURG,Surgical,2025-02-11,AM,Tue,26,24,92.3,2.7,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,5.0,5.5,-0.5,Adequate,0,1.7,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-016010,HGH-EAST,2A-MED,Medical,2025-02-12,PM,Wed,30,27,90.0,3.3,High (3.1-4.0),5,4,1,0,True,False,80.0,4.4,4.9,-0.5,Adequate,1,0.0,0,1,0,0,0,0,0,0,1:5,1:5,True
+RS-001775,HGH-MAIN,4C-MED,Medical,2025-02-12,PM,Wed,28,25,89.3,2.9,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.8,4.9,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-014914,HGH-MAIN,SSU,Short stay,2025-02-12,AM,Wed,12,10,83.3,2.3,Moderate (2.1-3.0),2,1,1,0,True,True,50.0,4.8,5.0,-0.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-018203,HGH-EAST,AC,Aged care/subacute,2025-02-13,PM,Thu,24,22,91.7,2.9,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.3,4.7,-1.4,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:6,False
+RS-017111,HGH-EAST,3A-SURG,Surgical,2025-02-14,PM,Fri,28,26,92.9,3.1,High (3.1-4.0),5,4,1,0,False,True,80.0,4.6,4.7,-0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-021491,HGH-EAST,4A-RESP,Medical,2025-02-14,PM,Fri,20,17,85.0,3.4,High (3.1-4.0),3,2,1,0,False,False,66.7,4.2,5.1,-0.9,Marginal,0,0.0,0,0,0,0,0,1,0,0,1:6,1:5,False
+RS-020396,HGH-EAST,PALL,Palliative care,2025-02-14,PM,Fri,10,9,90.0,2.3,Moderate (2.1-3.0),2,2,0,0,True,False,100.0,5.3,6.1,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-018209,HGH-EAST,AC,Aged care/subacute,2025-02-15,PM,Sat,24,19,79.2,2.7,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.8,4.7,-0.9,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:6,1:6,True
+RS-008358,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-02-16,NIGHT,Sun,24,20,83.3,2.6,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.4,3.4,-1.0,Marginal,0,0.0,0,1,0,0,0,0,0,0,1:10,1:5,False
+RS-009452,HGH-MAIN,6A-ONCO,Oncology,2025-02-16,PM,Sun,22,20,90.9,3.7,High (3.1-4.0),4,3,1,0,False,False,75.0,4.8,5.5,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-012738,HGH-MAIN,PAED,Paediatric,2025-02-16,NIGHT,Sun,16,16,100.0,2.8,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.0,4.2,-1.2,Understaffed,0,0.0,0,1,0,1,0,0,0,0,1:8,1:4,False
+RS-008359,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-02-17,AM,Mon,24,20,83.3,2.1,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,4.8,5.2,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-000695,HGH-MAIN,4B-MED,Medical,2025-02-17,PM,Mon,32,31,96.9,3.7,High (3.1-4.0),4,3,1,0,False,True,75.0,3.1,4.9,-1.8,Understaffed,0,2.2,1,0,0,0,0,0,0,0,1:8,1:5,False
+RS-001791,HGH-MAIN,4C-MED,Medical,2025-02-17,NIGHT,Mon,28,23,82.1,3.1,High (3.1-4.0),3,2,1,0,False,False,66.7,3.1,3.8,-0.7,Marginal,1,0.0,1,0,0,0,0,1,0,0,1:8,1:5,False
+RS-020406,HGH-EAST,PALL,Palliative care,2025-02-17,NIGHT,Mon,10,9,90.0,2.9,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,5.3,5.2,0.1,Adequate,0,0.0,0,0,0,1,0,0,0,0,1:4,1:4,True
+RS-021504,HGH-EAST,4A-RESP,Medical,2025-02-18,NIGHT,Tue,20,20,100.0,3.5,High (3.1-4.0),2,2,0,0,False,False,100.0,2.4,3.9,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:10,1:5,False
+RS-019313,HGH-EAST,REHAB,Rehabilitation,2025-02-18,PM,Tue,22,18,81.8,1.8,Low (1.0-2.0),2,1,1,0,True,True,50.0,2.7,3.8,-1.1,Marginal,0,1.9,0,0,0,0,0,0,0,0,1:9,1:6,False
+RS-006175,HGH-MAIN,CCU,CCU,2025-02-19,AM,Wed,8,6,75.0,4.1,Critical (4.1-5.0),3,3,0,0,True,True,100.0,12.0,14.0,-2.0,Understaffed,1,0.0,1,0,0,0,0,0,0,0,1:2,1:2,True
+RS-017129,HGH-EAST,3A-SURG,Surgical,2025-02-20,PM,Thu,28,22,78.6,3.1,High (3.1-4.0),4,3,1,0,True,False,75.0,4.4,4.7,-0.3,Adequate,1,0.0,0,1,0,0,0,0,0,0,1:6,1:5,False
+RS-006179,HGH-MAIN,CCU,CCU,2025-02-20,PM,Thu,8,7,87.5,3.9,High (3.1-4.0),3,3,0,0,True,False,100.0,10.3,11.9,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-011654,HGH-MAIN,MAT,Maternity,2025-02-20,PM,Thu,18,17,94.4,2.2,Moderate (2.1-3.0),4,3,1,0,False,True,75.0,5.6,5.1,0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-013843,HGH-MAIN,MH,Mental health,2025-02-20,AM,Thu,20,18,90.0,2.7,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,6.7,7.0,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-013849,HGH-MAIN,MH,Mental health,2025-02-22,AM,Sat,20,18,90.0,2.8,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,6.7,7.0,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-014944,HGH-MAIN,SSU,Short stay,2025-02-22,AM,Sat,12,11,91.7,2.2,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,6.5,5.0,1.5,Adequate,0,2.3,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-014946,HGH-MAIN,SSU,Short stay,2025-02-22,NIGHT,Sat,12,10,83.3,2.3,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.8,3.2,1.6,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-006189,HGH-MAIN,CCU,CCU,2025-02-23,NIGHT,Sun,8,7,87.5,4.3,Critical (4.1-5.0),2,2,0,0,False,False,100.0,6.9,9.1,-2.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:2,False
+RS-007284,HGH-MAIN,ED-OBS,ED,2025-02-23,NIGHT,Sun,20,15,75.0,3.2,High (3.1-4.0),2,2,0,0,False,False,100.0,3.2,4.5,-1.3,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-014947,HGH-MAIN,SSU,Short stay,2025-02-23,AM,Sun,12,10,83.3,2.2,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,4.8,5.0,-0.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-016045,HGH-EAST,2A-MED,Medical,2025-02-24,AM,Mon,30,30,100.0,3.1,High (3.1-4.0),6,4,1,1,True,False,66.7,4.8,5.8,-1.0,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:5,1:5,True
+RS-009477,HGH-MAIN,6A-ONCO,Oncology,2025-02-24,NIGHT,Mon,22,19,86.4,3.9,High (3.1-4.0),2,2,0,0,False,False,100.0,2.5,4.2,-1.7,Understaffed,0,2.1,0,2,1,0,0,0,0,0,1:10,1:4,False
+RS-012761,HGH-MAIN,PAED,Paediatric,2025-02-24,PM,Mon,16,15,93.8,2.8,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.8,5.5,-0.7,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:5,1:4,False
+RS-008383,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-02-25,AM,Tue,24,22,91.7,2.3,Moderate (2.1-3.0),5,3,1,1,True,False,60.0,5.5,5.2,0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-022620,HGH-EAST,RENAL,Medical,2025-02-25,NIGHT,Tue,14,13,92.9,3.0,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.7,3.6,0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-016053,HGH-EAST,2A-MED,Medical,2025-02-26,NIGHT,Wed,30,28,93.3,3.5,High (3.1-4.0),4,3,1,0,False,False,75.0,3.4,3.8,-0.4,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:7,1:5,False
+RS-008387,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-02-26,PM,Wed,24,21,87.5,2.3,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,4.6,4.4,0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-005101,HGH-MAIN,ICU,ICU,2025-02-26,AM,Wed,12,9,75.0,4.4,Critical (4.1-5.0),9,9,0,0,True,False,100.0,24.0,22.0,2.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-005102,HGH-MAIN,ICU,ICU,2025-02-26,PM,Wed,12,10,83.3,4.6,Critical (4.1-5.0),8,8,0,0,False,False,100.0,19.2,18.7,0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-020432,HGH-EAST,PALL,Palliative care,2025-02-26,PM,Wed,10,9,90.0,2.9,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,5.3,6.8,-1.5,Marginal,0,1.3,0,0,0,0,0,1,0,0,1:4,1:4,True
+RS-017149,HGH-EAST,3A-SURG,Surgical,2025-02-27,AM,Thu,28,21,75.0,3.0,Moderate (2.1-3.0),4,3,1,0,True,True,75.0,4.6,5.5,-0.9,Marginal,0,2.7,1,0,0,0,0,0,0,0,1:5,1:5,True
+RS-006200,HGH-MAIN,CCU,CCU,2025-02-27,PM,Thu,8,7,87.5,3.9,High (3.1-4.0),3,3,0,0,False,True,100.0,10.3,11.9,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,2,0,1:2,1:2,True
+RS-005105,HGH-MAIN,ICU,ICU,2025-02-27,PM,Thu,12,9,75.0,4.8,Critical (4.1-5.0),7,7,0,0,True,False,100.0,18.7,18.7,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-019341,HGH-EAST,REHAB,Rehabilitation,2025-02-27,NIGHT,Thu,22,21,95.5,2.3,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.3,2.9,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:10,1:6,False
+RS-013867,HGH-MAIN,MH,Mental health,2025-02-28,AM,Fri,20,18,90.0,2.4,Moderate (2.1-3.0),5,4,1,0,True,True,80.0,6.7,7.0,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-017157,HGH-EAST,3A-SURG,Surgical,2025-03-01,NIGHT,Sat,28,22,78.6,3.1,High (3.1-4.0),3,2,1,0,False,False,66.7,3.3,3.6,-0.3,Marginal,0,1.6,0,0,0,1,0,0,0,0,1:7,1:5,False
+RS-004016,HGH-MAIN,5B-SURG,Surgical,2025-03-01,PM,Sat,26,23,88.5,2.7,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,4.2,4.7,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-018252,HGH-EAST,AC,Aged care/subacute,2025-03-01,NIGHT,Sat,24,21,87.5,2.4,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.3,3.6,-1.3,Understaffed,0,0.0,0,0,0,0,0,1,0,0,1:10,1:6,False
+RS-013872,HGH-MAIN,MH,Mental health,2025-03-01,NIGHT,Sat,20,16,80.0,2.9,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.0,4.5,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-014965,HGH-MAIN,SSU,Short stay,2025-03-01,AM,Sat,12,10,83.3,2.4,Moderate (2.1-3.0),2,1,1,0,True,False,50.0,4.8,5.0,-0.2,Marginal,0,0.0,0,1,0,0,0,0,0,0,1:5,1:5,True
+RS-023729,HGH-EAST,GEM,Aged care/subacute,2025-03-02,PM,Sun,16,14,87.5,1.9,Low (1.0-2.0),2,1,1,0,False,False,50.0,3.4,3.8,-0.4,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:6,False
+RS-001832,HGH-MAIN,4C-MED,Medical,2025-03-03,PM,Mon,28,25,89.3,2.9,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.8,4.9,-1.1,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-010596,HGH-MAIN,2B-NEURO,Neurology,2025-03-04,NIGHT,Tue,20,19,95.0,3.5,High (3.1-4.0),2,2,0,0,False,False,100.0,2.5,3.9,-1.4,Understaffed,0,0.0,0,1,0,0,0,0,0,0,1:10,1:5,False
+RS-021545,HGH-EAST,4A-RESP,Medical,2025-03-04,PM,Tue,20,18,90.0,2.9,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,4.0,5.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-007309,HGH-MAIN,ED-OBS,ED,2025-03-04,AM,Tue,20,16,80.0,3.1,High (3.1-4.0),4,3,1,0,True,False,75.0,6.0,7.0,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-011690,HGH-MAIN,MAT,Maternity,2025-03-04,PM,Tue,18,16,88.9,2.8,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.0,5.9,-2.9,Understaffed,0,3.6,0,1,0,0,0,0,0,0,1:8,1:4,False
+RS-002933,HGH-MAIN,5A-SURG,Surgical,2025-03-05,PM,Wed,30,25,83.3,2.9,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,3.8,4.7,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-007313,HGH-MAIN,ED-OBS,ED,2025-03-05,PM,Wed,20,17,85.0,2.8,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,5.6,6.0,-0.4,Adequate,0,0.0,0,0,0,1,0,0,0,0,1:4,1:4,True
+RS-009507,HGH-MAIN,6A-ONCO,Oncology,2025-03-06,NIGHT,Thu,22,18,81.8,3.9,High (3.1-4.0),3,2,1,0,False,False,66.7,4.0,4.2,-0.2,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:6,1:4,False
+RS-018270,HGH-EAST,AC,Aged care/subacute,2025-03-07,NIGHT,Fri,24,20,83.3,3.5,High (3.1-4.0),2,1,1,0,False,False,50.0,2.4,4.1,-1.7,Understaffed,0,0.0,0,0,0,0,1,0,0,0,1:10,1:6,False
+RS-000752,HGH-MAIN,4B-MED,Medical,2025-03-08,PM,Sat,32,33,103.1,2.9,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,2.9,4.9,-2.0,Understaffed,0,2.1,0,1,0,0,0,0,0,0,1:8,1:5,False
+RS-013891,HGH-MAIN,MH,Mental health,2025-03-08,AM,Sat,20,21,105.0,2.6,Moderate (2.1-3.0),6,4,1,1,False,False,66.7,6.9,7.0,-0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-012798,HGH-MAIN,PAED,Paediatric,2025-03-08,NIGHT,Sat,16,14,87.5,2.9,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.4,4.2,-0.8,Marginal,0,0.0,0,0,0,0,0,1,0,0,1:7,1:4,False
+RS-008420,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-03-09,PM,Sun,24,17,70.8,2.5,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.8,4.4,-1.6,Understaffed,0,2.1,0,1,0,0,0,0,0,0,1:8,1:5,False
+RS-014991,HGH-MAIN,SSU,Short stay,2025-03-09,NIGHT,Sun,12,10,83.3,2.5,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.8,3.2,1.6,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-001853,HGH-MAIN,4C-MED,Medical,2025-03-10,PM,Mon,28,27,96.4,2.5,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,4.4,4.9,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-005139,HGH-MAIN,ICU,ICU,2025-03-10,NIGHT,Mon,12,10,83.3,5.0,Critical (4.1-5.0),6,6,0,0,False,False,100.0,14.4,14.3,0.1,Adequate,0,3.7,1,0,0,0,0,0,0,0,1:2,1:1,False
+RS-020469,HGH-EAST,PALL,Palliative care,2025-03-10,NIGHT,Mon,10,9,90.0,3.2,High (3.1-4.0),2,2,0,0,False,False,100.0,5.3,5.2,0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-006236,HGH-MAIN,CCU,CCU,2025-03-11,PM,Tue,8,7,87.5,4.1,Critical (4.1-5.0),3,3,0,0,True,False,100.0,10.3,11.9,-1.6,Understaffed,0,2.4,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-007331,HGH-MAIN,ED-OBS,ED,2025-03-11,PM,Tue,20,16,80.0,2.7,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.0,6.0,-3.0,Understaffed,0,3.4,1,0,0,0,0,0,0,0,1:8,1:4,False
+RS-011711,HGH-MAIN,MAT,Maternity,2025-03-11,PM,Tue,18,18,100.0,2.2,Moderate (2.1-3.0),4,3,1,0,False,True,75.0,5.3,5.1,0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-020470,HGH-EAST,PALL,Palliative care,2025-03-11,AM,Tue,10,10,100.0,2.8,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,7.2,8.0,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:4,True
+RS-002958,HGH-MAIN,5A-SURG,Surgical,2025-03-13,NIGHT,Thu,30,27,90.0,3.5,High (3.1-4.0),4,3,1,0,False,False,75.0,3.6,4.1,-0.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-006243,HGH-MAIN,CCU,CCU,2025-03-13,NIGHT,Thu,8,6,75.0,4.3,Critical (4.1-5.0),2,2,0,0,False,False,100.0,8.0,9.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-006242,HGH-MAIN,CCU,CCU,2025-03-13,PM,Thu,8,7,87.5,4.0,High (3.1-4.0),3,3,0,0,True,False,100.0,10.3,11.9,-1.6,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:2,1:2,True
+RS-007337,HGH-MAIN,ED-OBS,ED,2025-03-13,PM,Thu,20,15,75.0,2.8,Moderate (2.1-3.0),2,2,0,0,False,True,100.0,3.2,6.0,-2.8,Understaffed,0,3.1,0,1,0,0,0,0,0,0,1:8,1:4,False
+RS-012811,HGH-MAIN,PAED,Paediatric,2025-03-13,AM,Thu,16,15,93.8,2.6,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,6.4,6.5,-0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-021574,HGH-EAST,4A-RESP,Medical,2025-03-14,AM,Fri,20,18,90.0,2.9,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,5.3,6.0,-0.7,Marginal,1,0.0,0,1,0,0,0,0,0,0,1:4,1:5,True
+RS-001866,HGH-MAIN,4C-MED,Medical,2025-03-14,NIGHT,Fri,28,27,96.4,3.2,High (3.1-4.0),4,3,1,0,False,False,75.0,3.6,3.8,-0.2,Adequate,0,0.0,0,0,1,0,0,0,0,0,1:7,1:5,False
+RS-005149,HGH-MAIN,ICU,ICU,2025-03-14,AM,Fri,12,11,91.7,4.3,Critical (4.1-5.0),11,11,0,0,True,False,100.0,24.0,22.0,2.0,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:1,1:1,True
+RS-022671,HGH-EAST,RENAL,Medical,2025-03-14,NIGHT,Fri,14,13,92.9,2.8,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.7,3.6,0.1,Adequate,0,1.4,0,0,1,0,0,0,0,0,1:6,1:5,False
+RS-006247,HGH-MAIN,CCU,CCU,2025-03-15,AM,Sat,8,6,75.0,4.6,Critical (4.1-5.0),3,3,0,0,True,False,100.0,12.0,16.1,-4.1,Critical,0,0.0,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-005152,HGH-MAIN,ICU,ICU,2025-03-15,AM,Sat,12,9,75.0,4.6,Critical (4.1-5.0),9,9,0,0,False,False,100.0,24.0,22.0,2.0,Adequate,3,0.0,3,0,0,0,0,0,0,0,1:1,1:1,True
+RS-017201,HGH-EAST,3A-SURG,Surgical,2025-03-16,PM,Sun,28,24,85.7,2.5,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,4.0,4.7,-0.7,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-018297,HGH-EAST,AC,Aged care/subacute,2025-03-16,NIGHT,Sun,24,22,91.7,2.3,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.2,3.6,-1.4,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:11,1:6,False
+RS-006250,HGH-MAIN,CCU,CCU,2025-03-16,AM,Sun,8,5,62.5,4.1,Critical (4.1-5.0),3,3,0,0,False,False,100.0,14.4,14.0,0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-015010,HGH-MAIN,SSU,Short stay,2025-03-16,AM,Sun,12,11,91.7,2.8,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,6.5,5.8,0.7,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-017205,HGH-EAST,3A-SURG,Surgical,2025-03-17,NIGHT,Mon,28,25,89.3,3.5,High (3.1-4.0),3,2,1,0,False,False,66.7,2.9,4.1,-1.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-004065,HGH-MAIN,5B-SURG,Surgical,2025-03-17,NIGHT,Mon,26,22,84.6,2.6,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.3,3.6,-0.3,Marginal,0,2.4,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-022682,HGH-EAST,RENAL,Medical,2025-03-18,PM,Tue,14,13,92.9,3.1,High (3.1-4.0),2,1,1,0,False,False,50.0,3.7,4.7,-1.0,Marginal,0,0.0,0,0,1,0,0,0,0,0,1:6,1:5,False
+RS-008454,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-03-20,NIGHT,Thu,24,24,100.0,2.8,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.0,3.4,-0.4,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-004074,HGH-MAIN,5B-SURG,Surgical,2025-03-20,NIGHT,Thu,26,21,80.8,2.3,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.4,3.6,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-007358,HGH-MAIN,ED-OBS,ED,2025-03-20,PM,Thu,20,17,85.0,2.6,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,5.6,6.0,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-021595,HGH-EAST,4A-RESP,Medical,2025-03-21,AM,Fri,20,18,90.0,3.1,High (3.1-4.0),4,3,1,0,True,True,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-000791,HGH-MAIN,4B-MED,Medical,2025-03-21,PM,Fri,32,30,93.8,3.8,High (3.1-4.0),5,4,1,0,True,False,80.0,4.0,5.7,-1.7,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-023785,HGH-EAST,GEM,Aged care/subacute,2025-03-21,AM,Fri,16,13,81.2,1.9,Low (1.0-2.0),3,2,1,0,True,True,66.7,5.5,4.5,1.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:6,True
+RS-012835,HGH-MAIN,PAED,Paediatric,2025-03-21,AM,Fri,16,13,81.2,2.3,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,5.5,6.5,-1.0,Marginal,0,2.1,1,0,0,0,0,0,0,0,1:4,1:4,True
+RS-010650,HGH-MAIN,2B-NEURO,Neurology,2025-03-22,NIGHT,Sat,20,18,90.0,3.4,High (3.1-4.0),2,2,0,0,False,False,100.0,2.7,3.9,-1.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:9,1:5,False
+RS-004078,HGH-MAIN,5B-SURG,Surgical,2025-03-22,AM,Sat,26,20,76.9,2.9,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,4.8,5.5,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-007364,HGH-MAIN,ED-OBS,ED,2025-03-22,PM,Sat,20,16,80.0,2.8,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.5,6.0,-1.5,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:5,1:4,False
+RS-022694,HGH-EAST,RENAL,Medical,2025-03-22,PM,Sat,14,13,92.9,3.1,High (3.1-4.0),2,1,1,0,False,False,50.0,3.7,4.7,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-008463,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-03-23,NIGHT,Sun,24,23,95.8,2.7,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.1,3.4,-0.3,Marginal,0,0.0,0,0,0,0,0,1,0,0,1:8,1:5,False
+RS-008462,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-03-23,PM,Sun,24,22,91.7,2.7,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,4.4,4.4,0.0,Adequate,0,0.0,0,0,1,0,0,1,0,0,1:6,1:5,False
+RS-004082,HGH-MAIN,5B-SURG,Surgical,2025-03-23,PM,Sun,26,24,92.3,3.2,High (3.1-4.0),4,3,1,0,True,False,75.0,4.0,4.7,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-013937,HGH-MAIN,MH,Mental health,2025-03-23,PM,Sun,20,18,90.0,2.9,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-007369,HGH-MAIN,ED-OBS,ED,2025-03-24,AM,Mon,20,17,85.0,3.4,High (3.1-4.0),5,4,1,0,True,True,80.0,7.1,7.0,0.1,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:3,1:4,True
+RS-020510,HGH-EAST,PALL,Palliative care,2025-03-24,PM,Mon,10,8,80.0,3.3,High (3.1-4.0),2,2,0,0,False,False,100.0,6.0,6.8,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-019415,HGH-EAST,REHAB,Rehabilitation,2025-03-24,PM,Mon,22,19,86.4,2.2,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.8,3.8,0.0,Adequate,1,0.0,0,1,0,0,0,1,0,0,1:6,1:6,True
+RS-007374,HGH-MAIN,ED-OBS,ED,2025-03-25,NIGHT,Tue,20,16,80.0,3.0,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.0,4.5,-1.5,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:8,1:4,False
+RS-023798,HGH-EAST,GEM,Aged care/subacute,2025-03-25,PM,Tue,16,14,87.5,2.3,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.4,4.2,-0.8,Marginal,0,0.0,0,0,1,0,0,0,0,0,1:7,1:6,False
+RS-012848,HGH-MAIN,PAED,Paediatric,2025-03-25,PM,Tue,16,16,100.0,2.6,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,4.5,5.5,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-015039,HGH-MAIN,SSU,Short stay,2025-03-25,NIGHT,Tue,12,11,91.7,2.4,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.4,3.2,1.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-006281,HGH-MAIN,CCU,CCU,2025-03-26,PM,Wed,8,7,87.5,3.9,High (3.1-4.0),3,3,0,0,True,False,100.0,10.3,11.9,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-007375,HGH-MAIN,ED-OBS,ED,2025-03-26,AM,Wed,20,17,85.0,2.9,Moderate (2.1-3.0),5,4,1,0,True,True,80.0,7.1,7.0,0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:3,1:4,True
+RS-005187,HGH-MAIN,ICU,ICU,2025-03-26,NIGHT,Wed,12,11,91.7,4.6,Critical (4.1-5.0),6,6,0,0,False,False,100.0,13.1,14.3,-1.2,Understaffed,0,3.6,1,0,0,0,0,0,0,0,1:2,1:1,False
+RS-008475,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-03-27,NIGHT,Thu,24,21,87.5,2.4,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.4,3.4,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-001903,HGH-MAIN,4C-MED,Medical,2025-03-27,AM,Thu,28,29,103.6,2.5,Moderate (2.1-3.0),6,4,1,1,True,False,66.7,5.0,5.8,-0.8,Marginal,1,0.0,0,1,0,0,0,0,0,0,1:5,1:5,True
+RS-015043,HGH-MAIN,SSU,Short stay,2025-03-27,AM,Thu,12,11,91.7,2.5,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,6.5,5.0,1.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-008476,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-03-28,AM,Fri,24,23,95.8,1.9,Low (1.0-2.0),5,3,1,1,True,True,60.0,5.2,4.7,0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-004096,HGH-MAIN,5B-SURG,Surgical,2025-03-28,AM,Fri,26,25,96.2,2.4,Moderate (2.1-3.0),4,3,1,0,True,True,75.0,3.8,5.5,-1.7,Understaffed,0,2.6,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-013953,HGH-MAIN,MH,Mental health,2025-03-28,NIGHT,Fri,20,17,85.0,2.9,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,2.8,4.5,-1.7,Understaffed,0,2.4,1,0,0,0,0,0,0,0,1:8,1:4,False
+RS-012857,HGH-MAIN,PAED,Paediatric,2025-03-28,PM,Fri,16,13,81.2,2.4,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,5.5,5.5,0.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-007386,HGH-MAIN,ED-OBS,ED,2025-03-29,NIGHT,Sat,20,17,85.0,3.5,High (3.1-4.0),2,2,0,0,False,False,100.0,2.8,4.5,-1.7,Understaffed,0,2.3,1,0,0,0,0,0,0,1,1:8,1:4,False
+RS-013955,HGH-MAIN,MH,Mental health,2025-03-29,PM,Sat,20,18,90.0,2.8,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,1,0,0,1:4,1:4,True
+RS-003007,HGH-MAIN,5A-SURG,Surgical,2025-03-30,AM,Sun,30,26,86.7,3.5,High (3.1-4.0),6,4,1,1,False,False,66.7,5.5,6.3,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-000822,HGH-MAIN,4B-MED,Medical,2025-03-31,NIGHT,Mon,32,30,93.8,3.0,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,2.4,3.8,-1.4,Understaffed,0,3.4,1,0,0,0,0,0,0,0,1:10,1:5,False
+RS-004106,HGH-MAIN,5B-SURG,Surgical,2025-03-31,PM,Mon,26,23,88.5,2.9,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,4.2,4.7,-0.5,Adequate,1,0.0,0,1,0,1,0,0,0,0,1:6,1:5,False
+RS-006296,HGH-MAIN,CCU,CCU,2025-03-31,PM,Mon,8,6,75.0,4.3,Critical (4.1-5.0),2,2,0,0,True,False,100.0,8.0,11.9,-3.9,Critical,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-009584,HGH-MAIN,6A-ONCO,Oncology,2025-04-01,PM,Tue,22,17,77.3,4.0,High (3.1-4.0),4,3,1,0,False,False,75.0,5.6,5.5,0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-023818,HGH-EAST,GEM,Aged care/subacute,2025-04-01,AM,Tue,16,14,87.5,2.1,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,5.1,5.0,0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:6,True
+RS-019440,HGH-EAST,REHAB,Rehabilitation,2025-04-01,NIGHT,Tue,22,20,90.9,1.4,Low (1.0-2.0),2,1,1,0,False,False,50.0,2.4,2.6,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:10,1:6,False
+RS-022724,HGH-EAST,RENAL,Medical,2025-04-01,PM,Tue,14,14,100.0,3.0,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.4,4.7,-1.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-016156,HGH-EAST,2A-MED,Medical,2025-04-02,AM,Wed,30,27,90.0,3.3,High (3.1-4.0),6,4,1,1,True,True,66.7,5.3,5.8,-0.5,Adequate,1,0.0,0,1,0,0,0,0,0,0,1:4,1:5,True
+RS-010683,HGH-MAIN,2B-NEURO,Neurology,2025-04-02,NIGHT,Wed,20,17,85.0,3.5,High (3.1-4.0),2,2,0,0,False,False,100.0,2.8,3.9,-1.1,Marginal,0,0.0,0,0,0,0,0,1,0,0,1:8,1:5,False
+RS-009586,HGH-MAIN,6A-ONCO,Oncology,2025-04-02,AM,Wed,22,24,109.1,3.9,High (3.1-4.0),6,5,1,0,True,False,83.3,6.0,6.5,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-011777,HGH-MAIN,MAT,Maternity,2025-04-02,PM,Wed,18,12,66.7,1.8,Low (1.0-2.0),2,2,0,0,True,True,100.0,4.0,5.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-008494,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-04-03,AM,Thu,24,23,95.8,2.5,Moderate (2.1-3.0),5,3,1,1,True,False,60.0,5.2,5.2,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-003020,HGH-MAIN,5A-SURG,Surgical,2025-04-03,PM,Thu,30,25,83.3,3.2,High (3.1-4.0),3,2,1,0,True,False,66.7,2.9,4.7,-1.8,Understaffed,0,2.0,0,1,0,0,0,0,0,0,1:8,1:5,False
+RS-006306,HGH-MAIN,CCU,CCU,2025-04-03,NIGHT,Thu,8,6,75.0,4.4,Critical (4.1-5.0),2,2,0,0,False,False,100.0,8.0,9.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-007401,HGH-MAIN,ED-OBS,ED,2025-04-03,NIGHT,Thu,20,15,75.0,3.6,High (3.1-4.0),2,2,0,0,False,False,100.0,3.2,5.2,-2.0,Understaffed,0,0.0,0,0,0,0,1,0,0,0,1:8,1:4,False
+RS-013970,HGH-MAIN,MH,Mental health,2025-04-03,PM,Thu,20,17,85.0,2.6,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,5.6,6.0,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-004119,HGH-MAIN,5B-SURG,Surgical,2025-04-04,NIGHT,Fri,26,25,96.2,2.8,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,1.9,3.6,-1.7,Understaffed,0,3.2,1,0,1,0,0,0,0,0,1:12,1:5,False
+RS-013973,HGH-MAIN,MH,Mental health,2025-04-04,PM,Fri,20,19,95.0,2.7,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,5.1,6.0,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-020542,HGH-EAST,PALL,Palliative care,2025-04-04,AM,Fri,10,8,80.0,2.7,Moderate (2.1-3.0),2,2,0,0,True,True,100.0,6.0,8.0,-2.0,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-007407,HGH-MAIN,ED-OBS,ED,2025-04-05,NIGHT,Sat,20,18,90.0,3.4,High (3.1-4.0),2,2,0,0,False,False,100.0,2.7,4.5,-1.8,Understaffed,0,4.0,1,0,0,0,1,0,0,0,1:9,1:4,False
+RS-007406,HGH-MAIN,ED-OBS,ED,2025-04-05,PM,Sat,20,15,75.0,2.9,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.8,6.0,-1.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-012882,HGH-MAIN,PAED,Paediatric,2025-04-05,NIGHT,Sat,16,12,75.0,2.6,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.0,4.2,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-013979,HGH-MAIN,MH,Mental health,2025-04-06,PM,Sun,20,18,90.0,3.0,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.0,6.0,-2.0,Understaffed,1,2.8,0,2,0,0,0,0,0,0,1:6,1:4,False
+RS-016173,HGH-EAST,2A-MED,Medical,2025-04-07,NIGHT,Mon,30,27,90.0,3.2,High (3.1-4.0),4,3,1,0,False,False,75.0,3.6,3.8,-0.2,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:7,1:5,False
+RS-021647,HGH-EAST,4A-RESP,Medical,2025-04-07,PM,Mon,20,18,90.0,3.4,High (3.1-4.0),3,2,1,0,False,False,66.7,4.0,5.1,-1.1,Marginal,0,0.0,0,0,0,0,0,1,0,0,1:6,1:5,False
+RS-016174,HGH-EAST,2A-MED,Medical,2025-04-08,AM,Tue,30,30,100.0,3.4,High (3.1-4.0),5,4,1,0,True,True,80.0,4.0,5.8,-1.8,Understaffed,0,3.1,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-017271,HGH-EAST,3A-SURG,Surgical,2025-04-08,NIGHT,Tue,28,25,89.3,2.4,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,2.9,3.6,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:5,False
+RS-004129,HGH-MAIN,5B-SURG,Surgical,2025-04-08,AM,Tue,26,21,80.8,2.0,Low (1.0-2.0),5,4,1,0,False,True,80.0,5.7,5.0,0.7,Adequate,1,0.0,0,1,0,0,0,0,0,0,1:4,1:5,True
+RS-012891,HGH-MAIN,PAED,Paediatric,2025-04-08,NIGHT,Tue,16,15,93.8,2.7,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.2,4.2,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-001943,HGH-MAIN,4C-MED,Medical,2025-04-09,PM,Wed,28,29,103.6,3.6,High (3.1-4.0),5,4,1,0,True,False,80.0,4.1,5.7,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-018367,HGH-EAST,AC,Aged care/subacute,2025-04-09,AM,Wed,24,23,95.8,2.8,Moderate (2.1-3.0),4,2,1,1,True,True,50.0,4.2,5.5,-1.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:6,True
+RS-011799,HGH-MAIN,MAT,Maternity,2025-04-09,NIGHT,Wed,18,17,94.4,2.2,Moderate (2.1-3.0),3,3,0,0,False,False,100.0,4.2,3.9,0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-006327,HGH-MAIN,CCU,CCU,2025-04-10,NIGHT,Thu,8,6,75.0,4.8,Critical (4.1-5.0),2,2,0,0,False,False,100.0,8.0,10.5,-2.5,Critical,0,0.0,0,0,1,0,0,0,0,0,1:3,1:2,False
+RS-023845,HGH-EAST,GEM,Aged care/subacute,2025-04-10,AM,Thu,16,15,93.8,2.6,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,4.8,5.0,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:6,True
+RS-005232,HGH-MAIN,ICU,ICU,2025-04-10,NIGHT,Thu,12,11,91.7,4.8,Critical (4.1-5.0),7,7,0,0,True,False,100.0,15.3,14.3,1.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:2,1:1,False
+RS-005231,HGH-MAIN,ICU,ICU,2025-04-10,PM,Thu,12,11,91.7,4.7,Critical (4.1-5.0),9,9,0,0,True,False,100.0,19.6,18.7,0.9,Adequate,0,0.0,0,0,0,1,0,0,0,0,1:1,1:1,True
+RS-020561,HGH-EAST,PALL,Palliative care,2025-04-10,PM,Thu,10,10,100.0,2.9,Moderate (2.1-3.0),2,2,0,0,True,False,100.0,4.8,6.8,-2.0,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-021658,HGH-EAST,4A-RESP,Medical,2025-04-11,AM,Fri,20,18,90.0,3.6,High (3.1-4.0),4,3,1,0,True,True,75.0,5.3,6.0,-0.7,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:4,1:5,True
+RS-006330,HGH-MAIN,CCU,CCU,2025-04-11,NIGHT,Fri,8,6,75.0,4.1,Critical (4.1-5.0),2,2,0,0,False,False,100.0,8.0,9.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-006329,HGH-MAIN,CCU,CCU,2025-04-11,PM,Fri,8,6,75.0,3.8,High (3.1-4.0),2,2,0,0,False,False,100.0,8.0,11.9,-3.9,Critical,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-020564,HGH-EAST,PALL,Palliative care,2025-04-11,PM,Fri,10,10,100.0,3.4,High (3.1-4.0),2,2,0,0,False,False,100.0,4.8,6.8,-2.0,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-008523,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-04-12,NIGHT,Sat,24,20,83.3,2.5,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.4,3.4,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:10,1:5,False
+RS-003047,HGH-MAIN,5A-SURG,Surgical,2025-04-12,PM,Sat,30,24,80.0,2.0,Low (1.0-2.0),4,3,1,0,False,False,75.0,4.0,4.2,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-007429,HGH-MAIN,ED-OBS,ED,2025-04-13,AM,Sun,20,18,90.0,2.9,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,6.7,7.0,-0.3,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:4,1:4,True
+RS-000862,HGH-MAIN,4B-MED,Medical,2025-04-14,AM,Mon,32,29,90.6,3.6,High (3.1-4.0),5,4,1,0,True,False,80.0,4.1,5.8,-1.7,Understaffed,0,2.0,1,0,0,0,0,0,1,0,1:6,1:5,False
+RS-011814,HGH-MAIN,MAT,Maternity,2025-04-14,NIGHT,Mon,18,15,83.3,2.0,Low (1.0-2.0),2,2,0,0,False,False,100.0,3.2,3.9,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-004150,HGH-MAIN,5B-SURG,Surgical,2025-04-15,AM,Tue,26,22,84.6,3.0,Moderate (2.1-3.0),5,4,1,0,True,True,80.0,5.5,5.5,0.0,Adequate,1,0.0,0,1,1,0,0,0,0,0,1:4,1:5,True
+RS-009626,HGH-MAIN,6A-ONCO,Oncology,2025-04-15,PM,Tue,22,19,86.4,3.6,High (3.1-4.0),4,3,1,0,True,False,75.0,5.1,5.5,-0.4,Adequate,0,2.5,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-019482,HGH-EAST,REHAB,Rehabilitation,2025-04-15,NIGHT,Tue,22,20,90.9,1.7,Low (1.0-2.0),2,1,1,0,False,False,50.0,2.4,2.9,-0.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:10,1:6,False
+RS-006345,HGH-MAIN,CCU,CCU,2025-04-16,NIGHT,Wed,8,7,87.5,4.3,Critical (4.1-5.0),2,2,0,0,False,False,100.0,6.9,9.1,-2.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:2,False
+RS-015104,HGH-MAIN,SSU,Short stay,2025-04-16,PM,Wed,12,10,83.3,1.9,Low (1.0-2.0),2,1,1,0,False,False,50.0,4.8,4.2,0.6,Marginal,0,0.0,0,0,1,0,0,0,0,0,1:5,1:5,True
+RS-008536,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-04-17,AM,Thu,24,20,83.3,2.3,Moderate (2.1-3.0),4,3,1,0,True,True,75.0,4.8,5.2,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-009633,HGH-MAIN,6A-ONCO,Oncology,2025-04-17,NIGHT,Thu,22,18,81.8,3.4,High (3.1-4.0),3,2,1,0,False,False,66.7,4.0,4.2,-0.2,Adequate,0,0.0,0,0,0,0,0,1,0,0,1:6,1:4,False
+RS-016204,HGH-EAST,2A-MED,Medical,2025-04-18,AM,Fri,30,26,86.7,2.7,Moderate (2.1-3.0),6,4,1,1,True,False,66.7,5.5,5.8,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-001969,HGH-MAIN,4C-MED,Medical,2025-04-18,AM,Fri,28,25,89.3,2.7,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,4.8,5.8,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-018396,HGH-EAST,AC,Aged care/subacute,2025-04-18,NIGHT,Fri,24,20,83.3,2.9,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.4,3.6,-1.2,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:10,1:6,False
+RS-015111,HGH-MAIN,SSU,Short stay,2025-04-18,NIGHT,Fri,12,9,75.0,2.2,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,5.3,3.2,2.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-016207,HGH-EAST,2A-MED,Medical,2025-04-19,AM,Sat,30,29,96.7,3.2,High (3.1-4.0),5,4,1,0,False,False,80.0,4.1,5.8,-1.7,Understaffed,0,3.3,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-021683,HGH-EAST,4A-RESP,Medical,2025-04-19,PM,Sat,20,18,90.0,3.4,High (3.1-4.0),3,2,1,0,False,False,66.7,4.0,5.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-014017,HGH-MAIN,MH,Mental health,2025-04-19,AM,Sat,20,18,90.0,2.6,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,6.7,7.0,-0.3,Adequate,0,0.0,0,0,0,1,0,1,0,0,1:4,1:4,True
+RS-014019,HGH-MAIN,MH,Mental health,2025-04-19,NIGHT,Sat,20,16,80.0,3.0,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.0,4.5,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-017307,HGH-EAST,3A-SURG,Surgical,2025-04-20,NIGHT,Sun,28,26,92.9,2.3,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.7,3.6,0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-011830,HGH-MAIN,MAT,Maternity,2025-04-20,AM,Sun,18,15,83.3,2.1,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,6.4,6.0,0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-012925,HGH-MAIN,PAED,Paediatric,2025-04-20,AM,Sun,16,15,93.8,2.1,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.2,6.5,-3.3,Understaffed,0,4.6,2,0,0,0,0,0,0,0,1:8,1:4,False
+RS-020590,HGH-EAST,PALL,Palliative care,2025-04-20,AM,Sun,10,9,90.0,3.0,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,8.0,8.0,0.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:4,True
+RS-015116,HGH-MAIN,SSU,Short stay,2025-04-20,PM,Sun,12,11,91.7,1.7,Low (1.0-2.0),2,1,1,0,False,False,50.0,4.4,3.8,0.6,Marginal,0,0.0,0,0,0,0,0,1,0,0,1:6,1:5,False
+RS-005264,HGH-MAIN,ICU,ICU,2025-04-21,PM,Mon,12,10,83.3,4.5,Critical (4.1-5.0),8,8,0,0,False,False,100.0,19.2,18.7,0.5,Adequate,0,0.0,0,0,1,0,0,0,0,0,1:1,1:1,True
+RS-014024,HGH-MAIN,MH,Mental health,2025-04-21,PM,Mon,20,18,90.0,3.0,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-010742,HGH-MAIN,2B-NEURO,Neurology,2025-04-22,PM,Tue,20,16,80.0,3.1,High (3.1-4.0),3,2,1,0,True,False,66.7,4.5,5.1,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-006363,HGH-MAIN,CCU,CCU,2025-04-22,NIGHT,Tue,8,7,87.5,4.3,Critical (4.1-5.0),2,2,0,0,True,False,100.0,6.9,9.1,-2.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:2,False
+RS-010745,HGH-MAIN,2B-NEURO,Neurology,2025-04-23,PM,Wed,20,18,90.0,3.4,High (3.1-4.0),3,2,1,0,False,False,66.7,4.0,5.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-004176,HGH-MAIN,5B-SURG,Surgical,2025-04-23,NIGHT,Wed,26,25,96.2,2.8,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,1.9,3.6,-1.7,Understaffed,0,2.5,1,0,0,0,0,0,0,0,1:12,1:5,False
+RS-018410,HGH-EAST,AC,Aged care/subacute,2025-04-23,PM,Wed,24,21,87.5,2.4,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,3.4,4.7,-1.3,Marginal,0,0.0,0,0,0,0,0,0,1,0,1:7,1:6,False
+RS-007459,HGH-MAIN,ED-OBS,ED,2025-04-23,AM,Wed,20,18,90.0,3.0,Moderate (2.1-3.0),5,4,1,0,False,True,80.0,6.7,7.0,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-000893,HGH-MAIN,4B-MED,Medical,2025-04-24,PM,Thu,32,30,93.8,2.9,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.2,4.9,-1.7,Understaffed,0,2.4,1,0,0,0,0,0,0,0,1:8,1:5,False
+RS-020604,HGH-EAST,PALL,Palliative care,2025-04-24,NIGHT,Thu,10,8,80.0,2.8,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,6.0,5.2,0.8,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-016229,HGH-EAST,2A-MED,Medical,2025-04-26,PM,Sat,30,27,90.0,2.8,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,4.4,4.9,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-021705,HGH-EAST,4A-RESP,Medical,2025-04-26,NIGHT,Sat,20,19,95.0,3.0,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,2.5,3.9,-1.4,Understaffed,0,0.0,0,0,0,1,1,0,0,0,1:10,1:5,False
+RS-003089,HGH-MAIN,5A-SURG,Surgical,2025-04-26,PM,Sat,30,25,83.3,2.6,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.8,4.7,-0.9,Marginal,1,1.3,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-007470,HGH-MAIN,ED-OBS,ED,2025-04-26,NIGHT,Sat,20,16,80.0,2.8,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.0,4.5,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-012945,HGH-MAIN,PAED,Paediatric,2025-04-26,NIGHT,Sat,16,13,81.2,3.1,High (3.1-4.0),2,2,0,0,False,False,100.0,3.7,4.9,-1.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-011853,HGH-MAIN,MAT,Maternity,2025-04-27,NIGHT,Sun,18,17,94.4,2.1,Moderate (2.1-3.0),3,3,0,0,False,False,100.0,4.2,3.9,0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-014041,HGH-MAIN,MH,Mental health,2025-04-27,AM,Sun,20,19,95.0,2.8,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,5.1,7.0,-1.9,Understaffed,0,2.8,1,0,0,0,0,0,0,0,1:5,1:4,False
+RS-010759,HGH-MAIN,2B-NEURO,Neurology,2025-04-28,AM,Mon,20,18,90.0,3.0,Moderate (2.1-3.0),4,3,1,0,True,True,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-018428,HGH-EAST,AC,Aged care/subacute,2025-04-29,PM,Tue,24,23,95.8,3.0,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,3.1,4.7,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:6,False
+RS-016241,HGH-EAST,2A-MED,Medical,2025-04-30,PM,Wed,30,27,90.0,3.0,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,4.4,4.9,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-000911,HGH-MAIN,4B-MED,Medical,2025-04-30,PM,Wed,32,31,96.9,3.0,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,3.9,4.9,-1.0,Marginal,0,0.0,0,0,1,0,0,0,0,0,1:6,1:5,False
+RS-018432,HGH-EAST,AC,Aged care/subacute,2025-04-30,NIGHT,Wed,24,21,87.5,2.9,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.3,3.6,-1.3,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:10,1:6,False
+RS-023905,HGH-EAST,GEM,Aged care/subacute,2025-04-30,AM,Wed,16,15,93.8,2.5,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,4.8,5.0,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:6,True
+RS-005290,HGH-MAIN,ICU,ICU,2025-04-30,AM,Wed,12,9,75.0,4.4,Critical (4.1-5.0),9,9,0,0,True,True,100.0,24.0,22.0,2.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-016245,HGH-EAST,2A-MED,Medical,2025-05-01,NIGHT,Thu,30,27,90.0,3.2,High (3.1-4.0),4,3,1,0,False,False,75.0,3.6,3.8,-0.2,Adequate,1,0.0,0,1,0,0,0,0,0,0,1:7,1:5,False
+RS-008578,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-05-01,AM,Thu,24,22,91.7,2.4,Moderate (2.1-3.0),5,3,1,1,True,True,60.0,5.5,5.2,0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-022813,HGH-EAST,RENAL,Medical,2025-05-01,AM,Thu,14,12,85.7,2.8,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,6.0,5.5,0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-011867,HGH-MAIN,MAT,Maternity,2025-05-02,PM,Fri,18,16,88.9,2.1,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.5,5.1,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-006396,HGH-MAIN,CCU,CCU,2025-05-03,NIGHT,Sat,8,7,87.5,4.3,Critical (4.1-5.0),2,2,0,0,False,False,100.0,6.9,9.1,-2.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:2,False
+RS-012969,HGH-MAIN,PAED,Paediatric,2025-05-04,NIGHT,Sun,16,14,87.5,3.3,High (3.1-4.0),2,2,0,0,False,False,100.0,3.4,4.9,-1.5,Understaffed,0,0.0,0,0,0,0,0,1,1,0,1:7,1:4,False
+RS-019538,HGH-EAST,REHAB,Rehabilitation,2025-05-04,PM,Sun,22,20,90.9,1.6,Low (1.0-2.0),2,1,1,0,True,False,50.0,2.4,3.8,-1.4,Marginal,0,2.8,1,0,1,0,0,0,0,0,1:10,1:6,False
+RS-018445,HGH-EAST,AC,Aged care/subacute,2025-05-05,AM,Mon,24,20,83.3,3.0,Moderate (2.1-3.0),4,2,1,1,True,True,50.0,4.8,5.5,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:6,True
+RS-015162,HGH-MAIN,SSU,Short stay,2025-05-05,NIGHT,Mon,12,10,83.3,2.7,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.8,3.2,1.6,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-006404,HGH-MAIN,CCU,CCU,2025-05-06,PM,Tue,8,6,75.0,3.6,High (3.1-4.0),2,2,0,0,True,False,100.0,8.0,11.9,-3.9,Critical,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-005310,HGH-MAIN,ICU,ICU,2025-05-06,NIGHT,Tue,12,10,83.3,4.3,Critical (4.1-5.0),7,7,0,0,False,False,100.0,16.8,14.3,2.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-012975,HGH-MAIN,PAED,Paediatric,2025-05-06,NIGHT,Tue,16,14,87.5,2.3,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.4,4.2,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:4,False
+RS-022828,HGH-EAST,RENAL,Medical,2025-05-06,AM,Tue,14,12,85.7,2.5,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,6.0,5.5,0.5,Adequate,0,0.0,0,0,0,1,0,0,0,0,1:4,1:5,True
+RS-000931,HGH-MAIN,4B-MED,Medical,2025-05-07,AM,Wed,32,32,100.0,3.1,High (3.1-4.0),7,5,1,1,True,False,71.4,5.2,5.8,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-018453,HGH-EAST,AC,Aged care/subacute,2025-05-07,NIGHT,Wed,24,20,83.3,3.0,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.4,3.6,-1.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:10,1:6,False
+RS-011882,HGH-MAIN,MAT,Maternity,2025-05-07,PM,Wed,18,15,83.3,2.4,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.8,5.1,-0.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-008600,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-05-08,PM,Thu,24,18,75.0,2.2,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.7,4.4,-1.7,Understaffed,0,3.4,0,1,0,0,0,0,0,0,1:9,1:5,False
+RS-009694,HGH-MAIN,6A-ONCO,Oncology,2025-05-08,AM,Thu,22,20,90.9,3.3,High (3.1-4.0),5,4,1,0,True,True,80.0,6.0,6.5,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-014075,HGH-MAIN,MH,Mental health,2025-05-08,PM,Thu,20,17,85.0,2.8,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,5.6,6.0,-0.4,Adequate,0,2.2,0,0,0,0,0,0,0,1,1:4,1:4,True
+RS-009697,HGH-MAIN,6A-ONCO,Oncology,2025-05-09,AM,Fri,22,20,90.9,3.7,High (3.1-4.0),5,4,1,0,True,False,80.0,6.0,6.5,-0.5,Adequate,0,0.0,0,0,0,0,0,1,0,0,1:4,1:4,True
+RS-002037,HGH-MAIN,4C-MED,Medical,2025-05-10,NIGHT,Sat,28,28,100.0,2.9,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,2.6,3.8,-1.2,Understaffed,0,2.5,0,1,0,0,0,0,0,0,1:9,1:5,False
+RS-014082,HGH-MAIN,MH,Mental health,2025-05-10,NIGHT,Sat,20,19,95.0,2.7,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.8,4.5,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-022840,HGH-EAST,RENAL,Medical,2025-05-10,AM,Sat,14,13,92.9,2.8,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.7,5.5,-1.8,Understaffed,0,3.1,0,1,0,0,0,0,0,0,1:6,1:5,False
+RS-010798,HGH-MAIN,2B-NEURO,Neurology,2025-05-11,AM,Sun,20,18,90.0,3.4,High (3.1-4.0),4,3,1,0,True,False,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-010800,HGH-MAIN,2B-NEURO,Neurology,2025-05-11,NIGHT,Sun,20,18,90.0,3.0,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,2.7,3.9,-1.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:9,1:5,False
+RS-012991,HGH-MAIN,PAED,Paediatric,2025-05-12,AM,Mon,16,13,81.2,2.6,Moderate (2.1-3.0),4,3,1,0,True,True,75.0,7.4,6.5,0.9,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:3,1:4,True
+RS-006425,HGH-MAIN,CCU,CCU,2025-05-13,PM,Tue,8,7,87.5,4.2,Critical (4.1-5.0),3,3,0,0,True,False,100.0,10.3,11.9,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:2,1:2,True
+RS-005329,HGH-MAIN,ICU,ICU,2025-05-13,AM,Tue,12,9,75.0,4.5,Critical (4.1-5.0),9,9,0,0,True,False,100.0,24.0,22.0,2.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-005330,HGH-MAIN,ICU,ICU,2025-05-13,PM,Tue,12,10,83.3,4.1,Critical (4.1-5.0),8,8,0,0,False,False,100.0,19.2,18.7,0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:1,1:1,True
+RS-011900,HGH-MAIN,MAT,Maternity,2025-05-13,PM,Tue,18,17,94.4,2.2,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,5.6,5.1,0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-014089,HGH-MAIN,MH,Mental health,2025-05-13,AM,Tue,20,18,90.0,2.6,Moderate (2.1-3.0),5,4,1,0,False,True,80.0,6.7,7.0,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-020659,HGH-EAST,PALL,Palliative care,2025-05-13,AM,Tue,10,9,90.0,3.1,High (3.1-4.0),3,2,1,0,True,False,66.7,8.0,8.0,0.0,Marginal,0,2.9,0,0,0,0,0,0,0,0,1:3,1:4,True
+RS-006428,HGH-MAIN,CCU,CCU,2025-05-14,PM,Wed,8,6,75.0,4.5,Critical (4.1-5.0),2,2,0,0,True,False,100.0,8.0,11.9,-3.9,Critical,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-003146,HGH-MAIN,5A-SURG,Surgical,2025-05-15,PM,Thu,30,26,86.7,3.1,High (3.1-4.0),5,4,1,0,True,False,80.0,4.6,4.7,-0.1,Adequate,0,0.0,0,0,0,0,0,1,0,0,1:5,1:5,True
+RS-006431,HGH-MAIN,CCU,CCU,2025-05-15,PM,Thu,8,7,87.5,4.2,Critical (4.1-5.0),3,3,0,0,True,False,100.0,10.3,11.9,-1.6,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:2,1:2,True
+RS-017384,HGH-EAST,3A-SURG,Surgical,2025-05-16,PM,Fri,28,23,82.1,2.3,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,4.2,4.7,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-021764,HGH-EAST,4A-RESP,Medical,2025-05-16,PM,Fri,20,17,85.0,2.8,Moderate (2.1-3.0),3,2,1,0,False,True,66.7,4.2,5.1,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,1,1:6,1:5,False
+RS-003148,HGH-MAIN,5A-SURG,Surgical,2025-05-16,AM,Fri,30,25,83.3,3.0,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,3.8,5.5,-1.7,Understaffed,0,3.6,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-020670,HGH-EAST,PALL,Palliative care,2025-05-16,NIGHT,Fri,10,9,90.0,2.8,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,5.3,5.2,0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-008627,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-05-17,PM,Sat,24,19,79.2,2.7,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.5,4.4,-1.9,Understaffed,0,3.1,1,0,0,0,0,0,0,0,1:10,1:5,False
+RS-009722,HGH-MAIN,6A-ONCO,Oncology,2025-05-17,PM,Sat,22,20,90.9,3.4,High (3.1-4.0),4,3,1,0,False,False,75.0,4.8,5.5,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-005343,HGH-MAIN,ICU,ICU,2025-05-17,NIGHT,Sat,12,11,91.7,4.4,Critical (4.1-5.0),7,7,0,0,False,False,100.0,15.3,14.3,1.0,Adequate,0,0.0,0,0,0,0,1,0,0,0,1:2,1:1,False
+RS-014101,HGH-MAIN,MH,Mental health,2025-05-17,AM,Sat,20,16,80.0,2.5,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,6.0,7.0,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-016295,HGH-EAST,2A-MED,Medical,2025-05-18,PM,Sun,30,25,83.3,2.9,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.8,4.9,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-010820,HGH-MAIN,2B-NEURO,Neurology,2025-05-18,PM,Sun,20,18,90.0,3.5,High (3.1-4.0),3,2,1,0,True,False,66.7,4.0,5.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-000966,HGH-MAIN,4B-MED,Medical,2025-05-18,NIGHT,Sun,32,30,93.8,3.4,High (3.1-4.0),3,2,1,0,False,False,66.7,2.4,3.8,-1.4,Understaffed,0,2.7,1,0,0,0,0,0,0,1,1:10,1:5,False
+RS-018484,HGH-EAST,AC,Aged care/subacute,2025-05-18,AM,Sun,24,20,83.3,2.5,Moderate (2.1-3.0),4,2,1,1,True,False,50.0,4.8,5.5,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:6,True
+RS-005346,HGH-MAIN,ICU,ICU,2025-05-18,NIGHT,Sun,12,11,91.7,4.4,Critical (4.1-5.0),7,7,0,0,True,False,100.0,15.3,14.3,1.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:2,1:1,False
+RS-020674,HGH-EAST,PALL,Palliative care,2025-05-18,AM,Sun,10,10,100.0,3.3,High (3.1-4.0),3,2,1,0,True,False,66.7,7.2,8.0,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:3,1:4,True
+RS-004252,HGH-MAIN,5B-SURG,Surgical,2025-05-19,AM,Mon,26,20,76.9,2.4,Moderate (2.1-3.0),4,3,1,0,True,True,75.0,4.8,5.5,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-021777,HGH-EAST,4A-RESP,Medical,2025-05-20,NIGHT,Tue,20,20,100.0,2.8,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,2.4,3.9,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:10,1:5,False
+RS-015205,HGH-MAIN,SSU,Short stay,2025-05-20,AM,Tue,12,8,66.7,1.8,Low (1.0-2.0),2,1,1,0,True,True,50.0,6.0,5.0,1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-010828,HGH-MAIN,2B-NEURO,Neurology,2025-05-21,AM,Wed,20,18,90.0,3.2,High (3.1-4.0),3,2,1,0,True,True,66.7,4.0,6.0,-2.0,Understaffed,0,2.5,1,0,0,0,1,0,0,0,1:6,1:5,False
+RS-011923,HGH-MAIN,MAT,Maternity,2025-05-21,AM,Wed,18,17,94.4,2.5,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,7.1,6.0,1.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:3,1:4,True
+RS-013018,HGH-MAIN,PAED,Paediatric,2025-05-21,AM,Wed,16,14,87.5,2.7,Moderate (2.1-3.0),4,3,1,0,True,True,75.0,6.9,6.5,0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-015208,HGH-MAIN,SSU,Short stay,2025-05-21,AM,Wed,12,10,83.3,2.1,Moderate (2.1-3.0),2,1,1,0,True,False,50.0,4.8,5.0,-0.2,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-015209,HGH-MAIN,SSU,Short stay,2025-05-21,PM,Wed,12,9,75.0,2.2,Moderate (2.1-3.0),2,1,1,0,True,False,50.0,5.3,4.2,1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-008646,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-05-23,NIGHT,Fri,24,19,79.2,2.8,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.5,3.4,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:10,1:5,False
+RS-021784,HGH-EAST,4A-RESP,Medical,2025-05-23,AM,Fri,20,19,95.0,3.7,High (3.1-4.0),4,3,1,0,True,True,75.0,5.1,6.0,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-002075,HGH-MAIN,4C-MED,Medical,2025-05-23,PM,Fri,28,26,92.9,3.5,High (3.1-4.0),5,4,1,0,True,False,80.0,4.6,4.9,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-013024,HGH-MAIN,PAED,Paediatric,2025-05-23,AM,Fri,16,14,87.5,2.7,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,6.9,6.5,0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-003173,HGH-MAIN,5A-SURG,Surgical,2025-05-24,PM,Sat,30,25,83.3,3.2,High (3.1-4.0),3,2,1,0,False,False,66.7,2.9,4.7,-1.8,Understaffed,0,3.1,1,0,0,0,0,0,0,0,1:8,1:5,False
+RS-014122,HGH-MAIN,MH,Mental health,2025-05-24,AM,Sat,20,18,90.0,2.6,Moderate (2.1-3.0),5,4,1,0,False,False,80.0,6.7,7.0,-0.3,Adequate,0,0.0,0,0,0,0,0,0,1,0,1:4,1:4,True
+RS-010840,HGH-MAIN,2B-NEURO,Neurology,2025-05-25,AM,Sun,20,17,85.0,3.3,High (3.1-4.0),4,3,1,0,True,False,75.0,5.6,6.0,-0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-008650,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-05-25,AM,Sun,24,23,95.8,2.9,Moderate (2.1-3.0),5,3,1,1,False,False,60.0,5.2,5.2,0.0,Adequate,0,0.0,0,0,1,0,0,0,0,0,1:5,1:5,True
+RS-003176,HGH-MAIN,5A-SURG,Surgical,2025-05-25,PM,Sun,30,27,90.0,2.8,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,4.4,4.7,-0.3,Adequate,0,0.0,0,0,0,0,0,0,1,0,1:5,1:5,True
+RS-011935,HGH-MAIN,MAT,Maternity,2025-05-25,AM,Sun,18,14,77.8,1.9,Low (1.0-2.0),4,3,1,0,False,False,75.0,6.9,6.0,0.9,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-011937,HGH-MAIN,MAT,Maternity,2025-05-25,NIGHT,Sun,18,16,88.9,2.1,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.0,3.9,-0.9,Marginal,0,0.0,0,0,0,1,0,0,0,0,1:8,1:4,False
+RS-002083,HGH-MAIN,4C-MED,Medical,2025-05-26,AM,Mon,28,27,96.4,2.6,Moderate (2.1-3.0),6,4,1,1,True,True,66.7,5.3,5.8,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-007560,HGH-MAIN,ED-OBS,ED,2025-05-26,NIGHT,Mon,20,16,80.0,3.1,High (3.1-4.0),2,2,0,0,False,False,100.0,3.0,4.5,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-005368,HGH-MAIN,ICU,ICU,2025-05-26,AM,Mon,12,10,83.3,4.6,Critical (4.1-5.0),8,8,0,0,True,False,100.0,19.2,22.0,-2.8,Understaffed,0,7.1,2,0,0,0,1,0,0,0,1:1,1:1,True
+RS-010846,HGH-MAIN,2B-NEURO,Neurology,2025-05-27,AM,Tue,20,17,85.0,3.5,High (3.1-4.0),4,3,1,0,True,False,75.0,5.6,6.0,-0.4,Adequate,0,2.2,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-014132,HGH-MAIN,MH,Mental health,2025-05-27,PM,Tue,20,18,90.0,2.6,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-020701,HGH-EAST,PALL,Palliative care,2025-05-27,AM,Tue,10,9,90.0,3.1,High (3.1-4.0),3,2,1,0,False,True,66.7,8.0,8.0,0.0,Marginal,0,1.9,0,0,0,0,1,0,0,0,1:3,1:4,True
+RS-021800,HGH-EAST,4A-RESP,Medical,2025-05-28,PM,Wed,20,18,90.0,3.0,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.0,5.1,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-018515,HGH-EAST,AC,Aged care/subacute,2025-05-28,PM,Wed,24,20,83.3,3.1,High (3.1-4.0),3,2,1,0,False,True,66.7,3.6,4.7,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:6,False
+RS-011949,HGH-MAIN,MAT,Maternity,2025-05-29,NIGHT,Thu,18,17,94.4,2.2,Moderate (2.1-3.0),3,3,0,0,False,False,100.0,4.2,3.9,0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:4,False
+RS-004287,HGH-MAIN,5B-SURG,Surgical,2025-05-30,NIGHT,Fri,26,20,76.9,2.6,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,2.4,3.6,-1.2,Understaffed,0,0.0,0,0,0,0,1,0,0,0,1:10,1:5,False
+RS-018521,HGH-EAST,AC,Aged care/subacute,2025-05-30,PM,Fri,24,23,95.8,3.3,High (3.1-4.0),3,2,1,0,True,False,66.7,3.1,4.7,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:6,False
+RS-006476,HGH-MAIN,CCU,CCU,2025-05-30,PM,Fri,8,6,75.0,3.6,High (3.1-4.0),2,2,0,0,False,False,100.0,8.0,11.9,-3.9,Critical,0,0.0,0,0,0,0,0,0,0,0,1:3,1:2,False
+RS-002099,HGH-MAIN,4C-MED,Medical,2025-05-31,PM,Sat,28,26,92.9,2.9,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,4.6,4.9,-0.3,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-016338,HGH-EAST,2A-MED,Medical,2025-06-01,NIGHT,Sun,30,32,106.7,3.3,High (3.1-4.0),4,3,1,0,False,False,75.0,3.0,3.8,-0.8,Marginal,0,0.0,0,0,1,0,0,0,0,0,1:8,1:5,False
+RS-001006,HGH-MAIN,4B-MED,Medical,2025-06-01,AM,Sun,32,30,93.8,3.9,High (3.1-4.0),6,4,1,1,False,False,66.7,4.8,6.7,-1.9,Understaffed,1,0.0,0,1,0,0,0,0,0,1,1:5,1:5,True
+RS-006481,HGH-MAIN,CCU,CCU,2025-06-01,AM,Sun,8,6,75.0,3.9,High (3.1-4.0),2,2,0,0,False,False,100.0,8.0,14.0,-6.0,Critical,0,3.1,0,1,0,0,0,0,0,0,1:3,1:2,False
+RS-002105,HGH-MAIN,4C-MED,Medical,2025-06-02,PM,Mon,28,30,107.1,3.5,High (3.1-4.0),4,3,1,0,True,True,75.0,3.2,4.9,-1.7,Understaffed,0,3.8,1,0,0,0,0,0,0,0,1:8,1:5,False
+RS-001013,HGH-MAIN,4B-MED,Medical,2025-06-03,PM,Tue,32,31,96.9,3.2,High (3.1-4.0),5,4,1,0,False,True,80.0,3.9,4.9,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-018533,HGH-EAST,AC,Aged care/subacute,2025-06-03,PM,Tue,24,21,87.5,3.3,High (3.1-4.0),2,1,1,0,True,False,50.0,2.3,4.7,-2.4,Understaffed,0,3.1,1,0,0,0,0,0,0,0,1:10,1:6,False
+RS-007584,HGH-MAIN,ED-OBS,ED,2025-06-03,NIGHT,Tue,20,15,75.0,3.3,High (3.1-4.0),2,2,0,0,False,False,100.0,3.2,4.5,-1.3,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-005394,HGH-MAIN,ICU,ICU,2025-06-03,NIGHT,Tue,12,10,83.3,4.7,Critical (4.1-5.0),7,7,0,0,False,False,100.0,16.8,14.3,2.5,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:1,1:1,True
+RS-005393,HGH-MAIN,ICU,ICU,2025-06-03,PM,Tue,12,9,75.0,4.4,Critical (4.1-5.0),7,7,0,0,False,False,100.0,18.7,18.7,0.0,Adequate,1,0.0,0,1,0,0,0,0,0,0,1:1,1:1,True
+RS-001017,HGH-MAIN,4B-MED,Medical,2025-06-04,NIGHT,Wed,32,30,93.8,3.6,High (3.1-4.0),3,2,1,0,False,False,66.7,2.4,3.8,-1.4,Understaffed,0,3.8,1,0,2,0,0,0,0,0,1:10,1:5,False
+RS-003205,HGH-MAIN,5A-SURG,Surgical,2025-06-04,AM,Wed,30,28,93.3,2.8,Moderate (2.1-3.0),6,4,1,1,True,False,66.7,5.1,5.5,-0.4,Adequate,1,0.0,0,1,0,0,0,0,0,0,1:5,1:5,True
+RS-019634,HGH-EAST,REHAB,Rehabilitation,2025-06-05,PM,Thu,22,19,86.4,2.1,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.8,3.8,0.0,Adequate,0,0.0,0,0,2,1,0,0,0,0,1:6,1:6,True
+RS-004307,HGH-MAIN,5B-SURG,Surgical,2025-06-06,PM,Fri,26,24,92.3,2.6,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,3.0,4.7,-1.7,Understaffed,0,3.4,0,1,0,0,0,0,0,0,1:8,1:5,False
+RS-007592,HGH-MAIN,ED-OBS,ED,2025-06-06,PM,Fri,20,16,80.0,2.9,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.5,6.0,-1.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-011972,HGH-MAIN,MAT,Maternity,2025-06-06,PM,Fri,18,15,83.3,2.4,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.8,5.1,-0.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-022926,HGH-EAST,RENAL,Medical,2025-06-07,NIGHT,Sat,14,14,100.0,3.3,High (3.1-4.0),2,2,0,0,False,False,100.0,3.4,3.6,-0.2,Adequate,0,2.4,0,0,1,0,0,0,0,0,1:7,1:5,False
+RS-015261,HGH-MAIN,SSU,Short stay,2025-06-07,NIGHT,Sat,12,12,100.0,2.6,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.0,3.2,0.8,Adequate,0,0.0,0,0,1,0,0,0,0,0,1:6,1:5,False
+RS-008693,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-06-08,PM,Sun,24,17,70.8,2.5,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.8,4.4,-1.6,Understaffed,0,2.9,1,0,0,0,0,0,0,0,1:8,1:5,False
+RS-003219,HGH-MAIN,5A-SURG,Surgical,2025-06-08,NIGHT,Sun,30,26,86.7,3.0,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.7,3.6,0.1,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:6,1:5,False
+RS-018549,HGH-EAST,AC,Aged care/subacute,2025-06-08,NIGHT,Sun,24,20,83.3,3.2,High (3.1-4.0),2,1,1,0,False,False,50.0,2.4,3.6,-1.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:10,1:6,False
+RS-011979,HGH-MAIN,MAT,Maternity,2025-06-08,NIGHT,Sun,18,15,83.3,2.6,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.2,4.5,-1.3,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-017456,HGH-EAST,3A-SURG,Surgical,2025-06-09,PM,Mon,28,21,75.0,2.9,Moderate (2.1-3.0),4,3,1,0,False,True,75.0,4.6,4.7,-0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-008697,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-06-09,NIGHT,Mon,24,21,87.5,2.9,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.4,3.4,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-006505,HGH-MAIN,CCU,CCU,2025-06-09,AM,Mon,8,6,75.0,4.6,Critical (4.1-5.0),2,2,0,0,True,False,100.0,8.0,16.1,-8.1,Critical,0,2.6,0,1,0,0,0,0,0,0,1:3,1:2,False
+RS-011981,HGH-MAIN,MAT,Maternity,2025-06-09,PM,Mon,18,17,94.4,2.0,Low (1.0-2.0),3,2,1,0,False,False,66.7,4.2,5.1,-0.9,Marginal,0,3.9,1,0,0,0,0,0,0,0,1:6,1:4,False
+RS-006512,HGH-MAIN,CCU,CCU,2025-06-11,PM,Wed,8,6,75.0,3.9,High (3.1-4.0),2,2,0,0,False,False,100.0,8.0,11.9,-3.9,Critical,0,0.0,0,1,0,0,0,0,0,0,1:3,1:2,False
+RS-022936,HGH-EAST,RENAL,Medical,2025-06-11,AM,Wed,14,15,107.1,3.0,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,4.8,5.5,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-003231,HGH-MAIN,5A-SURG,Surgical,2025-06-12,NIGHT,Thu,30,29,96.7,3.0,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.3,3.6,-0.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-009799,HGH-MAIN,6A-ONCO,Oncology,2025-06-12,AM,Thu,22,19,86.4,3.5,High (3.1-4.0),4,3,1,0,True,True,75.0,5.1,6.5,-1.4,Marginal,0,2.6,1,0,0,0,0,0,0,0,1:5,1:4,False
+RS-010897,HGH-MAIN,2B-NEURO,Neurology,2025-06-13,AM,Fri,20,18,90.0,3.0,Moderate (2.1-3.0),4,3,1,0,True,False,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-001044,HGH-MAIN,4B-MED,Medical,2025-06-13,NIGHT,Fri,32,32,100.0,3.8,High (3.1-4.0),4,3,1,0,False,False,75.0,3.0,4.3,-1.3,Understaffed,0,0.0,0,0,1,1,0,0,0,1,1:8,1:5,False
+RS-018564,HGH-EAST,AC,Aged care/subacute,2025-06-13,NIGHT,Fri,24,18,75.0,2.9,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.7,3.6,-0.9,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:9,1:6,False
+RS-010902,HGH-MAIN,2B-NEURO,Neurology,2025-06-14,NIGHT,Sat,20,19,95.0,3.4,High (3.1-4.0),2,2,0,0,False,False,100.0,2.5,3.9,-1.4,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:10,1:5,False
+RS-004331,HGH-MAIN,5B-SURG,Surgical,2025-06-14,PM,Sat,26,19,73.1,2.2,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.8,4.7,-0.9,Marginal,1,0.0,1,1,0,0,0,0,0,0,1:6,1:5,False
+RS-011997,HGH-MAIN,MAT,Maternity,2025-06-14,NIGHT,Sat,18,15,83.3,2.5,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.2,3.9,-0.7,Marginal,0,0.0,0,1,0,0,0,0,0,0,1:8,1:4,False
+RS-016378,HGH-EAST,2A-MED,Medical,2025-06-15,AM,Sun,30,30,100.0,3.5,High (3.1-4.0),6,4,1,1,False,False,66.7,4.8,5.8,-1.0,Marginal,0,0.0,0,0,0,0,1,0,0,0,1:5,1:5,True
+RS-021853,HGH-EAST,4A-RESP,Medical,2025-06-15,AM,Sun,20,21,105.0,3.7,High (3.1-4.0),3,2,1,0,False,False,66.7,3.4,6.0,-2.6,Understaffed,0,4.1,2,0,0,1,0,0,0,0,1:7,1:5,False
+RS-005430,HGH-MAIN,ICU,ICU,2025-06-15,NIGHT,Sun,12,11,91.7,5.0,Critical (4.1-5.0),7,7,0,0,False,False,100.0,15.3,14.3,1.0,Adequate,1,0.0,1,0,1,0,0,0,0,0,1:2,1:1,False
+RS-017478,HGH-EAST,3A-SURG,Surgical,2025-06-16,NIGHT,Mon,28,24,85.7,2.4,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,2.0,3.6,-1.6,Understaffed,0,3.4,1,0,0,0,0,1,0,0,1:12,1:5,False
+RS-021858,HGH-EAST,4A-RESP,Medical,2025-06-16,NIGHT,Mon,20,20,100.0,3.9,High (3.1-4.0),2,2,0,0,True,False,100.0,2.4,4.5,-2.1,Understaffed,0,0.0,0,1,0,0,0,0,0,0,1:10,1:5,False
+RS-001051,HGH-MAIN,4B-MED,Medical,2025-06-16,AM,Mon,32,32,100.0,3.4,High (3.1-4.0),7,5,1,1,True,True,71.4,5.2,5.8,-0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-007623,HGH-MAIN,ED-OBS,ED,2025-06-16,NIGHT,Mon,20,16,80.0,3.1,High (3.1-4.0),2,2,0,0,False,False,100.0,3.0,4.5,-1.5,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:4,False
+RS-020761,HGH-EAST,PALL,Palliative care,2025-06-16,AM,Mon,10,8,80.0,3.1,High (3.1-4.0),2,2,0,0,True,False,100.0,6.0,8.0,-2.0,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-008721,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-06-17,NIGHT,Tue,24,20,83.3,2.9,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.4,3.4,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:10,1:5,False
+RS-021861,HGH-EAST,4A-RESP,Medical,2025-06-17,NIGHT,Tue,20,18,90.0,3.4,High (3.1-4.0),2,2,0,0,False,False,100.0,2.7,3.9,-1.2,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:9,1:5,False
+RS-018575,HGH-EAST,AC,Aged care/subacute,2025-06-17,PM,Tue,24,23,95.8,2.8,Moderate (2.1-3.0),3,2,1,0,True,False,66.7,3.1,4.7,-1.6,Understaffed,0,0.0,0,0,0,0,0,0,0,0,1:8,1:6,False
+RS-006530,HGH-MAIN,CCU,CCU,2025-06-17,PM,Tue,8,7,87.5,3.5,High (3.1-4.0),3,3,0,0,False,False,100.0,10.3,11.9,-1.6,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:2,1:2,True
+RS-024049,HGH-EAST,GEM,Aged care/subacute,2025-06-17,AM,Tue,16,14,87.5,2.5,Moderate (2.1-3.0),2,1,1,0,True,True,50.0,3.4,5.0,-1.6,Understaffed,0,3.7,0,1,0,0,0,0,0,0,1:7,1:6,False
+RS-014194,HGH-MAIN,MH,Mental health,2025-06-17,AM,Tue,20,20,100.0,2.6,Moderate (2.1-3.0),5,4,1,0,True,False,80.0,6.0,7.0,-1.0,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-022955,HGH-EAST,RENAL,Medical,2025-06-17,PM,Tue,14,13,92.9,3.0,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,3.7,4.7,-1.0,Marginal,0,2.1,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-004342,HGH-MAIN,5B-SURG,Surgical,2025-06-18,AM,Wed,26,24,92.3,3.0,Moderate (2.1-3.0),5,4,1,0,True,True,80.0,5.0,5.5,-0.5,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-020768,HGH-EAST,PALL,Palliative care,2025-06-18,PM,Wed,10,9,90.0,2.7,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,5.3,6.8,-1.5,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-022959,HGH-EAST,RENAL,Medical,2025-06-18,NIGHT,Wed,14,13,92.9,2.8,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.7,3.6,0.1,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:5,False
+RS-022962,HGH-EAST,RENAL,Medical,2025-06-19,NIGHT,Thu,14,14,100.0,3.2,High (3.1-4.0),2,2,0,0,False,False,100.0,3.4,3.6,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-015296,HGH-MAIN,SSU,Short stay,2025-06-19,PM,Thu,12,10,83.3,2.0,Low (1.0-2.0),2,1,1,0,False,False,50.0,4.8,4.2,0.6,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:5,True
+RS-010919,HGH-MAIN,2B-NEURO,Neurology,2025-06-20,PM,Fri,20,16,80.0,3.4,High (3.1-4.0),3,2,1,0,False,False,66.7,4.5,5.1,-0.6,Marginal,1,0.0,1,0,0,0,0,0,0,0,1:5,1:5,True
+RS-002158,HGH-MAIN,4C-MED,Medical,2025-06-20,AM,Fri,28,28,100.0,3.4,High (3.1-4.0),6,4,1,1,False,False,66.7,5.1,5.8,-0.7,Marginal,0,0.0,0,0,0,0,0,1,0,0,1:5,1:5,True
+RS-010923,HGH-MAIN,2B-NEURO,Neurology,2025-06-21,NIGHT,Sat,20,18,90.0,3.8,High (3.1-4.0),2,2,0,0,False,False,100.0,2.7,3.9,-1.2,Understaffed,0,0.0,0,0,1,0,0,1,0,0,1:9,1:5,False
+RS-019682,HGH-EAST,REHAB,Rehabilitation,2025-06-21,PM,Sat,22,19,86.4,2.1,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.8,3.8,0.0,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:6,1:6,True
+RS-020779,HGH-EAST,PALL,Palliative care,2025-06-22,AM,Sun,10,10,100.0,2.7,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,4.8,8.0,-3.2,Understaffed,0,2.0,1,0,0,0,0,0,0,0,1:5,1:4,False
+RS-020781,HGH-EAST,PALL,Palliative care,2025-06-22,NIGHT,Sun,10,10,100.0,3.5,High (3.1-4.0),2,2,0,0,False,False,100.0,4.8,5.2,-0.4,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:4,False
+RS-003262,HGH-MAIN,5A-SURG,Surgical,2025-06-23,AM,Mon,30,26,86.7,3.0,Moderate (2.1-3.0),6,4,1,1,True,True,66.7,5.5,5.5,0.0,Adequate,1,0.0,1,0,0,0,0,0,0,0,1:4,1:5,True
+RS-018594,HGH-EAST,AC,Aged care/subacute,2025-06-23,NIGHT,Mon,24,22,91.7,2.6,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.2,3.6,-1.4,Understaffed,0,0.0,0,0,2,0,0,0,0,0,1:11,1:6,False
+RS-016407,HGH-EAST,2A-MED,Medical,2025-06-24,NIGHT,Tue,30,23,76.7,4.0,High (3.1-4.0),3,2,1,0,False,False,66.7,3.1,4.3,-1.2,Understaffed,0,0.0,0,0,0,1,0,0,0,0,1:8,1:5,False
+RS-008741,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-06-24,PM,Tue,24,20,83.3,2.3,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,3.6,4.4,-0.8,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-021880,HGH-EAST,4A-RESP,Medical,2025-06-24,AM,Tue,20,19,95.0,3.6,High (3.1-4.0),4,3,1,0,True,False,75.0,5.1,6.0,-0.9,Marginal,0,0.0,0,0,1,0,0,0,0,0,1:5,1:5,True
+RS-019691,HGH-EAST,REHAB,Rehabilitation,2025-06-24,PM,Tue,22,20,90.9,2.3,Moderate (2.1-3.0),3,2,1,0,False,True,66.7,3.6,3.8,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:7,1:6,False
+RS-008743,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-06-25,AM,Wed,24,21,87.5,1.9,Low (1.0-2.0),5,3,1,1,True,False,60.0,5.7,4.7,1.0,Adequate,2,0.0,0,2,0,0,0,0,0,0,1:4,1:5,True
+RS-021884,HGH-EAST,4A-RESP,Medical,2025-06-25,PM,Wed,20,19,95.0,4.0,High (3.1-4.0),2,1,1,0,True,False,50.0,2.5,5.9,-3.4,Critical,0,2.6,0,1,0,0,0,0,0,0,1:10,1:5,False
+RS-007649,HGH-MAIN,ED-OBS,ED,2025-06-25,PM,Wed,20,17,85.0,2.9,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,4.2,6.0,-1.8,Understaffed,1,3.7,1,1,0,0,1,0,0,0,1:6,1:4,False
+RS-003273,HGH-MAIN,5A-SURG,Surgical,2025-06-26,NIGHT,Thu,30,28,93.3,2.5,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.4,3.6,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-018602,HGH-EAST,AC,Aged care/subacute,2025-06-26,PM,Thu,24,21,87.5,2.8,Moderate (2.1-3.0),3,2,1,0,False,False,66.7,3.4,4.7,-1.3,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:7,1:6,False
+RS-022983,HGH-EAST,RENAL,Medical,2025-06-26,NIGHT,Thu,14,15,107.1,2.7,Moderate (2.1-3.0),2,2,0,0,False,False,100.0,3.2,3.6,-0.4,Marginal,0,0.0,0,0,1,0,0,0,0,0,1:8,1:5,False
+RS-003276,HGH-MAIN,5A-SURG,Surgical,2025-06-27,NIGHT,Fri,30,28,93.3,2.6,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,3.4,3.6,-0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:7,1:5,False
+RS-018604,HGH-EAST,AC,Aged care/subacute,2025-06-27,AM,Fri,24,21,87.5,2.6,Moderate (2.1-3.0),3,2,1,0,True,True,66.7,3.4,5.5,-2.1,Understaffed,0,3.4,1,0,0,0,0,0,0,0,1:7,1:6,False
+RS-010944,HGH-MAIN,2B-NEURO,Neurology,2025-06-28,NIGHT,Sat,20,18,90.0,3.5,High (3.1-4.0),2,2,0,0,False,False,100.0,2.7,3.9,-1.2,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:9,1:5,False
+RS-010943,HGH-MAIN,2B-NEURO,Neurology,2025-06-28,PM,Sat,20,19,95.0,3.3,High (3.1-4.0),2,2,0,0,True,False,100.0,2.5,5.1,-2.6,Understaffed,0,2.5,0,1,0,0,1,0,0,0,1:10,1:5,False
+RS-009848,HGH-MAIN,6A-ONCO,Oncology,2025-06-28,PM,Sat,22,21,95.5,3.5,High (3.1-4.0),5,4,1,0,True,False,80.0,5.7,5.5,0.2,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True
+RS-018609,HGH-EAST,AC,Aged care/subacute,2025-06-28,NIGHT,Sat,24,19,79.2,2.7,Moderate (2.1-3.0),2,1,1,0,False,False,50.0,2.5,3.6,-1.1,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:10,1:6,False
+RS-008755,HGH-MAIN,3C-ORTHO,Orthopaedic,2025-06-29,AM,Sun,24,17,70.8,2.0,Low (1.0-2.0),4,3,1,0,False,False,75.0,5.6,5.2,0.4,Adequate,0,0.0,0,0,0,0,0,0,0,0,1:4,1:5,True
+RS-021897,HGH-EAST,4A-RESP,Medical,2025-06-29,NIGHT,Sun,20,19,95.0,3.6,High (3.1-4.0),2,2,0,0,False,False,100.0,2.5,3.9,-1.4,Understaffed,0,0.0,0,0,0,0,0,1,0,0,1:10,1:5,False
+RS-001092,HGH-MAIN,4B-MED,Medical,2025-06-29,NIGHT,Sun,32,34,106.2,3.9,High (3.1-4.0),3,2,1,0,False,False,66.7,2.1,4.3,-2.2,Understaffed,0,2.2,1,0,0,0,0,0,0,0,1:11,1:5,False
+RS-018610,HGH-EAST,AC,Aged care/subacute,2025-06-29,AM,Sun,24,20,83.3,2.9,Moderate (2.1-3.0),4,2,1,1,False,False,50.0,4.8,5.5,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:5,1:6,True
+RS-010950,HGH-MAIN,2B-NEURO,Neurology,2025-06-30,NIGHT,Mon,20,18,90.0,3.2,High (3.1-4.0),2,2,0,0,False,False,100.0,2.7,3.9,-1.2,Understaffed,0,0.0,0,0,1,0,0,0,0,0,1:9,1:5,False
+RS-006569,HGH-MAIN,CCU,CCU,2025-06-30,PM,Mon,8,8,100.0,3.9,High (3.1-4.0),2,2,0,0,False,False,100.0,6.0,11.9,-5.9,Critical,0,3.7,1,0,0,0,1,0,0,0,1:4,1:2,False
+RS-014234,HGH-MAIN,MH,Mental health,2025-06-30,PM,Mon,20,18,90.0,3.0,Moderate (2.1-3.0),4,3,1,0,False,False,75.0,5.3,6.0,-0.7,Marginal,0,0.0,0,0,0,0,0,0,0,0,1:4,1:4,True

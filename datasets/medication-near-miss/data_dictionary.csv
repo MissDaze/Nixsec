@@ -1,0 +1,32 @@
+column_name,data_type,range_or_categories,description
+event_id,string,MA-000001 to MA-030000,Unique medication administration event identifier
+facility_code,string,HGH,Fictional facility code (Harbour General Hospital)
+ward_unit,string,10 ward codes,Ward or unit where administration occurred
+event_datetime,datetime,2024-07-01 to 2025-06-30,"Timestamp of the administration event (AEST, 24h)"
+shift,string,AM | PM | NIGHT,"Shift period (AM 0700-1530, PM 1530-2300, Night 2300-0700)"
+day_of_week,string,Mon to Sun,Day of the week
+patient_id,string,P-00001 to P-04500,Fictional patient identifier
+patient_age_group,string,8 adult + 3 paediatric brackets,Age bracket
+patient_sex,string,M | F | X,Recorded sex
+medication_generic_name,string,~82 generic drug names,Generic drug name as prescribed
+medication_class,string,16 therapeutic classes,Therapeutic class
+high_risk_medication,boolean,true | false,APINCHS category or S8 medication
+medication_schedule,string,Regular | PRN | STAT | Once-only,Prescribing schedule type
+prescribed_dose,float,Medication-specific,Intended dose as per medication order
+prescribed_dose_unit,string,mg | mcg | units | mL | mmol | g | puffs,Unit of measure
+prescribed_route,string,PO | IV | SC | IM | INH | SL | PR | TOP | NEB | NG,Intended route of administration
+administered_dose,float,Same as prescribed (or variant if error),Dose actually administered
+administered_route,string,Same categories as prescribed_route,Route actually used
+administration_outcome,string,6 outcome categories,What actually happened with this event
+near_miss_flag,boolean,true | false,True if an error was identified at any point
+error_type,string,None + 9 error types,Classification of the error or near-miss
+error_severity,string,N/A | A through G (adapted NCC MERP),Severity of the error event
+contributing_factor_primary,string,N/A + 10 factors,Primary contributing factor identified
+detection_point,string,N/A + 6 detection points,When the error or near-miss was identified
+staff_id,string,S-001 to S-320,Fictional identifier for the administering clinician
+staff_role,string,RN | EN | NUM | CNS | NP,Nursing designation
+staff_experience_band,string,5 experience brackets,Years of clinical experience bracket
+checking_method,string,4 verification methods,Verification method used
+patient_acuity,integer,1 (low) to 5 (critical),Patient acuity score at time of administration
+nurse_patient_ratio,string,1:1 to 1:8,Nurse-to-patient ratio on the ward at event time
+harm_outcome,string,N/A + 4 outcome levels,Actual patient outcome if error reached patient
