@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Privacy Policy — NixSec</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+
+:root {
+  --bg: #14171F;
+  --panel: #1C212B;
+  --text: #E8E6DF;
+  --text-dim: #9CA1AD;
+  --rule: #2A2F3A;
+  --accent: #C98A3D;
+  --accent-dim: #8f6329;
+  --teal: #4E7C74;
+
+  --serif: 'Newsreader', serif;
+  --sans: 'IBM Plex Sans', sans-serif;
+  --mono: 'IBM Plex Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration: underline;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.wrap {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* NAV */
+
+header.site-nav {
+  border-bottom: 1px solid var(--rule);
+  position: sticky;
+  top: 0;
+  background: rgba(20, 23, 31, 0.92);
+  backdrop-filter: blur(6px);
+  z-index: 10;
+}
+
+.nav-inner {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 20px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.brand {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.back-link {
+  font-size: 0.92rem;
+  color: var(--text-dim);
+}
+
+.back-link:hover {
+  color: var(--text);
+}
+
+/* HERO */
+
+.hero {
+  padding: 88px 0 64px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.kicker {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--teal);
+  margin-bottom: 14px;
+}
+
+.hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-weight: 500;
+  line-height: 1.15;
+  margin: 0 0 20px;
+}
+
+.hero p {
+  max-width: 58ch;
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 1.05rem;
+}
+
+/* POLICY SECTIONS */
+
+section {
+  padding: 52px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+section:last-of-type {
+  border-bottom: none;
+}
+
+.section-head {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 30px;
+  margin-bottom: 22px;
+}
+
+.section-number {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  padding-top: 5px;
+}
+
+section h2 {
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.section-body {
+  max-width: 64ch;
+  margin-left: 210px;
+}
+
+.section-body p,
+.section-body li {
+  color: var(--text-dim);
+}
+
+.section-body strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.section-body ul {
+  padding-left: 22px;
+}
+
+.section-body li + li {
+  margin-top: 8px;
+}
+
+.notice {
+  margin-top: 24px;
+  padding: 16px 18px;
+  border: 1px solid var(--accent-dim);
+  color: var(--text-dim);
+}
+
+.contact-box {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid var(--rule);
+  background: var(--panel);
+}
+
+.contact-box a {
+  font-family: var(--mono);
+}
+
+.updated {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-top: 24px;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 40px 0 60px;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.foot-inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* MOBILE */
+
+@media (max-width: 620px) {
+
+  .wrap {
+    padding: 0 22px;
+  }
+
+  .nav-inner {
+    padding: 18px 22px;
+  }
+
+  .hero {
+    padding: 64px 0 48px;
+  }
+
+  .section-head {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .section-body {
+    margin-left: 0;
+  }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+
+    <div class="brand">NixSec</div>
+
+    <a class="back-link" href="/">
+      ← Back to NixSec
+    </a>
+
+  </div>
+</header>
+
+
+<main class="wrap">
+
+<section class="hero">
+
+  <div class="kicker">PRIVACY POLICY</div>
+
+  <h1>Your privacy matters.</h1>
+
+  <p>
+    This Privacy Policy explains how NixSec collects, uses, stores and protects
+    personal information when you visit our website, contact us, request a quote,
+    download resources or purchase data products.
+  </p>
+
+  <div class="updated">
+    Last updated: 10 September 2026
+  </div>
+
+</section>
+
+
+<section>
+
+  <div class="section-head">
+
+    <div class="section-number">
+      01 — WHO WE ARE
+    </div>
+
+    <h2>
+      About NixSec
+    </h2>
+
+  </div>
+
+  <div class="section-body">
+
+    <p>
+      NixSec is an Australian data products business based in Melbourne,
+      Victoria.
+    </p>
+
+    <p>
+      NixSec develops datasets, analytical resources and related data products
+      for research, education, AI, testing, analytics and other legitimate
+      professional use cases.
+    </p>
+
+    <p>
+      Business details:
+    </p>
+
+    <ul>
+      <li><strong>Business name:</strong> NixSec</li>
+      <li><strong>ABN:</strong> 42 828 848 967</li>
+      <li><strong>Location:</strong> Melbourne, Victoria, Australia</li>
+      <li><strong>Email:</strong> consultant@nixsec.co.site</li>
+    </ul>
+
+  </div>
+
+</section>
+
+
+<section>
+
+  <div class="section-head">
+
+    <div class="section-number">
+      02 — INFORMATION
+    </div>
+
+    <h2>
+      Information we may collect
+    </h2>
+
+  </div>
+
+  <div class="section-body">
+
+    <p>
+      We may collect personal information that you voluntarily provide when you
+      interact with NixSec.
+    </p>
+
+    <p>
+      This may include:
+    </p>
+
+    <ul>
+      <li>Your name</li>
+      <li>Email address</li>
+      <li>Company or organisation name</li>
+      <li>Job title or professional role</li>
+      <li>Billing or transaction information</li>
+      <li>Details of a dataset request or custom project</li>
+      <li>Messages, enquiries and correspondence you send to us</li>
+      <li>Information required to fulfil an order or provide customer support</li>
+    </ul>
+
+    <p>
+      We do not intentionally collect sensitive personal information unless it
+      is necessary for a specific legitimate purpose and you have knowingly
+      provided it.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section>
+
+  <div class="section-head">
+
+    <div class="section-number">
+      03 — WEBSITE DATA
+    </div>
+
+    <h2>
+      Technical and usage information
+    </h2>
+
+  </div>
+
+  <div class="section-body">
+
+    <p>
+      When you visit the NixSec website, standard technical information may be
+      processed automatically by our hosting infrastructure or other service
+      providers.
+    </p>
+
+    <p>
+      This may include:
+    </p>
+
+    <ul>
+      <li>IP address</li>
+      <li>Browser type</li>
+      <li>Device type</li>
+      <li>Operating system</li>
+      <li>Pages visited</li>
+      <li>Date and time of access</li>
+      <li>Referring website or source</li>
+      <li>Basic server and security logs</li>
+    </ul>
+
+    <p>
+      This information may be used for website operation, security,
+      troubleshooting and general performance monitoring.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section>
+
+  <div class="section-head">
+
+    <div class="section-number">
+      04 — HOW WE USE IT
+    </div>
+
+    <h2>
+      How personal information is used
+    </h2>
+
+  </div>
+
+  <div class="section-body">
+
+    <p>
+      We may use personal information to:
+    </p>
+
+    <ul>
+      <li>Respond to enquiries</li>
+      <li>Provide quotes for custom data products</li>
+      <li>Process or fulfil purchases</li>
+      <li>Deliver datasets, files and supporting resources</li>
+      <li>Provide customer support</li>
+      <li>Maintain business and transaction records</li>
+      <li>Improve our products and website</li>
+      <li>Detect misuse, fraud or security issues</li>
+      <li>Meet legal, tax or regulatory obligations</li>
+    </ul>
+
+    <p>
+      We do not sell personal information to advertisers or data brokers.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section>
+
+  <div class="section-head">
+
+    <div class="section-number">
+      05 — PAYMENTS
+    </div>
+
+    <h2>
+      Payment providers
+    </h2>
+
+  </div>
+
+  <div class="section-body">
+
+    <p>
+      Where purchases are processed through a third-party payment provider,
+      such as PayPal or another payment platform, payment details may be
+      processed directly by that provider.
+    </p>
+
+    <p>
+      NixSec does not need to receive or store your full credit card or banking
+      details where payment is handled entirely through a third-party payment
+      processor.
+    </p>
+
+    <p>
+      Those providers operate under their own privacy policies and security
+      practices.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section>
+
+  <div class="section-head">
+
+    <div class="section-number">
+      06 — THIRD PARTIES
+    </div>
+
+    <h2>
+      Service providers
+    </h2>
+
+  </div>
+
+  <div class="section-body">
+
+    <p>
+      NixSec may use third-party services to operate the business and website.
+    </p>
+
+    <p>
+      These may include:
+    </p>
+
+    <ul>
+      <li>Website hosting providers</li>
+      <li>Cloud infrastructure providers</li>
+      <li>Code and file hosting platforms</li>
+      <li>Email providers</li>
+      <li>Payment processors</li>
+      <li>Marketplace platforms</li>
+      <li>Analytics or security tools</li>
+    </ul>
+
+    <p>
+      Personal information is only shared where reasonably necessary to provide
+      the relevant service, process a transaction, comply with legal
+      obligations or protect the security of NixSec and its users.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section>
+
+  <div class="section-head">
+
+    <div class="section-number">
+      07 — DATA PRODUCTS
+    </div>
+
+    <h2>
+      Synthetic data and personal information
+    </h2>
+
+  </div>
+
+  <div class="section-body">
+
+    <p>
+      NixSec produces synthetic data products designed to contain generated
+      records rather than real personal records.
+    </p>
+
+    <p>
+      Our synthetic healthcare datasets do not intentionally contain real
+      patient identities, real patient records, scraped personal information or
+      identifiable clinical records.
+    </p>
+
+    <p>
+      Synthetic data is created for purposes such as analytics, research,
+      education, AI development, testing and prototyping.
+    </p>
+
+    <div class="notice">
+      Synthetic data products should not be interpreted as records of real
+      people, clinicians, facilities or events unless explicitly stated
+      otherwise.
+    </div>
+
+  </div>
+
+</section>
+
+
+<section>
+
+  <div class="section-head">
+
+    <div class="section-number">
+      08 — STORAGE
+    </div>
+
+    <h2>
+      Data retention and security
+    </h2>
+
+  </div>
+
+  <div class="section-body">
+
+    <p>
+      NixSec takes reasonable steps to protect personal information from
+      unauthorised access, misuse, loss, disclosure or alteration.
+    </p>
+
+    <p>
+      Personal information is retained only for as long as reasonably required
+      for business, contractual, support, legal, tax or regulatory purposes.
+    </p>
+
+    <p>
+      No internet-based system can guarantee absolute security. However, we aim
+      to minimise the amount of personal information collected and use
+      appropriate services and practices to protect information under our
+      control.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section>
+
+  <div class="section-head">
+
+    <div class="section-number">
+      09 — COOKIES
+    </div>
+
+    <h2>
+      Cookies and analytics
+    </h2>
+
+  </div>
+
+  <div class="section-body">
+
+    <p>
+      The NixSec website may use essential browser or hosting technologies
+      required for normal website operation.
+    </p>
+
+    <p>
+      If analytics, tracking or additional cookies are introduced in the
+      future, this Privacy Policy may be updated to reflect those services.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section>
+
+  <div class="section-head">
+
+    <div class="section-number">
+      10 — YOUR RIGHTS
+    </div>
+
+    <h2>
+      Access and correction
+    </h2>
+
+  </div>
+
+  <div class="section-body">
+
+    <p>
+      You may contact NixSec if you want to ask what personal information we
+      hold about you, request that incorrect information be corrected, or raise
+      a privacy concern.
+    </p>
+
+    <p>
+      Where legally required and reasonably practicable, we will respond to
+      requests relating to personal information we hold.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section>
+
+  <div class="section-head">
+
+    <div class="section-number">
+      11 — AUSTRALIA
+    </div>
+
+    <h2>
+      Australian privacy principles
+    </h2>
+
+  </div>
+
+  <div class="section-body">
+
+    <p>
+      NixSec is an Australian business and aims to handle personal information
+      responsibly and transparently.
+    </p>
+
+    <p>
+      Where applicable, our handling of personal information will be informed
+      by relevant Australian privacy requirements, including the Privacy Act
+      1988 (Cth) and the Australian Privacy Principles.
+    </p>
+
+    <p>
+      Nothing in this policy is intended to create obligations beyond those
+      that apply to NixSec under relevant law.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section>
+
+  <div class="section-head">
+
+    <div class="section-number">
+      12 — CHANGES
+    </div>
+
+    <h2>
+      Changes to this policy
+    </h2>
+
+  </div>
+
+  <div class="section-body">
+
+    <p>
+      This Privacy Policy may be updated from time to time to reflect changes
+      to our services, website, business practices or legal requirements.
+    </p>
+
+    <p>
+      The latest version will be published on this page with the updated date
+      shown at the top.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section>
+
+  <div class="section-head">
+
+    <div class="section-number">
+      13 — CONTACT
+    </div>
+
+    <h2>
+      Privacy enquiries
+    </h2>
+
+  </div>
+
+  <div class="section-body">
+
+    <p>
+      For questions, access requests, correction requests or privacy concerns,
+      contact NixSec by email.
+    </p>
+
+    <div class="contact-box">
+
+      <strong>NixSec</strong><br>
+
+      Melbourne, Victoria, Australia<br>
+
+      ABN 42 828 848 967<br><br>
+
+      <a href="mailto:consultant@nixsec.co.site">
+        consultant@nixsec.co.site
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+  <div class="wrap foot-inner">
+
+    <span>
+      NixSec · ABN 42 828 848 967 · Melbourne, Australia
+    </span>
+
+    <span>
+      © 2026 NixSec. All rights reserved.
+    </span>
+
+  </div>
+
+</footer>
+
+</body>
+        </html>
