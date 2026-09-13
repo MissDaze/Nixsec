@@ -1,67 +1,91 @@
-# ED Triage & Patient Flow Dataset
+# ED Triage & Patient Flow — Dataset README
 
 ## Overview
 
-40,000 synthetic emergency department presentations over a 12-month period, with Australasian Triage Scale categories, realistic arrival patterns, occupancy-driven wait time degradation, and disposition outcomes including 4-hour NEAT target compliance.
+45,000 synthetic emergency department presentations across 6 fictional hospital facilities,
+spanning 2025-01-01 to 2025-12-30. Uses the Australasian Triage Scale (ATS 1–5) and models
+department crowding effects on time-to-clinician and length of stay. 100% synthetic — see the
+disclaimer below.
 
-## File Manifest
+- **Rows:** 45,000 (full) / 700 (sample preview)
+- **Columns:** 16
+- **Grain:** one row per ED presentation
 
-| File | Description | Rows |
-|------|-------------|------|
-| `ed_triage_patient_flow_full.csv` | Complete dataset | 40,000 |
-| `ed_triage_patient_flow_sample.csv` | Stratified free sample (enriched for high-acuity) | ~1,000 |
-| `data_dictionary.csv` | Column names, types, ranges, and descriptions | 30 |
-| `methodology_note.md` | Full generation methodology and born-synthetic confirmation | — |
-| `bias_representativeness_statement.md` | Known biases and representativeness limitations | — |
-| `summary_statistics.html` | Descriptive statistics with distribution charts | — |
-| `known_limitations.md` | Technical and domain-specific limitations | — |
-| `README.md` | This file | — |
+## Schema summary
 
-## Key Features
+Presentation date/hour/day-of-week, arrival mode, presenting complaint, age band, sex, ATS
+triage category, department occupancy at arrival, time-to-triage, time-to-clinician, length of
+stay, disposition, and bed-block flag. Full column list and types: see `data_dictionary.md`.
 
-- **Australasian Triage Scale (ATS)**: 5-category triage with realistic distributions (ATS 1 ~0.4%, ATS 2 ~12%, ATS 3 ~35%, ATS 4 ~37%, ATS 5 ~16%)
-- **62 presenting complaints** across 20 clinical categories with complaint-specific triage weights, ambulance rates, and admission probabilities
-- **Occupancy-driven flow degradation**: time-to-clinician inflates non-linearly when ED occupancy exceeds 90%, with steep escalation above 110%
-- **NEAT compliance**: ~69% of presentations meet the 4-hour target, consistent with published Australian ED benchmarks
-- **Arrival mode modelling**: ambulance, private vehicle, walk-in, police/correctional, helicopter — proportions driven by complaint acuity
-- **Temporal realism**: sinusoidal arrival patterns with morning/evening peaks, day-of-week effects, and realistic shift-based variation
-- **Disposition outcomes**: admitted, discharged, transferred, did not wait (DNW), deceased — with ATS- and complaint-driven probabilities
+## Main modelled relationships (illustrative simulation rules, not real-world evidence)
 
-## Terminology
+- Presenting complaint influences the ATS category distribution (e.g. chest pain and major
+  trauma skew toward more urgent categories).
+- Department occupancy is modelled with hour-of-day and weekend effects.
+- Time-to-clinician and length of stay scale with modelled crowding and ATS category targets.
+- Mental health presentations are modelled with longer length of stay.
+- These are modelling choices made to produce a usable, directionally-realistic synthetic
+  dataset — not measurements of any real emergency department.
 
-- **ATS**: Australasian Triage Scale (1 = immediately life-threatening, 5 = less urgent)
-- **NEAT**: National Emergency Access Target (4-hour benchmark for ED throughput)
-- **DNW**: Did Not Wait — patient left before being seen or completing treatment
-- **LOS**: Length of Stay in the emergency department
-- **TTC**: Time to Clinician — minutes from triage to first clinician assessment
+## Included assets
 
-## Born-Synthetic Confirmation
+`data_dictionary.md`, `methodology_bias_limitations.md`, `summary_statistics.md`,
+`business_questions.md`, `sql_practice_queries.sql`,
+`notebooks/02_ed_triage_patient_flow_analysis.ipynb`, `charts/`, and a ready-to-open interactive
+dashboard in `dashboard/` (see `dashboard/ed_triage_dashboard_user_guide.md`).
 
-This dataset is **entirely synthetic**. It was generated programmatically using seeded pseudo-random number generators (seed = 42). No real patient data, hospital records, or identifiable information was used at any stage. See `methodology_note.md` for full details.
+## Quick-start snippets
 
-## Licence & Permitted Use
+**Interactive dashboard (no code required):** open `dashboard/ed_triage_dashboard.html`
+directly in any browser — it works fully offline.
 
-This dataset is licensed for the following purposes only:
+**Python:**
+```python
+import pandas as pd
+df = pd.read_csv("ed_triage_patient_flow_full.csv")
+df.groupby('ats_triage_category')['length_of_stay_minutes'].mean()
+```
 
-- Academic and educational use
-- Research and methodology development
-- Software testing and demonstration
-- AI/ML model training and evaluation
-- Dashboard and visualisation prototyping
+**SQL (after loading — see sql_practice_queries.sql):**
+```sql
+SELECT ats_triage_category, AVG(time_to_clinician_minutes) AS avg_time_to_clinician
+FROM ed_triage_patient_flow
+GROUP BY ats_triage_category
+ORDER BY ats_triage_category;
+```
 
-### Prohibited Use
+**Power BI / Tableau:** Get Data → Text/CSV → select `ed_triage_patient_flow_full.csv`.
 
-- **Clinical decision-making**: This data must not be used to inform real patient care or triage decisions
-- **Facility benchmarking**: This data must not be used to evaluate or compare real emergency departments
-- **Regulatory submission**: This data must not be presented as evidence in any regulatory or accreditation context
-- **Redistribution**: Redistribution without attribution is not permitted
+## Limitations
 
-## Citation
+No linked multi-facility transfer records; no free-text notes or vital signs; comorbidity
+beyond presenting complaint/age not modelled; does not capture known real-world seasonal
+effects beyond generic hour/weekend patterns. Full detail: `methodology_bias_limitations.md`.
 
-If you use this dataset in published work, please cite it as:
+## ⚠️ Synthetic data disclaimer
 
-> Synthetic ED Triage & Patient Flow Dataset (2024). Born-synthetic emergency department operations data for research and education. Generated using seeded PRNG methods.
+100% synthetic. No real patients, staff, or facilities. Not clinically validated. For
+research, education, software testing, and AI/ML training/evaluation only — see
+`LICENSE_AND_ACCEPTABLE_USE.md`.
 
-## Contact
+Business questions: `business_questions.md`. Notebook: `notebooks/02_ed_triage_patient_flow_analysis.ipynb`.
 
-For questions about methodology or licensing, contact the dataset author through the marketplace listing.
+## Bonus content included in this package
+
+Beyond this dataset's own materials above, this package also includes:
+- **`dashboard/`** — the interactive dashboard .html files for all three datasets in the
+  wider bundle (medication safety, ED patient flow, nurse rostering), not just this one. Every
+  .html file is fully self-contained and opens directly in a browser, no matter which package
+  it came in.
+- **`case_studies/`** — a short PDF case study for all three datasets, showing a sample
+  analysis and key findings for each.
+
+This gives you a preview of the full "Synthetic Australian Hospital Operations Dataset
+Bundle" even when purchasing this single dataset.
+
+**Note on regenerating the bonus dashboards:** the .py script for *this* dataset's own
+dashboard works from inside this package (its CSV is included). The .py scripts for the other
+two datasets' dashboards need their own CSV, which isn't included in this single-dataset
+package — running them here will tell you so clearly rather than failing silently. Their
+pre-built .html files still work perfectly; only regenerating them from scratch needs the full
+bundle or that dataset's own standalone package.

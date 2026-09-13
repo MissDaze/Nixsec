@@ -1,82 +1,94 @@
-# Nurse Rostering & Acuity-to-Staffing Dataset
+# Nurse Rostering & Acuity-to-Staffing — Dataset README
 
 ## Overview
 
-~24,000 synthetic shift-level roster records across 22 wards on 2 hospital campuses over a 12-month period, linking nurse staffing levels to patient acuity, workload, and adverse event outcomes with realistic understaffing patterns.
+32,850 synthetic shift-level roster records across 8 fictional hospital facilities and 10
+ward/unit types, spanning 2025-01-01 to 2025-12-31. Each row links patient census and acuity
+to actual vs. recommended staffing, sick leave, agency use, and overtime for one ward on one
+shift. 100% synthetic — see the disclaimer below.
 
-## File Manifest
+- **Rows:** 32,850 (full) / 700 (sample preview)
+- **Columns:** 19
+- **Grain:** one row per ward per shift
 
-| File | Description | Rows |
-|------|-------------|------|
-| `nurse_rostering_acuity_staffing_full.csv` | Complete dataset | ~24,090 |
-| `nurse_rostering_acuity_staffing_sample.csv` | Stratified free sample (enriched for understaffing/critical) | ~1,000 |
-| `data_dictionary.csv` | Column names, types, ranges, and descriptions | 36 |
-| `methodology_note.md` | Full generation methodology and born-synthetic confirmation | — |
-| `bias_representativeness_statement.md` | Known biases and representativeness limitations | — |
-| `summary_statistics.html` | Descriptive statistics with distribution charts | — |
-| `known_limitations.md` | Technical and domain-specific limitations | — |
-| `README.md` | This file | — |
+## Schema summary
 
-## Key Features
+Facility/ward, shift date/type, patient census, average acuity score, recommended vs. actual
+RN/EN counts, agency staff used, sick leave count, overtime hours, actual vs. recommended
+nurse:patient ratio, understaffed flag, and skill-mix percentage. Full column list and types:
+see `data_dictionary.md`.
 
-- **22 wards** across 2 campuses: medical, surgical, critical care, ED, maternity, paediatrics, NICU, mental health, rehabilitation, oncology, palliative care, perioperative
-- **5 nursing role categories**: RN, EN, AIN, NUM, CNS with ward-specific skill mix targets
-- **NHPPD (Nursing Hours Per Patient Day)**: actual vs. shift-adjusted target with variance tracking
-- **Shift-aware adequacy classification**: Night shifts have tighter adequacy margins than AM shifts, reflecting the greater clinical impact of shortfalls at night
-- **Understaffing rate**: ~17.5% overall — Night (~24.5%) > PM (~15.1%) > AM (~13.0%); Weekend (~19.9%) > Weekday (~16.6%)
-- **Agency and overtime**: modelled as response to staffing shortfalls
-- **6 adverse event categories**: patient falls, medication incidents, pressure injuries, rapid response/MET calls, patient complaints, staff injuries — Poisson-distributed with staffing/acuity modulation
-- **Workforce context**: vacancy tracking, sick leave callouts, nurse-to-patient ratios
+## Main modelled relationships (illustrative simulation rules, not real-world evidence)
 
-## Key Metrics
+- Recommended nurse:patient ratios vary by ward type (e.g. ICU modelled far more intensively
+  than a rehabilitation ward).
+- Actual staffing is derived from rostered staffing minus a modelled sick-leave effect (higher
+  on nights/weekends), partially backfilled by agency staff and overtime.
+- `understaffed_flag` is fully derived from actual vs. recommended ratio — auditable from the
+  other columns, not independently randomised.
+- These are modelling choices made to produce a usable, directionally-realistic synthetic
+  dataset — not measurements of any real health service's rostering data.
 
-| Metric | Value |
-|--------|-------|
-| Overall understaffing rate | ~17.5% |
-| Adequate shifts | ~35.8% |
-| Marginal shifts | ~46.8% |
-| Critical shifts | ~1.3% |
-| Mean actual NHPPD | ~5.2 |
-| Mean occupancy | ~88% |
+## Included assets
 
-## Terminology
+`data_dictionary.md`, `methodology_bias_limitations.md`, `summary_statistics.md`,
+`business_questions.md`, `sql_practice_queries.sql`,
+`notebooks/03_nurse_rostering_acuity_analysis.ipynb`, `charts/`, and a ready-to-open
+interactive dashboard in `dashboard/` (see `dashboard/nurse_rostering_dashboard_user_guide.md`).
 
-- **NHPPD**: Nursing Hours Per Patient Day — (total staff × shift hours / census) × 3
-- **RN**: Registered Nurse
-- **EN**: Enrolled Nurse
-- **AIN**: Assistant in Nursing
-- **NUM**: Nurse Unit Manager
-- **CNS**: Clinical Nurse Specialist
-- **MET call**: Medical Emergency Team call (rapid response)
-- **Acuity band**: Low (<2.5), Moderate (2.5–3.5), High (3.5–4.5), Very High (>4.5)
+## Quick-start snippets
 
-## Born-Synthetic Confirmation
+**Interactive dashboard (no code required):** open `dashboard/nurse_rostering_dashboard.html`
+directly in any browser — it works fully offline.
 
-This dataset is **entirely synthetic**. It was generated programmatically using seeded pseudo-random number generators (seed = 42). No real patient data, hospital records, staffing rosters, or identifiable information was used at any stage. See `methodology_note.md` for full details.
+**Python:**
+```python
+import pandas as pd
+df = pd.read_csv("nurse_rostering_acuity_full.csv")
+df.groupby('shift_type')['understaffed_flag'].apply(lambda s: (s == 'Yes').mean())
+```
 
-## Licence & Permitted Use
+**SQL (after loading — see sql_practice_queries.sql):**
+```sql
+SELECT ward_unit, AVG(actual_nurse_patient_ratio) AS avg_ratio
+FROM nurse_rostering_acuity
+GROUP BY ward_unit
+ORDER BY avg_ratio;
+```
 
-This dataset is licensed for the following purposes only:
+**Power BI / Tableau:** Get Data → Text/CSV → select `nurse_rostering_acuity_full.csv`.
 
-- Academic and educational use
-- Research and methodology development
-- Software testing and demonstration
-- AI/ML model training and evaluation
-- Dashboard and visualisation prototyping
+## Limitations
 
-### Prohibited Use
+No persistent/named synthetic staff across shifts; only a generic "sick leave" count (no
+leave-type breakdown); acuity is a single simplified numeric score, not a specific acuity
+instrument; not reviewed or validated by any health service or regulator. Full detail:
+`methodology_bias_limitations.md`.
 
-- **Clinical decision-making**: This data must not be used to set real staffing levels or inform patient care
-- **Workforce benchmarking**: This data must not be used to evaluate or compare real hospital staffing
-- **Industrial/enterprise agreement use**: This data must not be cited in workforce negotiations or regulatory submissions
-- **Redistribution**: Redistribution without attribution is not permitted
+## ⚠️ Synthetic data disclaimer
 
-## Citation
+100% synthetic. No real patients, staff, or facilities. Not clinically validated. For
+research, education, software testing, and AI/ML training/evaluation only — see
+`LICENSE_AND_ACCEPTABLE_USE.md`.
 
-If you use this dataset in published work, please cite it as:
+Business questions: `business_questions.md`. Notebook: `notebooks/03_nurse_rostering_acuity_analysis.ipynb`.
 
-> Synthetic Nurse Rostering & Acuity-to-Staffing Dataset (2024). Born-synthetic hospital workforce data for research and education. Generated using seeded PRNG methods.
+## Bonus content included in this package
 
-## Contact
+Beyond this dataset's own materials above, this package also includes:
+- **`dashboard/`** — the interactive dashboard .html files for all three datasets in the
+  wider bundle (medication safety, ED patient flow, nurse rostering), not just this one. Every
+  .html file is fully self-contained and opens directly in a browser, no matter which package
+  it came in.
+- **`case_studies/`** — a short PDF case study for all three datasets, showing a sample
+  analysis and key findings for each.
 
-For questions about methodology or licensing, contact the dataset author through the marketplace listing.
+This gives you a preview of the full "Synthetic Australian Hospital Operations Dataset
+Bundle" even when purchasing this single dataset.
+
+**Note on regenerating the bonus dashboards:** the .py script for *this* dataset's own
+dashboard works from inside this package (its CSV is included). The .py scripts for the other
+two datasets' dashboards need their own CSV, which isn't included in this single-dataset
+package — running them here will tell you so clearly rather than failing silently. Their
+pre-built .html files still work perfectly; only regenerating them from scratch needs the full
+bundle or that dataset's own standalone package.

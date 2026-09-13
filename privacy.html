@@ -14,14 +14,14 @@
 <style>
 
 :root {
-  --bg: #14171F;
-  --panel: #1C212B;
-  --text: #E8E6DF;
-  --text-dim: #9CA1AD;
-  --rule: #2A2F3A;
-  --accent: #C98A3D;
-  --accent-dim: #8f6329;
-  --teal: #4E7C74;
+  --bg: #080914;
+  --panel: #111322;
+  --text: #F4F1FF;
+  --text-dim: #A9AEC8;
+  --rule: #292D46;
+  --accent: #A97BFF;
+  --accent-dim: #7856D8;
+  --teal: #38D9C5;
 
   --serif: 'Newsreader', serif;
   --sans: 'IBM Plex Sans', sans-serif;
@@ -73,7 +73,7 @@ header.site-nav {
   border-bottom: 1px solid var(--rule);
   position: sticky;
   top: 0;
-  background: rgba(20, 23, 31, 0.92);
+  background: rgba(8, 9, 20, 0.90);
   backdrop-filter: blur(6px);
   z-index: 10;
 }
@@ -93,6 +93,12 @@ header.site-nav {
   font-size: 1.15rem;
   font-weight: 500;
   color: var(--text);
+}
+
+.brand img {
+  display: block;
+  width: 210px;
+  max-width: 52vw;
 }
 
 .back-link {
@@ -263,7 +269,7 @@ footer {
 <header class="site-nav">
   <div class="nav-inner">
 
-    <div class="brand">NixSec</div>
+    <a class="brand" href="index.html" aria-label="NixSec home"><img src="assets/nixsec-logo.svg" alt="NixSec"></a>
 
     <a class="back-link" href="/">
       ← Back to NixSec
